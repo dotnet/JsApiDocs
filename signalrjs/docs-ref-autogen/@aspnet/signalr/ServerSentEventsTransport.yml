@@ -1,0 +1,139 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.ServerSentEventsTransport'
+    name: ServerSentEventsTransport
+    fullName: ServerSentEventsTransport
+    children:
+      - '@aspnet/signalr.ServerSentEventsTransport.connect'
+      - '@aspnet/signalr.ServerSentEventsTransport.onclose'
+      - '@aspnet/signalr.ServerSentEventsTransport.onreceive'
+      - '@aspnet/signalr.ServerSentEventsTransport.send'
+      - '@aspnet/signalr.ServerSentEventsTransport.constructor'
+      - '@aspnet/signalr.ServerSentEventsTransport.stop'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.ServerSentEventsTransport.connect'
+    name: connect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function connect(url: string, transferFormat: TransferFormat)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: transferFormat
+          type:
+            - '@aspnet/signalr.TransferFormat'
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@aspnet/signalr.ServerSentEventsTransport.onclose'
+    name: onclose
+    fullName: onclose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public onclose: (error?: Error) => void'
+      return:
+        type:
+          - '(error?: Error) => void'
+  - uid: '@aspnet/signalr.ServerSentEventsTransport.onreceive'
+    name: onreceive
+    fullName: onreceive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public onreceive: (data: string | ArrayBuffer) => void'
+      return:
+        type:
+          - '(data: string | ArrayBuffer) => void'
+  - uid: '@aspnet/signalr.ServerSentEventsTransport.send'
+    name: send
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function send(data: any)'
+      parameters:
+        - id: data
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@aspnet/signalr.ServerSentEventsTransport.constructor'
+    name: ServerSentEventsTransport
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ServerSentEventsTransport(httpClient: HttpClient,
+        accessTokenFactory: () => string | Promise<string>, logger: ILogger,
+        logMessageContent: boolean)
+      parameters:
+        - id: httpClient
+          type:
+            - '@aspnet/signalr.HttpClient'
+          description: ''
+        - id: accessTokenFactory
+          type:
+            - () => string | Promise<string>
+          description: ''
+        - id: logger
+          type:
+            - '@aspnet/signalr.ILogger'
+          description: ''
+        - id: logMessageContent
+          type:
+            - boolean
+          description: ''
+  - uid: '@aspnet/signalr.ServerSentEventsTransport.stop'
+    name: stop
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function stop()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+references:
+  - uid: '@aspnet/signalr.HttpClient'
+    spec.typeScript:
+      - name: HttpClient
+        fullName: HttpClient
+        uid: '@aspnet/signalr.HttpClient'
+  - uid: '@aspnet/signalr.ILogger'
+    spec.typeScript:
+      - name: ILogger
+        fullName: ILogger
+        uid: '@aspnet/signalr.ILogger'
+  - uid: '@aspnet/signalr.TransferFormat'
+    spec.typeScript:
+      - name: TransferFormat
+        fullName: TransferFormat
+        uid: '@aspnet/signalr.TransferFormat'

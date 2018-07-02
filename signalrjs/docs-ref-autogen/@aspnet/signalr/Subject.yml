@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.Subject'
+    name: Subject
+    fullName: Subject<T>
+    children:
+      - '@aspnet/signalr.Subject.cancelCallback'
+      - '@aspnet/signalr.Subject.complete'
+      - '@aspnet/signalr.Subject.error'
+      - '@aspnet/signalr.Subject.next'
+      - '@aspnet/signalr.Subject.observers'
+      - '@aspnet/signalr.Subject.constructor'
+      - '@aspnet/signalr.Subject.subscribe'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.Subject.cancelCallback'
+    name: cancelCallback
+    fullName: cancelCallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public cancelCallback: () => Promise<void>'
+      return:
+        type:
+          - () => Promise<void>
+  - uid: '@aspnet/signalr.Subject.complete'
+    name: complete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function complete()
+      parameters: []
+  - uid: '@aspnet/signalr.Subject.error'
+    name: error
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function error(err: any)'
+      parameters:
+        - id: err
+          type:
+            - any
+          description: ''
+  - uid: '@aspnet/signalr.Subject.next'
+    name: next
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function next(item: T)'
+      parameters:
+        - id: item
+          type:
+            - T
+          description: ''
+  - uid: '@aspnet/signalr.Subject.observers'
+    name: observers
+    fullName: observers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public observers: Array<IStreamSubscriber<T>>'
+      return:
+        type:
+          - Array<@aspnet/signalr.IStreamSubscriber<T>>
+  - uid: '@aspnet/signalr.Subject.constructor'
+    name: Subject
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Subject(cancelCallback: () => Promise<void>)'
+      parameters:
+        - id: cancelCallback
+          type:
+            - () => Promise<void>
+          description: ''
+  - uid: '@aspnet/signalr.Subject.subscribe'
+    name: subscribe
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function subscribe(observer: IStreamSubscriber<T>)'
+      parameters:
+        - id: observer
+          type:
+            - '@aspnet/signalr.IStreamSubscriber<T>'
+          description: ''
+      return:
+        type:
+          - '@aspnet/signalr.ISubscription<T>'
+references:
+  - uid: Array<@aspnet/signalr.IStreamSubscriber<T>>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: IStreamSubscriber
+        fullName: IStreamSubscriber
+        uid: '@aspnet/signalr.IStreamSubscriber'
+      - name: <T>>
+        fullName: <T>>
+  - uid: '@aspnet/signalr.IStreamSubscriber<T>'
+    spec.typeScript:
+      - name: IStreamSubscriber
+        fullName: IStreamSubscriber
+        uid: '@aspnet/signalr.IStreamSubscriber'
+      - name: <T>
+        fullName: <T>
+  - uid: '@aspnet/signalr.ISubscription<T>'
+    spec.typeScript:
+      - name: ISubscription
+        fullName: ISubscription
+        uid: '@aspnet/signalr.ISubscription'
+      - name: <T>
+        fullName: <T>

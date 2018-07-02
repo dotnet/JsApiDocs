@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.HandshakeResponseMessage'
+    name: HandshakeResponseMessage
+    fullName: HandshakeResponseMessage
+    children:
+      - '@aspnet/signalr.HandshakeResponseMessage.error'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HandshakeResponseMessage.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'error: string'
+      return:
+        type:
+          - string

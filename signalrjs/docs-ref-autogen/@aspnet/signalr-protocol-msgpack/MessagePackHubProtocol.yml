@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol'
+    name: MessagePackHubProtocol
+    fullName: MessagePackHubProtocol
+    children:
+      - '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.name'
+      - '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.parseMessages'
+      - '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.transferFormat'
+      - '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.version'
+      - '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.writeMessage'
+    langs:
+      - typeScript
+    type: class
+    summary: Implements the MessagePack Hub Protocol
+    package: '@aspnet/signalr-protocol-msgpack'
+  - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The name of the protocol. This is used by SignalR to resolve the protocol
+      between the client and server.
+    syntax:
+      content: 'public name: string = "messagepack"'
+      return:
+        type:
+          - string
+  - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.parseMessages'
+    name: parseMessages
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates an array of HubMessage objects from the specified serialized
+      representation.
+    syntax:
+      content: 'function parseMessages(input: ArrayBuffer, logger: ILogger)'
+      parameters:
+        - id: input
+          type:
+            - ArrayBuffer
+          description: An ArrayBuffer containing the serialized representation.
+        - id: logger
+          type:
+            - ILogger
+          description: >
+            A logger that will be used to log messages that occur during
+            parsing.
+      return:
+        type:
+          - 'HubMessage[]'
+  - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.transferFormat'
+    name: transferFormat
+    fullName: transferFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The TransferFormat of the protocol.
+    syntax:
+      content: 'public transferFormat: TransferFormat = TransferFormat.Binary'
+      return:
+        type:
+          - TransferFormat
+  - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The version of the protocol.
+    syntax:
+      content: 'public version: number = 1'
+      return:
+        type:
+          - number
+  - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.writeMessage'
+    name: writeMessage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Writes the specified HubMessage to an ArrayBuffer and returns it.
+    syntax:
+      content: 'function writeMessage(message: HubMessage)'
+      parameters:
+        - id: message
+          type:
+            - HubMessage
+          description: The message to write.
+      return:
+        type:
+          - ArrayBuffer

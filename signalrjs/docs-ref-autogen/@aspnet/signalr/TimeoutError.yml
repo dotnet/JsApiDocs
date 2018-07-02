@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.TimeoutError'
+    name: TimeoutError
+    fullName: TimeoutError
+    children:
+      - '@aspnet/signalr.TimeoutError.Error'
+      - '@aspnet/signalr.TimeoutError.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: Error thrown when a timeout elapses.
+    extends:
+      name: Error
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.TimeoutError.Error'
+    name: Error
+    fullName: Error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Error: ErrorConstructor'
+      return:
+        type:
+          - ErrorConstructor
+  - uid: '@aspnet/signalr.TimeoutError.constructor'
+    name: TimeoutError
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: 'Constructs a new instance of <xref:TimeoutError>.'
+    syntax:
+      content: 'new TimeoutError(errorMessage: string)'
+      parameters:
+        - id: errorMessage
+          type:
+            - string
+          description: |
+            A descriptive error message.

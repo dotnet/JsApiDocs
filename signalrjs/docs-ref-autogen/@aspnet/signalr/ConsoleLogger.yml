@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.ConsoleLogger'
+    name: ConsoleLogger
+    fullName: ConsoleLogger
+    children:
+      - '@aspnet/signalr.ConsoleLogger.constructor'
+      - '@aspnet/signalr.ConsoleLogger.log'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.ConsoleLogger.constructor'
+    name: ConsoleLogger
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ConsoleLogger(minimumLogLevel: LogLevel)'
+      parameters:
+        - id: minimumLogLevel
+          type:
+            - '@aspnet/signalr.LogLevel'
+          description: ''
+  - uid: '@aspnet/signalr.ConsoleLogger.log'
+    name: log
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function log(logLevel: LogLevel, message: string)'
+      parameters:
+        - id: logLevel
+          type:
+            - '@aspnet/signalr.LogLevel'
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+references:
+  - uid: '@aspnet/signalr.LogLevel'
+    spec.typeScript:
+      - name: LogLevel
+        fullName: LogLevel
+        uid: '@aspnet/signalr.LogLevel'

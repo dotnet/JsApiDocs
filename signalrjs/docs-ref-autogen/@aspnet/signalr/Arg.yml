@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.Arg'
+    name: Arg
+    fullName: Arg
+    children:
+      - '@aspnet/signalr.Arg.isIn'
+      - '@aspnet/signalr.Arg.isRequired'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.Arg.isIn'
+    name: isIn
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isIn(val: any, values: any, name: string)'
+      parameters:
+        - id: val
+          type:
+            - any
+          description: ''
+        - id: values
+          type:
+            - any
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+  - uid: '@aspnet/signalr.Arg.isRequired'
+    name: isRequired
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isRequired(val: any, name: string)'
+      parameters:
+        - id: val
+          type:
+            - any
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''

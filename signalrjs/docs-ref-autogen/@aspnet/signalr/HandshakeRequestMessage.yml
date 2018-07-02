@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.HandshakeRequestMessage'
+    name: HandshakeRequestMessage
+    fullName: HandshakeRequestMessage
+    children:
+      - '@aspnet/signalr.HandshakeRequestMessage.protocol'
+      - '@aspnet/signalr.HandshakeRequestMessage.version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HandshakeRequestMessage.protocol'
+    name: protocol
+    fullName: protocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'protocol: string'
+      return:
+        type:
+          - string
+  - uid: '@aspnet/signalr.HandshakeRequestMessage.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'version: number'
+      return:
+        type:
+          - number

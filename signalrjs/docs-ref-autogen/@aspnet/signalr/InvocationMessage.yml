@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.InvocationMessage'
+    name: InvocationMessage
+    fullName: InvocationMessage
+    children:
+      - '@aspnet/signalr.InvocationMessage.arguments'
+      - '@aspnet/signalr.InvocationMessage.target'
+      - '@aspnet/signalr.InvocationMessage.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: A hub message representing a non-streaming invocation.
+    extends:
+      name: '@aspnet/signalr.HubInvocationMessage'
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.InvocationMessage.arguments'
+    name: arguments
+    fullName: arguments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The target method arguments.
+    syntax:
+      content: 'arguments: any[]'
+      return:
+        type:
+          - 'any[]'
+  - uid: '@aspnet/signalr.InvocationMessage.target'
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The target method name.
+    syntax:
+      content: 'target: string'
+      return:
+        type:
+          - string
+  - uid: '@aspnet/signalr.InvocationMessage.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: Invocation'
+      return:
+        type:
+          - '@aspnet/signalr.MessageType.Invocation'
+references:
+  - uid: '@aspnet/signalr.HubInvocationMessage'
+    spec.typeScript:
+      - name: HubInvocationMessage
+        fullName: HubInvocationMessage
+        uid: '@aspnet/signalr.HubInvocationMessage'
+  - uid: '@aspnet/signalr.MessageType.Invocation'
+    spec.typeScript:
+      - name: Invocation
+        fullName: Invocation
+        uid: '@aspnet/signalr.MessageType.Invocation'

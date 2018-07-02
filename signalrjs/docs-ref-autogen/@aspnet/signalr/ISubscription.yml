@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.ISubscription'
+    name: ISubscription
+    fullName: ISubscription<T>
+    children:
+      - '@aspnet/signalr.ISubscription.dispose'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface that allows an <xref:IStreamSubscriber> to be disconnected
+      from a stream.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.ISubscription.dispose'
+    name: dispose
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Disconnects the <xref:IStreamSubscriber> associated with this subscription
+      from the stream.
+    syntax:
+      content: function dispose()
+      parameters: []

@@ -1,0 +1,65 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.HubInvocationMessage'
+    name: HubInvocationMessage
+    fullName: HubInvocationMessage
+    children:
+      - '@aspnet/signalr.HubInvocationMessage.headers'
+      - '@aspnet/signalr.HubInvocationMessage.invocationId'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Defines properties common to all Hub messages relating to a specific
+      invocation.
+    extends:
+      name: '@aspnet/signalr.HubMessageBase'
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HubInvocationMessage.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A <xref:MessageHeaders> dictionary containing headers attached to the
+      message.
+    optional: true
+    syntax:
+      content: 'headers?: MessageHeaders'
+      return:
+        type:
+          - '@aspnet/signalr.MessageHeaders'
+  - uid: '@aspnet/signalr.HubInvocationMessage.invocationId'
+    name: invocationId
+    fullName: invocationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The ID of the invocation relating to this message.
+
+      This is expected to be present for <xref:StreamInvocationMessage> and
+      <xref:CompletionMessage>. It may
+
+      be 'undefined' for an <xref:InvocationMessage> if the sender does not
+      expect a response.
+    optional: true
+    syntax:
+      content: 'invocationId?: string'
+      return:
+        type:
+          - string
+references:
+  - uid: '@aspnet/signalr.HubMessageBase'
+    spec.typeScript:
+      - name: HubMessageBase
+        fullName: HubMessageBase
+        uid: '@aspnet/signalr.HubMessageBase'
+  - uid: '@aspnet/signalr.MessageHeaders'
+    spec.typeScript:
+      - name: MessageHeaders
+        fullName: MessageHeaders
+        uid: '@aspnet/signalr.MessageHeaders'

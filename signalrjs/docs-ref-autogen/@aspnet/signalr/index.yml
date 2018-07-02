@@ -1,0 +1,262 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr'
+    name: '@aspnet/signalr'
+    summary: ''
+    children:
+      - '@aspnet/signalr.AbortController'
+      - '@aspnet/signalr.AbortSignal'
+      - '@aspnet/signalr.HttpError'
+      - '@aspnet/signalr.TimeoutError'
+      - '@aspnet/signalr.HandshakeProtocol'
+      - '@aspnet/signalr.HandshakeRequestMessage'
+      - '@aspnet/signalr.HandshakeResponseMessage'
+      - '@aspnet/signalr.DefaultHttpClient'
+      - '@aspnet/signalr.HttpClient'
+      - '@aspnet/signalr.HttpResponse'
+      - '@aspnet/signalr.HttpRequest'
+      - '@aspnet/signalr.HttpConnection'
+      - '@aspnet/signalr.IAvailableTransport'
+      - '@aspnet/signalr.INegotiateResponse'
+      - '@aspnet/signalr.HubConnection'
+      - '@aspnet/signalr.HubConnectionBuilder'
+      - '@aspnet/signalr.IConnection'
+      - '@aspnet/signalr.IHttpConnectionOptions'
+      - '@aspnet/signalr.MessageType'
+      - '@aspnet/signalr.CancelInvocationMessage'
+      - '@aspnet/signalr.CloseMessage'
+      - '@aspnet/signalr.CompletionMessage'
+      - '@aspnet/signalr.HubInvocationMessage'
+      - '@aspnet/signalr.HubMessageBase'
+      - '@aspnet/signalr.IHubProtocol'
+      - '@aspnet/signalr.InvocationMessage'
+      - '@aspnet/signalr.MessageHeaders'
+      - '@aspnet/signalr.PingMessage'
+      - '@aspnet/signalr.StreamInvocationMessage'
+      - '@aspnet/signalr.StreamItemMessage'
+      - '@aspnet/signalr.HubMessage'
+      - '@aspnet/signalr.LogLevel'
+      - '@aspnet/signalr.ILogger'
+      - '@aspnet/signalr.HttpTransportType'
+      - '@aspnet/signalr.TransferFormat'
+      - '@aspnet/signalr.ITransport'
+      - '@aspnet/signalr.JsonHubProtocol'
+      - '@aspnet/signalr.NullLogger'
+      - '@aspnet/signalr.LongPollingTransport'
+      - '@aspnet/signalr.ServerSentEventsTransport'
+      - '@aspnet/signalr.IStreamResult'
+      - '@aspnet/signalr.IStreamSubscriber'
+      - '@aspnet/signalr.ISubscription'
+      - '@aspnet/signalr.TextMessageFormat'
+      - '@aspnet/signalr.Arg'
+      - '@aspnet/signalr.ConsoleLogger'
+      - '@aspnet/signalr.Subject'
+      - '@aspnet/signalr.SubjectSubscription'
+      - '@aspnet/signalr.WebSocketTransport'
+      - '@aspnet/signalr.createLogger'
+      - '@aspnet/signalr.formatArrayBuffer'
+      - '@aspnet/signalr.getDataDetail'
+      - '@aspnet/signalr.sendMessage'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@aspnet/signalr.createLogger'
+    name: createLogger
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createLogger(logger?: ILogger | LogLevel)'
+      parameters:
+        - id: logger
+          type:
+            - '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@aspnet/signalr.ILogger'
+  - uid: '@aspnet/signalr.formatArrayBuffer'
+    name: formatArrayBuffer
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatArrayBuffer(data: ArrayBuffer)'
+      parameters:
+        - id: data
+          type:
+            - ArrayBuffer
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@aspnet/signalr.getDataDetail'
+    name: getDataDetail
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getDataDetail(data: any, includeContent: boolean)'
+      parameters:
+        - id: data
+          type:
+            - any
+          description: ''
+        - id: includeContent
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - string
+  - uid: '@aspnet/signalr.sendMessage'
+    name: sendMessage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function sendMessage(logger: ILogger, transportName: string, httpClient:
+        HttpClient, url: string, accessTokenFactory: () => string |
+        Promise<string>, content: string | ArrayBuffer, logMessageContent:
+        boolean)
+      parameters:
+        - id: logger
+          type:
+            - '@aspnet/signalr.ILogger'
+          description: ''
+        - id: transportName
+          type:
+            - string
+          description: ''
+        - id: httpClient
+          type:
+            - '@aspnet/signalr.HttpClient'
+          description: ''
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: accessTokenFactory
+          type:
+            - () => string | Promise<string>
+          description: ''
+        - id: content
+          type:
+            - string | ArrayBuffer
+          description: ''
+        - id: logMessageContent
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<void>
+references:
+  - uid: '@aspnet/signalr.AbortController'
+    name: AbortController
+  - uid: '@aspnet/signalr.AbortSignal'
+    name: AbortSignal
+  - uid: '@aspnet/signalr.HttpError'
+    name: HttpError
+  - uid: '@aspnet/signalr.TimeoutError'
+    name: TimeoutError
+  - uid: '@aspnet/signalr.HandshakeProtocol'
+    name: HandshakeProtocol
+  - uid: '@aspnet/signalr.HandshakeRequestMessage'
+    name: HandshakeRequestMessage
+  - uid: '@aspnet/signalr.HandshakeResponseMessage'
+    name: HandshakeResponseMessage
+  - uid: '@aspnet/signalr.DefaultHttpClient'
+    name: DefaultHttpClient
+  - uid: '@aspnet/signalr.HttpClient'
+    name: HttpClient
+  - uid: '@aspnet/signalr.HttpResponse'
+    name: HttpResponse
+  - uid: '@aspnet/signalr.HttpRequest'
+    name: HttpRequest
+  - uid: '@aspnet/signalr.HttpConnection'
+    name: HttpConnection
+  - uid: '@aspnet/signalr.IAvailableTransport'
+    name: IAvailableTransport
+  - uid: '@aspnet/signalr.INegotiateResponse'
+    name: INegotiateResponse
+  - uid: '@aspnet/signalr.HubConnection'
+    name: HubConnection
+  - uid: '@aspnet/signalr.HubConnectionBuilder'
+    name: HubConnectionBuilder
+  - uid: '@aspnet/signalr.IConnection'
+    name: IConnection
+  - uid: '@aspnet/signalr.IHttpConnectionOptions'
+    name: IHttpConnectionOptions
+  - uid: '@aspnet/signalr.MessageType'
+    name: MessageType
+  - uid: '@aspnet/signalr.CancelInvocationMessage'
+    name: CancelInvocationMessage
+  - uid: '@aspnet/signalr.CloseMessage'
+    name: CloseMessage
+  - uid: '@aspnet/signalr.CompletionMessage'
+    name: CompletionMessage
+  - uid: '@aspnet/signalr.HubInvocationMessage'
+    name: HubInvocationMessage
+  - uid: '@aspnet/signalr.HubMessageBase'
+    name: HubMessageBase
+  - uid: '@aspnet/signalr.IHubProtocol'
+    name: IHubProtocol
+  - uid: '@aspnet/signalr.InvocationMessage'
+    name: InvocationMessage
+  - uid: '@aspnet/signalr.MessageHeaders'
+    name: MessageHeaders
+  - uid: '@aspnet/signalr.PingMessage'
+    name: PingMessage
+  - uid: '@aspnet/signalr.StreamInvocationMessage'
+    name: StreamInvocationMessage
+  - uid: '@aspnet/signalr.StreamItemMessage'
+    name: StreamItemMessage
+  - uid: '@aspnet/signalr.HubMessage'
+    name: HubMessage
+  - uid: '@aspnet/signalr.LogLevel'
+    name: LogLevel
+  - uid: '@aspnet/signalr.ILogger'
+    name: ILogger
+  - uid: '@aspnet/signalr.HttpTransportType'
+    name: HttpTransportType
+  - uid: '@aspnet/signalr.TransferFormat'
+    name: TransferFormat
+  - uid: '@aspnet/signalr.ITransport'
+    name: ITransport
+  - uid: '@aspnet/signalr.JsonHubProtocol'
+    name: JsonHubProtocol
+  - uid: '@aspnet/signalr.NullLogger'
+    name: NullLogger
+  - uid: '@aspnet/signalr.LongPollingTransport'
+    name: LongPollingTransport
+  - uid: '@aspnet/signalr.ServerSentEventsTransport'
+    name: ServerSentEventsTransport
+  - uid: '@aspnet/signalr.IStreamResult'
+    name: IStreamResult
+  - uid: '@aspnet/signalr.IStreamSubscriber'
+    name: IStreamSubscriber
+  - uid: '@aspnet/signalr.ISubscription'
+    name: ISubscription
+  - uid: '@aspnet/signalr.TextMessageFormat'
+    name: TextMessageFormat
+  - uid: '@aspnet/signalr.Arg'
+    name: Arg
+  - uid: '@aspnet/signalr.ConsoleLogger'
+    name: ConsoleLogger
+  - uid: '@aspnet/signalr.Subject'
+    name: Subject
+  - uid: '@aspnet/signalr.SubjectSubscription'
+    name: SubjectSubscription
+  - uid: '@aspnet/signalr.WebSocketTransport'
+    name: WebSocketTransport

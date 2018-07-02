@@ -1,0 +1,149 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.IHttpConnectionOptions'
+    name: IHttpConnectionOptions
+    fullName: IHttpConnectionOptions
+    children:
+      - '@aspnet/signalr.IHttpConnectionOptions.accessTokenFactory'
+      - '@aspnet/signalr.IHttpConnectionOptions.httpClient'
+      - '@aspnet/signalr.IHttpConnectionOptions.logger'
+      - '@aspnet/signalr.IHttpConnectionOptions.logMessageContent'
+      - '@aspnet/signalr.IHttpConnectionOptions.skipNegotiation'
+      - '@aspnet/signalr.IHttpConnectionOptions.transport'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Options provided to the 'withUrl' method on <xref:HubConnectionBuilder> to
+      configure options for the HTTP-based transports.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.IHttpConnectionOptions.accessTokenFactory'
+    name: accessTokenFactory
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      A function that provides an access token required for HTTP Bearer
+      authentication.
+    syntax:
+      content: function accessTokenFactory()
+      parameters: []
+      return:
+        type:
+          - string | Promise<string>
+  - uid: '@aspnet/signalr.IHttpConnectionOptions.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'An <xref:HttpClient> that will be used to make HTTP requests.'
+    optional: true
+    syntax:
+      content: 'httpClient?: HttpClient'
+      return:
+        type:
+          - '@aspnet/signalr.HttpClient'
+  - uid: '@aspnet/signalr.IHttpConnectionOptions.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Configures the logger used for logging.
+
+      Provide an <xref:ILogger> instance, and log messages will be logged via
+      that instance. Alternatively, provide a value from
+
+      the <xref:LogLevel> enumeration and a default logger which logs to the
+      Console will be configured to log messages of the specified
+
+      level (or higher).
+    optional: true
+    syntax:
+      content: 'logger?: ILogger | LogLevel'
+      return:
+        type:
+          - '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
+  - uid: '@aspnet/signalr.IHttpConnectionOptions.logMessageContent'
+    name: logMessageContent
+    fullName: logMessageContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      A boolean indicating if message content should be logged.
+
+      Message content can contain sensitive user data, so this is disabled by
+      default.
+    optional: true
+    syntax:
+      content: 'logMessageContent?: boolean'
+      return:
+        type:
+          - boolean
+  - uid: '@aspnet/signalr.IHttpConnectionOptions.skipNegotiation'
+    name: skipNegotiation
+    fullName: skipNegotiation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      A boolean indicating if negotiation should be skipped.
+
+      Negotiation can only be skipped when the <xref:transport> property is set
+      to 'HttpTransportType.WebSockets'.
+    optional: true
+    syntax:
+      content: 'skipNegotiation?: boolean'
+      return:
+        type:
+          - boolean
+  - uid: '@aspnet/signalr.IHttpConnectionOptions.transport'
+    name: transport
+    fullName: transport
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An <xref:HttpTransportType> value specifying the transport to use for the
+      connection.
+    optional: true
+    syntax:
+      content: 'transport?: HttpTransportType | ITransport'
+      return:
+        type:
+          - '@aspnet/signalr.HttpTransportType | @aspnet/signalr.ITransport'
+references:
+  - uid: '@aspnet/signalr.HttpClient'
+    spec.typeScript:
+      - name: HttpClient
+        fullName: HttpClient
+        uid: '@aspnet/signalr.HttpClient'
+  - uid: '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
+    spec.typeScript:
+      - name: ILogger
+        fullName: ILogger
+        uid: '@aspnet/signalr.ILogger'
+      - name: ' | '
+        fullName: ' | '
+      - name: LogLevel
+        fullName: LogLevel
+        uid: '@aspnet/signalr.LogLevel'
+  - uid: '@aspnet/signalr.HttpTransportType | @aspnet/signalr.ITransport'
+    spec.typeScript:
+      - name: HttpTransportType
+        fullName: HttpTransportType
+        uid: '@aspnet/signalr.HttpTransportType'
+      - name: ' | '
+        fullName: ' | '
+      - name: ITransport
+        fullName: ITransport
+        uid: '@aspnet/signalr.ITransport'

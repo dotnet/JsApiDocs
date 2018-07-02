@@ -1,0 +1,152 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.HttpConnection'
+    name: HttpConnection
+    fullName: HttpConnection
+    children:
+      - '@aspnet/signalr.HttpConnection.features'
+      - '@aspnet/signalr.HttpConnection.constructor'
+      - '@aspnet/signalr.HttpConnection.onclose'
+      - '@aspnet/signalr.HttpConnection.onreceive'
+      - '@aspnet/signalr.HttpConnection.send'
+      - '@aspnet/signalr.HttpConnection.start'
+      - '@aspnet/signalr.HttpConnection.start_1'
+      - '@aspnet/signalr.HttpConnection.stop'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HttpConnection.features'
+    name: features
+    fullName: features
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public features: any'
+      return:
+        type:
+          - any
+  - uid: '@aspnet/signalr.HttpConnection.constructor'
+    name: HttpConnection
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HttpConnection(url: string, options: IHttpConnectionOptions)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@aspnet/signalr.IHttpConnectionOptions'
+          description: ''
+  - uid: '@aspnet/signalr.HttpConnection.onclose'
+    name: onclose
+    fullName: onclose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public onclose: (e?: Error) => void'
+      return:
+        type:
+          - '(e?: Error) => void'
+  - uid: '@aspnet/signalr.HttpConnection.onreceive'
+    name: onreceive
+    fullName: onreceive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public onreceive: (data: string | ArrayBuffer) => void'
+      return:
+        type:
+          - '(data: string | ArrayBuffer) => void'
+  - uid: '@aspnet/signalr.HttpConnection.send'
+    name: send
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function send(data: string | ArrayBuffer)'
+      parameters:
+        - id: data
+          type:
+            - string | ArrayBuffer
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@aspnet/signalr.HttpConnection.start'
+    name: start
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function start()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+  - uid: '@aspnet/signalr.HttpConnection.start_1'
+    name: start
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function start(transferFormat: TransferFormat)'
+      parameters:
+        - id: transferFormat
+          type:
+            - '@aspnet/signalr.TransferFormat'
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@aspnet/signalr.HttpConnection.stop'
+    name: stop
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function stop(error?: Error)'
+      parameters:
+        - id: error
+          type:
+            - Error
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+references:
+  - uid: '@aspnet/signalr.IHttpConnectionOptions'
+    spec.typeScript:
+      - name: IHttpConnectionOptions
+        fullName: IHttpConnectionOptions
+        uid: '@aspnet/signalr.IHttpConnectionOptions'
+  - uid: '@aspnet/signalr.TransferFormat'
+    spec.typeScript:
+      - name: TransferFormat
+        fullName: TransferFormat
+        uid: '@aspnet/signalr.TransferFormat'

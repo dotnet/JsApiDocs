@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.HubMessageBase'
+    name: HubMessageBase
+    fullName: HubMessageBase
+    children:
+      - '@aspnet/signalr.HubMessageBase.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines properties common to all Hub messages.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HubMessageBase.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A <xref:MessageType> value indicating the type of this message.'
+    syntax:
+      content: 'type: MessageType'
+      return:
+        type:
+          - '@aspnet/signalr.MessageType'
+references:
+  - uid: '@aspnet/signalr.MessageType'
+    spec.typeScript:
+      - name: MessageType
+        fullName: MessageType
+        uid: '@aspnet/signalr.MessageType'

@@ -1,0 +1,114 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.IConnection'
+    name: IConnection
+    fullName: IConnection
+    children:
+      - '@aspnet/signalr.IConnection.features'
+      - '@aspnet/signalr.IConnection.onclose'
+      - '@aspnet/signalr.IConnection.onreceive'
+      - '@aspnet/signalr.IConnection.send'
+      - '@aspnet/signalr.IConnection.start'
+      - '@aspnet/signalr.IConnection.stop'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.IConnection.features'
+    name: features
+    fullName: features
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'features: any'
+      return:
+        type:
+          - any
+  - uid: '@aspnet/signalr.IConnection.onclose'
+    name: onclose
+    fullName: onclose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onclose: (error?: Error) => void'
+      return:
+        type:
+          - '(error?: Error) => void'
+  - uid: '@aspnet/signalr.IConnection.onreceive'
+    name: onreceive
+    fullName: onreceive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onreceive: (data: string | ArrayBuffer) => void'
+      return:
+        type:
+          - '(data: string | ArrayBuffer) => void'
+  - uid: '@aspnet/signalr.IConnection.send'
+    name: send
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function send(data: string | ArrayBuffer)'
+      parameters:
+        - id: data
+          type:
+            - string | ArrayBuffer
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@aspnet/signalr.IConnection.start'
+    name: start
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function start(transferFormat: TransferFormat)'
+      parameters:
+        - id: transferFormat
+          type:
+            - '@aspnet/signalr.TransferFormat'
+          description: ''
+      return:
+        type:
+          - Promise<void>
+  - uid: '@aspnet/signalr.IConnection.stop'
+    name: stop
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function stop(error?: Error)'
+      parameters:
+        - id: error
+          type:
+            - Error
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+references:
+  - uid: '@aspnet/signalr.TransferFormat'
+    spec.typeScript:
+      - name: TransferFormat
+        fullName: TransferFormat
+        uid: '@aspnet/signalr.TransferFormat'
