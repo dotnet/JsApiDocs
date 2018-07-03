@@ -41,6 +41,9 @@
         ]
       }
     ],
+    "xref":[
+      "docs-ref-autogen/@aspnet"
+    ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
