@@ -47,7 +47,7 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP DELETE request to the specified URL, returning a Promise
-      that resolves with an {@link HttpResponse} representing the result.
+      that resolves with an <xref:HttpResponse> representing the result.
     syntax:
       content: 'function delete(url: string, options: HttpRequest)'
       parameters:
@@ -91,7 +91,7 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP GET request to the specified URL, returning a Promise that
-      resolves with an {@link HttpResponse} representing the result.
+      resolves with an <xref:HttpResponse> representing the result.
     syntax:
       content: 'function get(url: string, options: HttpRequest)'
       parameters:
@@ -135,7 +135,7 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP POST request to the specified URL, returning a Promise that
-      resolves with an {@link HttpResponse} representing the result.
+      resolves with an <xref:HttpResponse> representing the result.
     syntax:
       content: 'function post(url: string, options: HttpRequest)'
       parameters:

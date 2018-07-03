@@ -60,7 +60,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: 'Configures custom logging for the {@link HubConnection}.'
+    summary: 'Configures custom logging for the <xref:HubConnection>.'
     syntax:
       content: 'function configureLogging(logger: ILogger)'
       parameters:
@@ -172,7 +172,7 @@ items:
     langs:
       - typeScript
     summary: >-
-      Configures the {@link HubConnection} to use the specified HTTP-based
+      Configures the <xref:HubConnection> to use the specified HTTP-based
       transport to connect to the specified URL.
     syntax:
       content: 'function withUrl(url: string, transportType: HttpTransportType)'
@@ -195,7 +195,7 @@ items:
     langs:
       - typeScript
     summary: >-
-      Configures the {@link HubConnection} to use HTTP-based transports to
+      Configures the <xref:HubConnection> to use HTTP-based transports to
       connect to the specified URL.
     syntax:
       content: 'function withUrl(url: string, options: IHttpConnectionOptions)'
