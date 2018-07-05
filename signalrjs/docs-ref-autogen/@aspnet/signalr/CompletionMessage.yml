@@ -22,9 +22,12 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |
+    summary: >
       The error produced by the invocation, if any.
-      Either <xref:error> or <xref:result> must be defined, but not both.
+
+      Either <xref:%40aspnet%2Fsignalr.CompletionMessage.error> or
+      <xref:%40aspnet%2Fsignalr.CompletionMessage.result> must be defined, but
+      not both.
     optional: true
     syntax:
       content: 'error?: string'
@@ -51,9 +54,12 @@ items:
     langs:
       - typeScript
     type: property
-    summary: |
+    summary: >
       The result produced by the invocation, if any.
-      Either <xref:error> or <xref:result> must be defined, but not both.
+
+      Either <xref:%40aspnet%2Fsignalr.CompletionMessage.error> or
+      <xref:%40aspnet%2Fsignalr.CompletionMessage.result> must be defined, but
+      not both.
     optional: true
     syntax:
       content: 'result?: any'

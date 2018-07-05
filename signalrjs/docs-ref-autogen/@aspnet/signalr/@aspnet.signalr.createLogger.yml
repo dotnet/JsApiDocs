@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.createLogger'
+    name: createLogger
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createLogger(logger?: ILogger | LogLevel)'
+      parameters:
+        - id: logger
+          type:
+            - '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@aspnet/signalr.ILogger'
+references:
+  - uid: '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
+    spec.typeScript:
+      - name: ILogger
+        fullName: ILogger
+        uid: '@aspnet/signalr.ILogger'
+      - name: ' | '
+        fullName: ' | '
+      - name: LogLevel
+        fullName: LogLevel
+        uid: '@aspnet/signalr.LogLevel'
+  - uid: '@aspnet/signalr.ILogger'
+    spec.typeScript:
+      - name: ILogger
+        fullName: ILogger
+        uid: '@aspnet/signalr.ILogger'

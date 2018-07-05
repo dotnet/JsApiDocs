@@ -14,8 +14,9 @@ items:
       - typeScript
     type: interface
     summary: >-
-      Options provided to the 'withUrl' method on <xref:HubConnectionBuilder> to
-      configure options for the HTTP-based transports.
+      Options provided to the 'withUrl' method on
+      <xref:%40aspnet%2Fsignalr.HubConnectionBuilder> to configure options for
+      the HTTP-based transports.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.accessTokenFactory'
     name: accessTokenFactory
@@ -39,7 +40,9 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'An <xref:HttpClient> that will be used to make HTTP requests.'
+    summary: >-
+      An <xref:%40aspnet%2Fsignalr.HttpClient> that will be used to make HTTP
+      requests.
     optional: true
     syntax:
       content: 'httpClient?: HttpClient'
@@ -56,11 +59,12 @@ items:
     summary: >
       Configures the logger used for logging.
 
-      Provide an <xref:ILogger> instance, and log messages will be logged via
-      that instance. Alternatively, provide a value from
+      Provide an <xref:%40aspnet%2Fsignalr.ILogger> instance, and log messages
+      will be logged via that instance. Alternatively, provide a value from
 
-      the <xref:LogLevel> enumeration and a default logger which logs to the
-      Console will be configured to log messages of the specified
+      the <xref:%40aspnet%2Fsignalr.LogLevel> enumeration and a default logger
+      which logs to the Console will be configured to log messages of the
+      specified
 
       level (or higher).
     optional: true
@@ -97,8 +101,9 @@ items:
     summary: >
       A boolean indicating if negotiation should be skipped.
 
-      Negotiation can only be skipped when the <xref:transport> property is set
-      to 'HttpTransportType.WebSockets'.
+      Negotiation can only be skipped when the
+      <xref:%40aspnet%2Fsignalr.IHttpConnectionOptions.transport> property is
+      set to 'HttpTransportType.WebSockets'.
     optional: true
     syntax:
       content: 'skipNegotiation?: boolean'
@@ -113,8 +118,8 @@ items:
       - typeScript
     type: property
     summary: >-
-      An <xref:HttpTransportType> value specifying the transport to use for the
-      connection.
+      An <xref:%40aspnet%2Fsignalr.HttpTransportType> value specifying the
+      transport to use for the connection.
     optional: true
     syntax:
       content: 'transport?: HttpTransportType | ITransport'

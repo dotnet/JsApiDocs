@@ -9,8 +9,8 @@ items:
       - typeScript
     type: interface
     summary: >-
-      An interface that allows an <xref:IStreamSubscriber> to be disconnected
-      from a stream.
+      An interface that allows an <xref:%40aspnet%2Fsignalr.IStreamSubscriber>
+      to be disconnected from a stream.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ISubscription.dispose'
     name: dispose
@@ -19,8 +19,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Disconnects the <xref:IStreamSubscriber> associated with this subscription
-      from the stream.
+      Disconnects the <xref:%40aspnet%2Fsignalr.IStreamSubscriber> associated
+      with this subscription from the stream.
     syntax:
       content: function dispose()
       parameters: []

@@ -17,8 +17,8 @@ items:
     langs:
       - typeScript
     summary: >-
-      Attaches a <xref:IStreamSubscriber>, which will be invoked when new items
-      are available from the stream.
+      Attaches a <xref:%40aspnet%2Fsignalr.IStreamSubscriber>, which will be
+      invoked when new items are available from the stream.
     syntax:
       content: 'function subscribe(subscriber: IStreamSubscriber<T>)'
       parameters:

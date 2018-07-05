@@ -102,7 +102,8 @@ items:
       Removes the specified handler for the specified hub method.
 
       You must pass the exact same Function instance as was previously passed to
-      <xref:on>. Passing a different instance (even if the function
+      <xref:%40aspnet%2Fsignalr.HubConnection.on>. Passing a different instance
+      (even if the function
 
       body is the same) will not remove the handler.
     syntax:
@@ -117,7 +118,7 @@ items:
             - '(args: any[]) => void'
           description: >
             The handler to remove. This must be the same Function instance as
-            the one passed to <xref:on>.
+            the one passed to <xref:%40aspnet%2Fsignalr.HubConnection.on>.
   - uid: '@aspnet/signalr.HubConnection.on'
     name: 'on'
     children: []

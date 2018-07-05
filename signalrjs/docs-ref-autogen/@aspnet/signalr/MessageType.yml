@@ -23,7 +23,7 @@ items:
       - typeScript
     summary: >-
       Indicates the message is an Invocation message and implements the
-      <xref:InvocationMessage> interface.
+      <xref:%40aspnet%2Fsignalr.InvocationMessage> interface.
     type: field
     numericValue: 1
   - uid: '@aspnet/signalr.MessageType.StreamItem'
@@ -33,7 +33,7 @@ items:
       - typeScript
     summary: >-
       Indicates the message is a StreamItem message and implements the
-      <xref:StreamItemMessage> interface.
+      <xref:%40aspnet%2Fsignalr.StreamItemMessage> interface.
     type: field
     numericValue: 2
   - uid: '@aspnet/signalr.MessageType.Completion'
@@ -43,7 +43,7 @@ items:
       - typeScript
     summary: >-
       Indicates the message is a Completion message and implements the
-      <xref:CompletionMessage> interface.
+      <xref:%40aspnet%2Fsignalr.CompletionMessage> interface.
     type: field
     numericValue: 3
   - uid: '@aspnet/signalr.MessageType.StreamInvocation'
@@ -53,7 +53,7 @@ items:
       - typeScript
     summary: >-
       Indicates the message is a Stream Invocation message and implements the
-      <xref:StreamInvocationMessage> interface.
+      <xref:%40aspnet%2Fsignalr.StreamInvocationMessage> interface.
     type: field
     numericValue: 4
   - uid: '@aspnet/signalr.MessageType.CancelInvocation'
@@ -63,7 +63,7 @@ items:
       - typeScript
     summary: >-
       Indicates the message is a Cancel Invocation message and implements the
-      <xref:CancelInvocationMessage> interface.
+      <xref:%40aspnet%2Fsignalr.CancelInvocationMessage> interface.
     type: field
     numericValue: 5
   - uid: '@aspnet/signalr.MessageType.Ping'
@@ -73,7 +73,7 @@ items:
       - typeScript
     summary: >-
       Indicates the message is a Ping message and implements the
-      <xref:PingMessage> interface.
+      <xref:%40aspnet%2Fsignalr.PingMessage> interface.
     type: field
     numericValue: 6
   - uid: '@aspnet/signalr.MessageType.Close'
@@ -83,6 +83,6 @@ items:
       - typeScript
     summary: >-
       Indicates the message is a Close message and implements the
-      <xref:CloseMessage> interface.
+      <xref:%40aspnet%2Fsignalr.CloseMessage> interface.
     type: field
     numericValue: 7

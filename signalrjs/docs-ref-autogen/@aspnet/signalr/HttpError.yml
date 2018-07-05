@@ -33,7 +33,7 @@ items:
     type: constructor
     langs:
       - typeScript
-    summary: 'Constructs a new instance of <xref:HttpError>.'
+    summary: 'Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpError>.'
     syntax:
       content: 'new HttpError(errorMessage: string, statusCode: number)'
       parameters:

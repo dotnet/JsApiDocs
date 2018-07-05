@@ -28,7 +28,8 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP DELETE request to the specified URL, returning a Promise
-      that resolves with an <xref:HttpResponse> representing the result.
+      that resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing
+      the result.
     syntax:
       content: 'function delete(url: string)'
       parameters:
@@ -47,7 +48,8 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP DELETE request to the specified URL, returning a Promise
-      that resolves with an <xref:HttpResponse> representing the result.
+      that resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing
+      the result.
     syntax:
       content: 'function delete(url: string, options: HttpRequest)'
       parameters:
@@ -72,7 +74,8 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP GET request to the specified URL, returning a Promise that
-      resolves with an <xref:HttpResponse> representing the result.
+      resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
+      result.
     syntax:
       content: 'function get(url: string)'
       parameters:
@@ -91,7 +94,8 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP GET request to the specified URL, returning a Promise that
-      resolves with an <xref:HttpResponse> representing the result.
+      resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
+      result.
     syntax:
       content: 'function get(url: string, options: HttpRequest)'
       parameters:
@@ -116,7 +120,8 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP POST request to the specified URL, returning a Promise that
-      resolves with an <xref:HttpResponse> representing the result.
+      resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
+      result.
     syntax:
       content: 'function post(url: string)'
       parameters:
@@ -135,7 +140,8 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP POST request to the specified URL, returning a Promise that
-      resolves with an <xref:HttpResponse> representing the result.
+      resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
+      result.
     syntax:
       content: 'function post(url: string, options: HttpRequest)'
       parameters:
@@ -160,14 +166,17 @@ items:
       - typeScript
     summary: >-
       Issues an HTTP request to the specified URL, returning a <xref:Promise>
-      that resolves with an <xref:HttpResponse> representing the result.
+      that resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing
+      the result.
     syntax:
       content: 'function send(request: HttpRequest)'
       parameters:
         - id: request
           type:
             - '@aspnet/signalr.HttpRequest'
-          description: 'An <xref:HttpRequest> describing the request to send.'
+          description: >-
+            An <xref:%40aspnet%2Fsignalr.HttpRequest> describing the request to
+            send.
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>

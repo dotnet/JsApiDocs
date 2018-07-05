@@ -32,7 +32,7 @@ items:
     type: constructor
     langs:
       - typeScript
-    summary: 'Constructs a new instance of <xref:TimeoutError>.'
+    summary: 'Constructs a new instance of <xref:%40aspnet%2Fsignalr.TimeoutError>.'
     syntax:
       content: 'new TimeoutError(errorMessage: string)'
       parameters:

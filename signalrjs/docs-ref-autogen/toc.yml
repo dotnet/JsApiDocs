@@ -70,9 +70,6 @@
     - uid: '@aspnet/signalr.HubInvocationMessage'
       name: HubInvocationMessage
       items: []
-    - uid: '@aspnet/signalr.HubMessage'
-      name: HubMessage
-      items: []
     - uid: '@aspnet/signalr.HubMessageBase'
       name: HubMessageBase
       items: []
@@ -117,9 +114,6 @@
       items: []
     - uid: '@aspnet/signalr.LongPollingTransport'
       name: LongPollingTransport
-      items: []
-    - uid: '@aspnet/signalr.MessageHeaders'
-      name: MessageHeaders
       items: []
     - uid: '@aspnet/signalr.MessageType'
       name: MessageType

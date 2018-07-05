@@ -1,0 +1,23 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.getDataDetail'
+    name: getDataDetail
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getDataDetail(data: any, includeContent: boolean)'
+      parameters:
+        - id: data
+          type:
+            - any
+          description: ''
+        - id: includeContent
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - string

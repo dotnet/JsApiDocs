@@ -117,18 +117,13 @@ items:
             - boolean
           description: ''
 references:
-  - uid: '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
-    spec.typeScript:
-      - name: ILogger
-        fullName: ILogger
-        uid: '@aspnet/signalr.ILogger'
-      - name: ' | '
-        fullName: ' | '
-      - name: LogLevel
-        fullName: LogLevel
-        uid: '@aspnet/signalr.LogLevel'
   - uid: '@aspnet/signalr.ILogger'
     spec.typeScript:
       - name: ILogger
         fullName: ILogger
         uid: '@aspnet/signalr.ILogger'
+  - uid: '@aspnet/signalr.TransferFormat'
+    spec.typeScript:
+      - name: TransferFormat
+        fullName: TransferFormat
+        uid: '@aspnet/signalr.TransferFormat'

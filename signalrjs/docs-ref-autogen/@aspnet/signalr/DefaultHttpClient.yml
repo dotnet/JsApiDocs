@@ -9,7 +9,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: 'Default implementation of <xref:HttpClient>.'
+    summary: 'Default implementation of <xref:%40aspnet%2Fsignalr.HttpClient>.'
     extends:
       name: '@aspnet/signalr.HttpClient'
     package: '@aspnet/signalr'
@@ -20,8 +20,9 @@ items:
     langs:
       - typeScript
     summary: >-
-      Creates a new instance of the <xref:DefaultHttpClient>, using the provided
-      <xref:ILogger> to log messages.
+      Creates a new instance of the
+      <xref:%40aspnet%2Fsignalr.DefaultHttpClient>, using the provided
+      <xref:%40aspnet%2Fsignalr.ILogger> to log messages.
     syntax:
       content: 'new DefaultHttpClient(logger: ILogger)'
       parameters:

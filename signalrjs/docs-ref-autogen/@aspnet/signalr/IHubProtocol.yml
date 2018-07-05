@@ -36,11 +36,11 @@ items:
     langs:
       - typeScript
     summary: >
-      Creates an array of <xref:HubMessage> objects from the specified
-      serialized representation.
+      Creates an array of <xref:%40aspnet%2Fsignalr.HubMessage> objects from the
+      specified serialized representation.
 
-      If <xref:transferFormat> is 'Text', the <xref:input> parameter must be a
-      string, otherwise it must be an ArrayBuffer.
+      If <xref:%40aspnet%2Fsignalr.IHubProtocol.transferFormat> is 'Text', the
+      `input` parameter must be a string, otherwise it must be an ArrayBuffer.
     syntax:
       content: 'function parseMessages(input: string | ArrayBuffer, logger: ILogger)'
       parameters:
@@ -64,7 +64,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'The <xref:TransferFormat> of the protocol.'
+    summary: 'The <xref:%40aspnet%2Fsignalr.TransferFormat> of the protocol.'
     syntax:
       content: 'transferFormat: TransferFormat'
       return:
@@ -90,11 +90,12 @@ items:
     langs:
       - typeScript
     summary: >
-      Writes the specified <xref:HubMessage> to a string or ArrayBuffer and
-      returns it.
+      Writes the specified <xref:%40aspnet%2Fsignalr.HubMessage> to a string or
+      ArrayBuffer and returns it.
 
-      If <xref:transferFormat> is 'Text', the result of this method will be a
-      string, otherwise it will be an ArrayBuffer.
+      If <xref:%40aspnet%2Fsignalr.IHubProtocol.transferFormat> is 'Text', the
+      result of this method will be a string, otherwise it will be an
+      ArrayBuffer.
     syntax:
       content: 'function writeMessage(message: HubMessage)'
       parameters:

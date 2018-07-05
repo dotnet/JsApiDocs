@@ -52,115 +52,14 @@ items:
       - '@aspnet/signalr.ConsoleLogger'
       - '@aspnet/signalr.Subject'
       - '@aspnet/signalr.SubjectSubscription'
-      - '@aspnet/signalr.WebSocketTransport'
       - '@aspnet/signalr.createLogger'
       - '@aspnet/signalr.formatArrayBuffer'
       - '@aspnet/signalr.getDataDetail'
       - '@aspnet/signalr.sendMessage'
+      - '@aspnet/signalr.WebSocketTransport'
     type: package
     langs:
       - typeScript
-  - uid: '@aspnet/signalr.createLogger'
-    name: createLogger
-    children: []
-    type: function
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: 'function createLogger(logger?: ILogger | LogLevel)'
-      parameters:
-        - id: logger
-          type:
-            - '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
-          description: ''
-          optional: true
-      return:
-        type:
-          - '@aspnet/signalr.ILogger'
-  - uid: '@aspnet/signalr.formatArrayBuffer'
-    name: formatArrayBuffer
-    children: []
-    type: function
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: 'function formatArrayBuffer(data: ArrayBuffer)'
-      parameters:
-        - id: data
-          type:
-            - ArrayBuffer
-          description: ''
-      return:
-        type:
-          - string
-  - uid: '@aspnet/signalr.getDataDetail'
-    name: getDataDetail
-    children: []
-    type: function
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: 'function getDataDetail(data: any, includeContent: boolean)'
-      parameters:
-        - id: data
-          type:
-            - any
-          description: ''
-        - id: includeContent
-          type:
-            - boolean
-          description: ''
-      return:
-        type:
-          - string
-  - uid: '@aspnet/signalr.sendMessage'
-    name: sendMessage
-    children: []
-    type: function
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: >-
-        function sendMessage(logger: ILogger, transportName: string, httpClient:
-        HttpClient, url: string, accessTokenFactory: () => string |
-        Promise<string>, content: string | ArrayBuffer, logMessageContent:
-        boolean)
-      parameters:
-        - id: logger
-          type:
-            - '@aspnet/signalr.ILogger'
-          description: ''
-        - id: transportName
-          type:
-            - string
-          description: ''
-        - id: httpClient
-          type:
-            - '@aspnet/signalr.HttpClient'
-          description: ''
-        - id: url
-          type:
-            - string
-          description: ''
-        - id: accessTokenFactory
-          type:
-            - () => string | Promise<string>
-          description: ''
-        - id: content
-          type:
-            - string | ArrayBuffer
-          description: ''
-        - id: logMessageContent
-          type:
-            - boolean
-          description: ''
-      return:
-        type:
-          - Promise<void>
 references:
   - uid: '@aspnet/signalr.AbortController'
     name: AbortController
@@ -258,5 +157,13 @@ references:
     name: Subject
   - uid: '@aspnet/signalr.SubjectSubscription'
     name: SubjectSubscription
+  - uid: '@aspnet/signalr.createLogger'
+    name: createLogger
+  - uid: '@aspnet/signalr.formatArrayBuffer'
+    name: formatArrayBuffer
+  - uid: '@aspnet/signalr.getDataDetail'
+    name: getDataDetail
+  - uid: '@aspnet/signalr.sendMessage'
+    name: sendMessage
   - uid: '@aspnet/signalr.WebSocketTransport'
     name: WebSocketTransport

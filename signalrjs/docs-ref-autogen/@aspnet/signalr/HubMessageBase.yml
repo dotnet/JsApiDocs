@@ -17,7 +17,9 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'A <xref:MessageType> value indicating the type of this message.'
+    summary: >-
+      A <xref:%40aspnet%2Fsignalr.MessageType> value indicating the type of this
+      message.
     syntax:
       content: 'type: MessageType'
       return:
