@@ -34,7 +34,7 @@ items:
       parameters:
         - id: connection
           type:
-            - '@aspnet/signalr.IConnection'
+            - IConnection
           description: ''
         - id: logger
           type:
@@ -261,11 +261,6 @@ references:
         uid: '@aspnet/signalr.IStreamResult'
       - name: <T>
         fullName: <T>
-  - uid: '@aspnet/signalr.IConnection'
-    spec.typeScript:
-      - name: IConnection
-        fullName: IConnection
-        uid: '@aspnet/signalr.IConnection'
   - uid: '@aspnet/signalr.ILogger'
     spec.typeScript:
       - name: ILogger

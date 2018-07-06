@@ -4,23 +4,15 @@ items:
     name: '@aspnet/signalr'
     summary: ''
     children:
-      - '@aspnet/signalr.AbortController'
       - '@aspnet/signalr.AbortSignal'
       - '@aspnet/signalr.HttpError'
       - '@aspnet/signalr.TimeoutError'
-      - '@aspnet/signalr.HandshakeProtocol'
-      - '@aspnet/signalr.HandshakeRequestMessage'
-      - '@aspnet/signalr.HandshakeResponseMessage'
       - '@aspnet/signalr.DefaultHttpClient'
       - '@aspnet/signalr.HttpClient'
       - '@aspnet/signalr.HttpResponse'
       - '@aspnet/signalr.HttpRequest'
-      - '@aspnet/signalr.HttpConnection'
-      - '@aspnet/signalr.IAvailableTransport'
-      - '@aspnet/signalr.INegotiateResponse'
       - '@aspnet/signalr.HubConnection'
       - '@aspnet/signalr.HubConnectionBuilder'
-      - '@aspnet/signalr.IConnection'
       - '@aspnet/signalr.IHttpConnectionOptions'
       - '@aspnet/signalr.MessageType'
       - '@aspnet/signalr.CancelInvocationMessage'
@@ -42,39 +34,23 @@ items:
       - '@aspnet/signalr.ITransport'
       - '@aspnet/signalr.JsonHubProtocol'
       - '@aspnet/signalr.NullLogger'
-      - '@aspnet/signalr.LongPollingTransport'
-      - '@aspnet/signalr.ServerSentEventsTransport'
       - '@aspnet/signalr.IStreamResult'
       - '@aspnet/signalr.IStreamSubscriber'
       - '@aspnet/signalr.ISubscription'
-      - '@aspnet/signalr.TextMessageFormat'
-      - '@aspnet/signalr.Arg'
-      - '@aspnet/signalr.ConsoleLogger'
-      - '@aspnet/signalr.Subject'
-      - '@aspnet/signalr.SubjectSubscription'
       - '@aspnet/signalr.createLogger'
       - '@aspnet/signalr.formatArrayBuffer'
       - '@aspnet/signalr.getDataDetail'
       - '@aspnet/signalr.sendMessage'
-      - '@aspnet/signalr.WebSocketTransport'
     type: package
     langs:
       - typeScript
 references:
-  - uid: '@aspnet/signalr.AbortController'
-    name: AbortController
   - uid: '@aspnet/signalr.AbortSignal'
     name: AbortSignal
   - uid: '@aspnet/signalr.HttpError'
     name: HttpError
   - uid: '@aspnet/signalr.TimeoutError'
     name: TimeoutError
-  - uid: '@aspnet/signalr.HandshakeProtocol'
-    name: HandshakeProtocol
-  - uid: '@aspnet/signalr.HandshakeRequestMessage'
-    name: HandshakeRequestMessage
-  - uid: '@aspnet/signalr.HandshakeResponseMessage'
-    name: HandshakeResponseMessage
   - uid: '@aspnet/signalr.DefaultHttpClient'
     name: DefaultHttpClient
   - uid: '@aspnet/signalr.HttpClient'
@@ -83,18 +59,10 @@ references:
     name: HttpResponse
   - uid: '@aspnet/signalr.HttpRequest'
     name: HttpRequest
-  - uid: '@aspnet/signalr.HttpConnection'
-    name: HttpConnection
-  - uid: '@aspnet/signalr.IAvailableTransport'
-    name: IAvailableTransport
-  - uid: '@aspnet/signalr.INegotiateResponse'
-    name: INegotiateResponse
   - uid: '@aspnet/signalr.HubConnection'
     name: HubConnection
   - uid: '@aspnet/signalr.HubConnectionBuilder'
     name: HubConnectionBuilder
-  - uid: '@aspnet/signalr.IConnection'
-    name: IConnection
   - uid: '@aspnet/signalr.IHttpConnectionOptions'
     name: IHttpConnectionOptions
   - uid: '@aspnet/signalr.MessageType'
@@ -137,26 +105,12 @@ references:
     name: JsonHubProtocol
   - uid: '@aspnet/signalr.NullLogger'
     name: NullLogger
-  - uid: '@aspnet/signalr.LongPollingTransport'
-    name: LongPollingTransport
-  - uid: '@aspnet/signalr.ServerSentEventsTransport'
-    name: ServerSentEventsTransport
   - uid: '@aspnet/signalr.IStreamResult'
     name: IStreamResult
   - uid: '@aspnet/signalr.IStreamSubscriber'
     name: IStreamSubscriber
   - uid: '@aspnet/signalr.ISubscription'
     name: ISubscription
-  - uid: '@aspnet/signalr.TextMessageFormat'
-    name: TextMessageFormat
-  - uid: '@aspnet/signalr.Arg'
-    name: Arg
-  - uid: '@aspnet/signalr.ConsoleLogger'
-    name: ConsoleLogger
-  - uid: '@aspnet/signalr.Subject'
-    name: Subject
-  - uid: '@aspnet/signalr.SubjectSubscription'
-    name: SubjectSubscription
   - uid: '@aspnet/signalr.createLogger'
     name: createLogger
   - uid: '@aspnet/signalr.formatArrayBuffer'
@@ -165,5 +119,3 @@ references:
     name: getDataDetail
   - uid: '@aspnet/signalr.sendMessage'
     name: sendMessage
-  - uid: '@aspnet/signalr.WebSocketTransport'
-    name: WebSocketTransport
