@@ -4,7 +4,6 @@ items:
     name: HubConnection
     fullName: HubConnection
     children:
-      - '@aspnet/signalr.HubConnection.create'
       - '@aspnet/signalr.HubConnection.invoke'
       - '@aspnet/signalr.HubConnection.off'
       - '@aspnet/signalr.HubConnection.off_1'
@@ -20,33 +19,6 @@ items:
     type: class
     summary: Represents a connection to a SignalR Hub.
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HubConnection.create'
-    name: create
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: >-
-        static function create(connection: IConnection, logger: ILogger,
-        protocol: IHubProtocol)
-      parameters:
-        - id: connection
-          type:
-            - IConnection
-          description: ''
-        - id: logger
-          type:
-            - '@aspnet/signalr.ILogger'
-          description: ''
-        - id: protocol
-          type:
-            - '@aspnet/signalr.IHubProtocol'
-          description: ''
-      return:
-        type:
-          - '@aspnet/signalr.HubConnection'
   - uid: '@aspnet/signalr.HubConnection.invoke'
     name: invoke
     children: []
@@ -261,18 +233,3 @@ references:
         uid: '@aspnet/signalr.IStreamResult'
       - name: <T>
         fullName: <T>
-  - uid: '@aspnet/signalr.ILogger'
-    spec.typeScript:
-      - name: ILogger
-        fullName: ILogger
-        uid: '@aspnet/signalr.ILogger'
-  - uid: '@aspnet/signalr.IHubProtocol'
-    spec.typeScript:
-      - name: IHubProtocol
-        fullName: IHubProtocol
-        uid: '@aspnet/signalr.IHubProtocol'
-  - uid: '@aspnet/signalr.HubConnection'
-    spec.typeScript:
-      - name: HubConnection
-        fullName: HubConnection
-        uid: '@aspnet/signalr.HubConnection'

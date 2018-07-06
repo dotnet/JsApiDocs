@@ -7,10 +7,6 @@ items:
       - '@aspnet/signalr.HubConnectionBuilder.build'
       - '@aspnet/signalr.HubConnectionBuilder.configureLogging'
       - '@aspnet/signalr.HubConnectionBuilder.configureLogging_1'
-      - '@aspnet/signalr.HubConnectionBuilder.httpConnectionOptions'
-      - '@aspnet/signalr.HubConnectionBuilder.logger'
-      - '@aspnet/signalr.HubConnectionBuilder.protocol'
-      - '@aspnet/signalr.HubConnectionBuilder.url'
       - '@aspnet/signalr.HubConnectionBuilder.withHubProtocol'
       - '@aspnet/signalr.HubConnectionBuilder.withUrl'
       - '@aspnet/signalr.HubConnectionBuilder.withUrl_1'
@@ -79,58 +75,6 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
-  - uid: '@aspnet/signalr.HubConnectionBuilder.httpConnectionOptions'
-    name: httpConnectionOptions
-    fullName: httpConnectionOptions
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: 'public httpConnectionOptions: IHttpConnectionOptions'
-      return:
-        type:
-          - '@aspnet/signalr.IHttpConnectionOptions'
-  - uid: '@aspnet/signalr.HubConnectionBuilder.logger'
-    name: logger
-    fullName: logger
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: 'public logger: ILogger'
-      return:
-        type:
-          - '@aspnet/signalr.ILogger'
-  - uid: '@aspnet/signalr.HubConnectionBuilder.protocol'
-    name: protocol
-    fullName: protocol
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: 'public protocol: IHubProtocol'
-      return:
-        type:
-          - '@aspnet/signalr.IHubProtocol'
-  - uid: '@aspnet/signalr.HubConnectionBuilder.url'
-    name: url
-    fullName: url
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: 'public url: string'
-      return:
-        type:
-          - string
   - uid: '@aspnet/signalr.HubConnectionBuilder.withHubProtocol'
     name: withHubProtocol
     children: []
@@ -220,21 +164,6 @@ items:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
 references:
-  - uid: '@aspnet/signalr.IHttpConnectionOptions'
-    spec.typeScript:
-      - name: IHttpConnectionOptions
-        fullName: IHttpConnectionOptions
-        uid: '@aspnet/signalr.IHttpConnectionOptions'
-  - uid: '@aspnet/signalr.ILogger'
-    spec.typeScript:
-      - name: ILogger
-        fullName: ILogger
-        uid: '@aspnet/signalr.ILogger'
-  - uid: '@aspnet/signalr.IHubProtocol'
-    spec.typeScript:
-      - name: IHubProtocol
-        fullName: IHubProtocol
-        uid: '@aspnet/signalr.IHubProtocol'
   - uid: '@aspnet/signalr.HubConnection'
     spec.typeScript:
       - name: HubConnection
@@ -250,8 +179,23 @@ references:
       - name: HubConnectionBuilder
         fullName: HubConnectionBuilder
         uid: '@aspnet/signalr.HubConnectionBuilder'
+  - uid: '@aspnet/signalr.ILogger'
+    spec.typeScript:
+      - name: ILogger
+        fullName: ILogger
+        uid: '@aspnet/signalr.ILogger'
+  - uid: '@aspnet/signalr.IHubProtocol'
+    spec.typeScript:
+      - name: IHubProtocol
+        fullName: IHubProtocol
+        uid: '@aspnet/signalr.IHubProtocol'
   - uid: '@aspnet/signalr.HttpTransportType'
     spec.typeScript:
       - name: HttpTransportType
         fullName: HttpTransportType
         uid: '@aspnet/signalr.HttpTransportType'
+  - uid: '@aspnet/signalr.IHttpConnectionOptions'
+    spec.typeScript:
+      - name: IHttpConnectionOptions
+        fullName: IHttpConnectionOptions
+        uid: '@aspnet/signalr.IHttpConnectionOptions'

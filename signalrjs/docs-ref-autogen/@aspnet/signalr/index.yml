@@ -37,10 +37,6 @@ items:
       - '@aspnet/signalr.IStreamResult'
       - '@aspnet/signalr.IStreamSubscriber'
       - '@aspnet/signalr.ISubscription'
-      - '@aspnet/signalr.createLogger'
-      - '@aspnet/signalr.formatArrayBuffer'
-      - '@aspnet/signalr.getDataDetail'
-      - '@aspnet/signalr.sendMessage'
     type: package
     langs:
       - typeScript
@@ -111,11 +107,3 @@ references:
     name: IStreamSubscriber
   - uid: '@aspnet/signalr.ISubscription'
     name: ISubscription
-  - uid: '@aspnet/signalr.createLogger'
-    name: createLogger
-  - uid: '@aspnet/signalr.formatArrayBuffer'
-    name: formatArrayBuffer
-  - uid: '@aspnet/signalr.getDataDetail'
-    name: getDataDetail
-  - uid: '@aspnet/signalr.sendMessage'
-    name: sendMessage
