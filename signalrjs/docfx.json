@@ -41,8 +41,8 @@
         ]
       }
     ],
-    "xref":[
-      "docs-ref-autogen/@aspnet"
+    "xref": [
+      "xrefmap.yml"
     ],
     "overwrite": [],
     "externalReference": [],
