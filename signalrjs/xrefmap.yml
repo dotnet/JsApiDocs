@@ -27,3 +27,7 @@ references:
   href: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
   name: number
   uid: number
+- fullName: Uint8Array
+  href: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
+  name: Uint8Array
+  uid: Uint8Array
