@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.StreamInvocationMessage'
+    name: StreamInvocationMessage
+    fullName: StreamInvocationMessage
+    children:
+      - '@aspnet/signalr.StreamInvocationMessage.arguments'
+      - '@aspnet/signalr.StreamInvocationMessage.invocationId'
+      - '@aspnet/signalr.StreamInvocationMessage.target'
+      - '@aspnet/signalr.StreamInvocationMessage.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: A hub message representing a streaming invocation.
+    extends:
+      name: '@aspnet/signalr.HubInvocationMessage'
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.StreamInvocationMessage.arguments'
+    name: arguments
+    fullName: arguments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The target method arguments.
+    syntax:
+      content: 'arguments: any[]'
+      return:
+        type:
+          - 'any[]'
+  - uid: '@aspnet/signalr.StreamInvocationMessage.invocationId'
+    name: invocationId
+    fullName: invocationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The invocation ID.
+    syntax:
+      content: 'invocationId: string'
+      return:
+        type:
+          - string
+  - uid: '@aspnet/signalr.StreamInvocationMessage.target'
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The target method name.
+    syntax:
+      content: 'target: string'
+      return:
+        type:
+          - string
+  - uid: '@aspnet/signalr.StreamInvocationMessage.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: StreamInvocation'
+      return:
+        type:
+          - '@aspnet/signalr.MessageType.StreamInvocation'
+references:
+  - uid: '@aspnet/signalr.HubInvocationMessage'
+    spec.typeScript:
+      - name: HubInvocationMessage
+        fullName: HubInvocationMessage
+        uid: '@aspnet/signalr.HubInvocationMessage'
+  - uid: '@aspnet/signalr.MessageType.StreamInvocation'
+    spec.typeScript:
+      - name: StreamInvocation
+        fullName: StreamInvocation
+        uid: '@aspnet/signalr.MessageType.StreamInvocation'

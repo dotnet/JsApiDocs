@@ -8,6 +8,7 @@
         ],
         "src": "docs-ref-autogen",
         "version": "signalr-js-latest",
+        "dest": "api",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -42,6 +43,9 @@
           "**/includes/**"
         ]
       }
+    ],
+    "xref": [
+      "xrefmap.yml"
     ],
     "overwrite": [],
     "externalReference": [],

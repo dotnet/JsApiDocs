@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.CancelInvocationMessage'
+    name: CancelInvocationMessage
+    fullName: CancelInvocationMessage
+    children:
+      - '@aspnet/signalr.CancelInvocationMessage.invocationId'
+      - '@aspnet/signalr.CancelInvocationMessage.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: A hub message sent to request that a streaming invocation be canceled.
+    extends:
+      name: '@aspnet/signalr.HubInvocationMessage'
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.CancelInvocationMessage.invocationId'
+    name: invocationId
+    fullName: invocationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The invocation ID.
+    syntax:
+      content: 'invocationId: string'
+      return:
+        type:
+          - string
+  - uid: '@aspnet/signalr.CancelInvocationMessage.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: CancelInvocation'
+      return:
+        type:
+          - '@aspnet/signalr.MessageType.CancelInvocation'
+references:
+  - uid: '@aspnet/signalr.HubInvocationMessage'
+    spec.typeScript:
+      - name: HubInvocationMessage
+        fullName: HubInvocationMessage
+        uid: '@aspnet/signalr.HubInvocationMessage'
+  - uid: '@aspnet/signalr.MessageType.CancelInvocation'
+    spec.typeScript:
+      - name: CancelInvocation
+        fullName: CancelInvocation
+        uid: '@aspnet/signalr.MessageType.CancelInvocation'

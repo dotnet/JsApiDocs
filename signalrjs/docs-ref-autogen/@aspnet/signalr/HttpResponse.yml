@@ -1,0 +1,156 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.HttpResponse'
+    name: HttpResponse
+    fullName: HttpResponse
+    children:
+      - '@aspnet/signalr.HttpResponse.content'
+      - '@aspnet/signalr.HttpResponse.constructor'
+      - '@aspnet/signalr.HttpResponse.constructor_1'
+      - '@aspnet/signalr.HttpResponse.constructor_2'
+      - '@aspnet/signalr.HttpResponse.constructor_3'
+      - '@aspnet/signalr.HttpResponse.statusCode'
+      - '@aspnet/signalr.HttpResponse.statusText'
+    langs:
+      - typeScript
+    type: class
+    summary: Represents an HTTP response.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HttpResponse.content'
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The content of the response.
+    optional: true
+    syntax:
+      content: 'public content?: string | ArrayBuffer'
+      return:
+        type:
+          - string | ArrayBuffer
+  - uid: '@aspnet/signalr.HttpResponse.constructor'
+    name: HttpResponse
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code.
+    syntax:
+      content: 'new HttpResponse(statusCode: number)'
+      parameters:
+        - id: statusCode
+          type:
+            - number
+          description: |
+            The status code of the response.
+  - uid: '@aspnet/signalr.HttpResponse.constructor_1'
+    name: HttpResponse
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code and message.
+    syntax:
+      content: 'new HttpResponse(statusCode: number, statusText: string)'
+      parameters:
+        - id: statusCode
+          type:
+            - number
+          description: |
+            The status code of the response.
+        - id: statusText
+          type:
+            - string
+          description: |
+            The status message of the response.
+  - uid: '@aspnet/signalr.HttpResponse.constructor_2'
+    name: HttpResponse
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code, message and string content.
+    syntax:
+      content: >-
+        new HttpResponse(statusCode: number, statusText: string, content:
+        string)
+      parameters:
+        - id: statusCode
+          type:
+            - number
+          description: |
+            The status code of the response.
+        - id: statusText
+          type:
+            - string
+          description: |
+            The status message of the response.
+        - id: content
+          type:
+            - string
+          description: |
+            The content of the response.
+  - uid: '@aspnet/signalr.HttpResponse.constructor_3'
+    name: HttpResponse
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code, message and binary content.
+    syntax:
+      content: >-
+        new HttpResponse(statusCode: number, statusText: string, content:
+        ArrayBuffer)
+      parameters:
+        - id: statusCode
+          type:
+            - number
+          description: |
+            The status code of the response.
+        - id: statusText
+          type:
+            - string
+          description: |
+            The status message of the response.
+        - id: content
+          type:
+            - ArrayBuffer
+          description: |
+            The content of the response.
+  - uid: '@aspnet/signalr.HttpResponse.statusCode'
+    name: statusCode
+    fullName: statusCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The status code of the response.
+    syntax:
+      content: 'public statusCode: number'
+      return:
+        type:
+          - number
+  - uid: '@aspnet/signalr.HttpResponse.statusText'
+    name: statusText
+    fullName: statusText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The status message of the response.
+    optional: true
+    syntax:
+      content: 'public statusText?: string'
+      return:
+        type:
+          - string

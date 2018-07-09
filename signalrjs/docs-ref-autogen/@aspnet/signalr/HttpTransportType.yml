@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.HttpTransportType'
+    name: HttpTransportType
+    fullName: HttpTransportType
+    children:
+      - '@aspnet/signalr.HttpTransportType.None'
+      - '@aspnet/signalr.HttpTransportType.WebSockets'
+      - '@aspnet/signalr.HttpTransportType.ServerSentEvents'
+      - '@aspnet/signalr.HttpTransportType.LongPolling'
+    langs:
+      - typeScript
+    type: enum
+    summary: Specifies a specific HTTP transport type.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HttpTransportType.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies no transport preference.
+    type: field
+    numericValue: 0
+  - uid: '@aspnet/signalr.HttpTransportType.WebSockets'
+    name: WebSockets
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies the WebSockets transport.
+    type: field
+    numericValue: 1
+  - uid: '@aspnet/signalr.HttpTransportType.ServerSentEvents'
+    name: ServerSentEvents
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies the Server-Sent Events transport.
+    type: field
+    numericValue: 2
+  - uid: '@aspnet/signalr.HttpTransportType.LongPolling'
+    name: LongPolling
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies the Long Polling transport.
+    type: field
+    numericValue: 4

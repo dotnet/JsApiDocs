@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.CloseMessage'
+    name: CloseMessage
+    fullName: CloseMessage
+    children:
+      - '@aspnet/signalr.CloseMessage.error'
+      - '@aspnet/signalr.CloseMessage.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      A hub message indicating that the sender is closing the connection.
+
+      If <xref:%40aspnet%2Fsignalr.CloseMessage.error> is defined, the sender is
+      closing the connection due to an error.
+    extends:
+      name: '@aspnet/signalr.HubMessageBase'
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.CloseMessage.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The error that triggered the close, if any.
+
+      If this property is undefined, the connection was closed normally and
+      without error.
+    optional: true
+    syntax:
+      content: 'error?: string'
+      return:
+        type:
+          - string
+  - uid: '@aspnet/signalr.CloseMessage.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: Close'
+      return:
+        type:
+          - '@aspnet/signalr.MessageType.Close'
+references:
+  - uid: '@aspnet/signalr.HubMessageBase'
+    spec.typeScript:
+      - name: HubMessageBase
+        fullName: HubMessageBase
+        uid: '@aspnet/signalr.HubMessageBase'
+  - uid: '@aspnet/signalr.MessageType.Close'
+    spec.typeScript:
+      - name: Close
+        fullName: Close
+        uid: '@aspnet/signalr.MessageType.Close'

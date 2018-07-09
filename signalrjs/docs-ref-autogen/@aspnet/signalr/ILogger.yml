@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.ILogger'
+    name: ILogger
+    fullName: ILogger
+    children:
+      - '@aspnet/signalr.ILogger.log'
+    langs:
+      - typeScript
+    type: interface
+    summary: An abstraction that provides a sink for diagnostic messages.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.ILogger.log'
+    name: log
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Called by the framework to emit a diagnostic message.
+    syntax:
+      content: 'function log(logLevel: LogLevel, message: string)'
+      parameters:
+        - id: logLevel
+          type:
+            - '@aspnet/signalr.LogLevel'
+          description: The severity level of the message.
+        - id: message
+          type:
+            - string
+          description: |
+            The message.
+references:
+  - uid: '@aspnet/signalr.LogLevel'
+    spec.typeScript:
+      - name: LogLevel
+        fullName: LogLevel
+        uid: '@aspnet/signalr.LogLevel'

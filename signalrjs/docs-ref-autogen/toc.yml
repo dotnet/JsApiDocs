@@ -1,6 +1,105 @@
-- name: Sample
+- uid: '@aspnet/signalr-protocol-msgpack'
+  name: '@aspnet/signalr-protocol-msgpack'
   items:
-    - uid: azure-atlas-javscript-sdk.BoundingBox
-      name: BoundingBox
-    - uid: azure-atlas-javscript-sdk.Map
-      name: Map
+    - uid: '@aspnet/signalr-protocol-msgpack.BinaryMessageFormat'
+      name: BinaryMessageFormat
+      items: []
+    - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol'
+      name: MessagePackHubProtocol
+      items: []
+- uid: '@aspnet/signalr'
+  name: '@aspnet/signalr'
+  items:
+    - uid: '@aspnet/signalr.AbortSignal'
+      name: AbortSignal
+      items: []
+    - uid: '@aspnet/signalr.CancelInvocationMessage'
+      name: CancelInvocationMessage
+      items: []
+    - uid: '@aspnet/signalr.CloseMessage'
+      name: CloseMessage
+      items: []
+    - uid: '@aspnet/signalr.CompletionMessage'
+      name: CompletionMessage
+      items: []
+    - uid: '@aspnet/signalr.DefaultHttpClient'
+      name: DefaultHttpClient
+      items: []
+    - uid: '@aspnet/signalr.HttpClient'
+      name: HttpClient
+      items: []
+    - uid: '@aspnet/signalr.HttpError'
+      name: HttpError
+      items: []
+    - uid: '@aspnet/signalr.HttpRequest'
+      name: HttpRequest
+      items: []
+    - uid: '@aspnet/signalr.HttpResponse'
+      name: HttpResponse
+      items: []
+    - uid: '@aspnet/signalr.HttpTransportType'
+      name: HttpTransportType
+      items: []
+    - uid: '@aspnet/signalr.HubConnection'
+      name: HubConnection
+      items: []
+    - uid: '@aspnet/signalr.HubConnectionBuilder'
+      name: HubConnectionBuilder
+      items: []
+    - uid: '@aspnet/signalr.HubInvocationMessage'
+      name: HubInvocationMessage
+      items: []
+    - uid: '@aspnet/signalr.HubMessageBase'
+      name: HubMessageBase
+      items: []
+    - uid: '@aspnet/signalr.IHttpConnectionOptions'
+      name: IHttpConnectionOptions
+      items: []
+    - uid: '@aspnet/signalr.IHubProtocol'
+      name: IHubProtocol
+      items: []
+    - uid: '@aspnet/signalr.ILogger'
+      name: ILogger
+      items: []
+    - uid: '@aspnet/signalr.InvocationMessage'
+      name: InvocationMessage
+      items: []
+    - uid: '@aspnet/signalr.IStreamResult'
+      name: IStreamResult
+      items: []
+    - uid: '@aspnet/signalr.IStreamSubscriber'
+      name: IStreamSubscriber
+      items: []
+    - uid: '@aspnet/signalr.ISubscription'
+      name: ISubscription
+      items: []
+    - uid: '@aspnet/signalr.ITransport'
+      name: ITransport
+      items: []
+    - uid: '@aspnet/signalr.JsonHubProtocol'
+      name: JsonHubProtocol
+      items: []
+    - uid: '@aspnet/signalr.LogLevel'
+      name: LogLevel
+      items: []
+    - uid: '@aspnet/signalr.MessageType'
+      name: MessageType
+      items: []
+    - uid: '@aspnet/signalr.NullLogger'
+      name: NullLogger
+      items: []
+    - uid: '@aspnet/signalr.PingMessage'
+      name: PingMessage
+      items: []
+    - uid: '@aspnet/signalr.StreamInvocationMessage'
+      name: StreamInvocationMessage
+      items: []
+    - uid: '@aspnet/signalr.StreamItemMessage'
+      name: StreamItemMessage
+      items: []
+    - uid: '@aspnet/signalr.TimeoutError'
+      name: TimeoutError
+      items: []
+    - uid: '@aspnet/signalr.TransferFormat'
+      name: TransferFormat
+      items: []
