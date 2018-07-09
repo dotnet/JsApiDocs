@@ -1,0 +1,201 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.HubConnectionBuilder'
+    name: HubConnectionBuilder
+    fullName: HubConnectionBuilder
+    children:
+      - '@aspnet/signalr.HubConnectionBuilder.build'
+      - '@aspnet/signalr.HubConnectionBuilder.configureLogging'
+      - '@aspnet/signalr.HubConnectionBuilder.configureLogging_1'
+      - '@aspnet/signalr.HubConnectionBuilder.withHubProtocol'
+      - '@aspnet/signalr.HubConnectionBuilder.withUrl'
+      - '@aspnet/signalr.HubConnectionBuilder.withUrl_1'
+      - '@aspnet/signalr.HubConnectionBuilder.withUrl_2'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A builder for configuring <xref:%40aspnet%2Fsignalr.HubConnection>
+      instances.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HubConnectionBuilder.build'
+    name: build
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates a <xref:%40aspnet%2Fsignalr.HubConnection> from the configuration
+      options specified in this builder.
+    syntax:
+      content: function build()
+      parameters: []
+      return:
+        type:
+          - '@aspnet/signalr.HubConnection'
+  - uid: '@aspnet/signalr.HubConnectionBuilder.configureLogging'
+    name: configureLogging
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Configures console logging for the
+      <xref:%40aspnet%2Fsignalr.HubConnection>.
+    syntax:
+      content: 'function configureLogging(logLevel: LogLevel)'
+      parameters:
+        - id: logLevel
+          type:
+            - '@aspnet/signalr.LogLevel'
+          description: >-
+            The minimum level of messages to log. Anything at this level, or a
+            more severe level, will be logged.
+      return:
+        type:
+          - '@aspnet/signalr.HubConnectionBuilder'
+  - uid: '@aspnet/signalr.HubConnectionBuilder.configureLogging_1'
+    name: configureLogging
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Configures custom logging for the
+      <xref:%40aspnet%2Fsignalr.HubConnection>.
+    syntax:
+      content: 'function configureLogging(logger: ILogger)'
+      parameters:
+        - id: logger
+          type:
+            - '@aspnet/signalr.ILogger'
+          description: >-
+            An object implementing the <xref:%40aspnet%2Fsignalr.ILogger>
+            interface, which will be used to write all log messages.
+      return:
+        type:
+          - '@aspnet/signalr.HubConnectionBuilder'
+  - uid: '@aspnet/signalr.HubConnectionBuilder.withHubProtocol'
+    name: withHubProtocol
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Configures the <xref:%40aspnet%2Fsignalr.HubConnection> to use the
+      specified Hub Protocol.
+    syntax:
+      content: 'function withHubProtocol(protocol: IHubProtocol)'
+      parameters:
+        - id: protocol
+          type:
+            - '@aspnet/signalr.IHubProtocol'
+          description: |
+            The <xref:%40aspnet%2Fsignalr.IHubProtocol> implementation to use.
+      return:
+        type:
+          - '@aspnet/signalr.HubConnectionBuilder'
+  - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl'
+    name: withUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Configures the <xref:%40aspnet%2Fsignalr.HubConnection> to use HTTP-based
+      transports to connect to the specified URL.
+
+      The transport will be selected automatically based on what the server and
+      client support.
+    syntax:
+      content: 'function withUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The URL the connection will use.
+      return:
+        type:
+          - '@aspnet/signalr.HubConnectionBuilder'
+  - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl_1'
+    name: withUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Configures the <xref:%40aspnet%2Fsignalr.HubConnection> to use the
+      specified HTTP-based transport to connect to the specified URL.
+    syntax:
+      content: 'function withUrl(url: string, transportType: HttpTransportType)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The URL the connection will use.
+        - id: transportType
+          type:
+            - '@aspnet/signalr.HttpTransportType'
+          description: The specific transport to use.
+      return:
+        type:
+          - '@aspnet/signalr.HubConnectionBuilder'
+  - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl_2'
+    name: withUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Configures the <xref:%40aspnet%2Fsignalr.HubConnection> to use HTTP-based
+      transports to connect to the specified URL.
+    syntax:
+      content: 'function withUrl(url: string, options: IHttpConnectionOptions)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The URL the connection will use.
+        - id: options
+          type:
+            - '@aspnet/signalr.IHttpConnectionOptions'
+          description: An options object used to configure the connection.
+      return:
+        type:
+          - '@aspnet/signalr.HubConnectionBuilder'
+references:
+  - uid: '@aspnet/signalr.HubConnection'
+    spec.typeScript:
+      - name: HubConnection
+        fullName: HubConnection
+        uid: '@aspnet/signalr.HubConnection'
+  - uid: '@aspnet/signalr.LogLevel'
+    spec.typeScript:
+      - name: LogLevel
+        fullName: LogLevel
+        uid: '@aspnet/signalr.LogLevel'
+  - uid: '@aspnet/signalr.HubConnectionBuilder'
+    spec.typeScript:
+      - name: HubConnectionBuilder
+        fullName: HubConnectionBuilder
+        uid: '@aspnet/signalr.HubConnectionBuilder'
+  - uid: '@aspnet/signalr.ILogger'
+    spec.typeScript:
+      - name: ILogger
+        fullName: ILogger
+        uid: '@aspnet/signalr.ILogger'
+  - uid: '@aspnet/signalr.IHubProtocol'
+    spec.typeScript:
+      - name: IHubProtocol
+        fullName: IHubProtocol
+        uid: '@aspnet/signalr.IHubProtocol'
+  - uid: '@aspnet/signalr.HttpTransportType'
+    spec.typeScript:
+      - name: HttpTransportType
+        fullName: HttpTransportType
+        uid: '@aspnet/signalr.HttpTransportType'
+  - uid: '@aspnet/signalr.IHttpConnectionOptions'
+    spec.typeScript:
+      - name: IHttpConnectionOptions
+        fullName: IHttpConnectionOptions
+        uid: '@aspnet/signalr.IHttpConnectionOptions'

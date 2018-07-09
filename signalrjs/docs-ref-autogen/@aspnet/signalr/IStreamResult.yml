@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.IStreamResult'
+    name: IStreamResult
+    fullName: IStreamResult<T>
+    children:
+      - '@aspnet/signalr.IStreamResult.subscribe'
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines the result of a streaming hub method.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.IStreamResult.subscribe'
+    name: subscribe
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Attaches a <xref:%40aspnet%2Fsignalr.IStreamSubscriber>, which will be
+      invoked when new items are available from the stream.
+    syntax:
+      content: 'function subscribe(subscriber: IStreamSubscriber<T>)'
+      parameters:
+        - id: subscriber
+          type:
+            - '@aspnet/signalr.IStreamSubscriber<T>'
+          description: ''
+      return:
+        type:
+          - '@aspnet/signalr.ISubscription<T>'
+references:
+  - uid: '@aspnet/signalr.IStreamSubscriber<T>'
+    spec.typeScript:
+      - name: IStreamSubscriber
+        fullName: IStreamSubscriber
+        uid: '@aspnet/signalr.IStreamSubscriber'
+      - name: <T>
+        fullName: <T>
+  - uid: '@aspnet/signalr.ISubscription<T>'
+    spec.typeScript:
+      - name: ISubscription
+        fullName: ISubscription
+        uid: '@aspnet/signalr.ISubscription'
+      - name: <T>
+        fullName: <T>

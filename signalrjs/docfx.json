@@ -7,6 +7,8 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
+        "version": "signalr-js-latest",
+        "dest": "api",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -21,6 +23,7 @@
           "**/*.yml"
         ],
         "src": "breadcrumb",
+        "version": "signalr-js-latest",
         "dest": "breadcrumb",
         "exclude": [
           "**/obj/**",
@@ -34,18 +37,33 @@
           "**/*.png",
           "**/*.jpg"
         ],
+        "version": "signalr-js-latest",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
         ]
       }
     ],
+    "xref": [
+      "xrefmap.yml"
+    ],
     "overwrite": [],
     "externalReference": [],
+    "versions": {
+      "signalr-js-latest": {
+        "dest": "signalr-js-latest"
+      }
+    },
     "globalMetadata": {
+      "apiPlatform": "javascript",
       "breadcrumb_path": "~/breadcrumb/toc.yml"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+    "monikers":
+      {
+        "docs-ref-autogen/**": [ "signalr-js-latest" ]
+      }
+    },
     "template": [],
     "dest": "_site"
   }

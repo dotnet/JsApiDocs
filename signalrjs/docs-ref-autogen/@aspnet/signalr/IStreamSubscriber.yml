@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr.IStreamSubscriber'
+    name: IStreamSubscriber
+    fullName: IStreamSubscriber<T>
+    children:
+      - '@aspnet/signalr.IStreamSubscriber.closed'
+      - '@aspnet/signalr.IStreamSubscriber.complete'
+      - '@aspnet/signalr.IStreamSubscriber.error'
+      - '@aspnet/signalr.IStreamSubscriber.next'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Defines the expected type for a receiver of results streamed by the
+      server.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.IStreamSubscriber.closed'
+    name: closed
+    fullName: closed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A boolean that will be set by the <xref:%40aspnet%2Fsignalr.IStreamResult>
+      when the stream is closed.
+    optional: true
+    syntax:
+      content: 'closed?: boolean'
+      return:
+        type:
+          - boolean
+  - uid: '@aspnet/signalr.IStreamSubscriber.complete'
+    name: complete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Called by the framework when the end of the stream is reached.
+
+      After this method is called, no additional methods on the
+      <xref:%40aspnet%2Fsignalr.IStreamSubscriber> will be called.
+    syntax:
+      content: function complete()
+      parameters: []
+  - uid: '@aspnet/signalr.IStreamSubscriber.error'
+    name: error
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Called by the framework when an error has occurred.
+
+      After this method is called, no additional methods on the
+      <xref:%40aspnet%2Fsignalr.IStreamSubscriber> will be called.
+    syntax:
+      content: 'function error(err: any)'
+      parameters:
+        - id: err
+          type:
+            - any
+          description: ''
+  - uid: '@aspnet/signalr.IStreamSubscriber.next'
+    name: next
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Called by the framework when a new item is available.
+    syntax:
+      content: 'function next(value: T)'
+      parameters:
+        - id: value
+          type:
+            - T
+          description: ''

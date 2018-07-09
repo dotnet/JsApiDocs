@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@aspnet/signalr-protocol-msgpack'
+    name: '@aspnet/signalr-protocol-msgpack'
+    summary: ''
+    children:
+      - '@aspnet/signalr-protocol-msgpack.BinaryMessageFormat'
+      - '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol'
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: '@aspnet/signalr-protocol-msgpack.BinaryMessageFormat'
+    name: BinaryMessageFormat
+  - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol'
+    name: MessagePackHubProtocol
