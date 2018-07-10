@@ -29,6 +29,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.JsonHubProtocol.parseMessages'
     name: parseMessages
     children: []
@@ -54,6 +55,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubMessage[]'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.JsonHubProtocol.transferFormat'
     name: transferFormat
     fullName: transferFormat
@@ -67,6 +69,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.TransferFormat'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.JsonHubProtocol.version'
     name: version
     fullName: version
@@ -80,6 +83,7 @@ items:
       return:
         type:
           - number
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.JsonHubProtocol.writeMessage'
     name: writeMessage
     children: []
@@ -99,6 +103,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.TransferFormat'
     spec.typeScript:

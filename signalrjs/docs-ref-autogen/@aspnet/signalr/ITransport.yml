@@ -37,6 +37,7 @@ items:
       return:
         type:
           - Promise<void>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.onclose'
     name: onclose
     fullName: onclose
@@ -50,6 +51,7 @@ items:
       return:
         type:
           - '(error?: Error) => void'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.onreceive'
     name: onreceive
     fullName: onreceive
@@ -63,6 +65,7 @@ items:
       return:
         type:
           - '(data: string | ArrayBuffer) => void'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.send'
     name: send
     children: []
@@ -80,6 +83,7 @@ items:
       return:
         type:
           - Promise<void>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.stop'
     name: stop
     children: []
@@ -93,6 +97,7 @@ items:
       return:
         type:
           - Promise<void>
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.TransferFormat'
     spec.typeScript:

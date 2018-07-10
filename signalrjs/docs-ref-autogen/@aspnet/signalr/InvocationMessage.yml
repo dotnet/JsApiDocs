@@ -27,6 +27,7 @@ items:
       return:
         type:
           - 'any[]'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.InvocationMessage.target'
     name: target
     fullName: target
@@ -40,6 +41,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.InvocationMessage.type'
     name: type
     fullName: type
@@ -53,6 +55,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.Invocation'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubInvocationMessage'
     spec.typeScript:

@@ -29,6 +29,7 @@ items:
             - string
           description: |
             The message.
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.LogLevel'
     spec.typeScript:

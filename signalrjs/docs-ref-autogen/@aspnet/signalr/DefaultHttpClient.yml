@@ -30,6 +30,7 @@ items:
           type:
             - '@aspnet/signalr.ILogger'
           description: ''
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.send'
     name: send
     children: []
@@ -47,6 +48,7 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HttpClient'
     spec.typeScript:

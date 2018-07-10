@@ -28,6 +28,7 @@ items:
     summary: Log level for very low severity diagnostic messages.
     type: field
     numericValue: 0
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.LogLevel.Debug'
     name: Debug
     children: []
@@ -36,6 +37,7 @@ items:
     summary: Log level for low severity diagnostic messages.
     type: field
     numericValue: 1
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.LogLevel.Information'
     name: Information
     children: []
@@ -44,6 +46,7 @@ items:
     summary: Log level for informational diagnostic messages.
     type: field
     numericValue: 2
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.LogLevel.Warning'
     name: Warning
     children: []
@@ -52,6 +55,7 @@ items:
     summary: Log level for diagnostic messages that indicate a non-fatal problem.
     type: field
     numericValue: 3
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.LogLevel.Error'
     name: Error
     children: []
@@ -62,6 +66,7 @@ items:
       operation.
     type: field
     numericValue: 4
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.LogLevel.Critical'
     name: Critical
     children: []
@@ -72,6 +77,7 @@ items:
       terminate the entire application.
     type: field
     numericValue: 5
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.LogLevel.None'
     name: None
     children: []
@@ -82,3 +88,4 @@ items:
       that no log messages should be emitted.
     type: field
     numericValue: 6
+    package: '@aspnet/signalr'

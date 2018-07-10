@@ -29,6 +29,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.ISubscription<T>'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.IStreamSubscriber<T>'
     spec.typeScript:

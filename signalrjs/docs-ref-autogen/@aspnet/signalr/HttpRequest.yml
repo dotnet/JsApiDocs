@@ -30,6 +30,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.AbortSignal'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpRequest.content'
     name: content
     fullName: content
@@ -46,6 +47,7 @@ items:
       return:
         type:
           - string | ArrayBuffer
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpRequest.headers'
     name: headers
     fullName: headers
@@ -60,6 +62,7 @@ items:
       return:
         type:
           - function
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpRequest.method'
     name: method
     fullName: method
@@ -74,6 +77,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpRequest.responseType'
     name: responseType
     fullName: responseType
@@ -88,6 +92,7 @@ items:
       return:
         type:
           - XMLHttpRequestResponseType
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpRequest.timeout'
     name: timeout
     fullName: timeout
@@ -104,6 +109,7 @@ items:
       return:
         type:
           - number
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpRequest.url'
     name: url
     fullName: url
@@ -118,6 +124,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.AbortSignal'
     spec.typeScript:

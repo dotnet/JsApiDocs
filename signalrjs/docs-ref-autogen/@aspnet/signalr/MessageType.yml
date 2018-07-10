@@ -26,6 +26,7 @@ items:
       <xref:%40aspnet%2Fsignalr.InvocationMessage> interface.
     type: field
     numericValue: 1
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.MessageType.StreamItem'
     name: StreamItem
     children: []
@@ -36,6 +37,7 @@ items:
       <xref:%40aspnet%2Fsignalr.StreamItemMessage> interface.
     type: field
     numericValue: 2
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.MessageType.Completion'
     name: Completion
     children: []
@@ -46,6 +48,7 @@ items:
       <xref:%40aspnet%2Fsignalr.CompletionMessage> interface.
     type: field
     numericValue: 3
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.MessageType.StreamInvocation'
     name: StreamInvocation
     children: []
@@ -56,6 +59,7 @@ items:
       <xref:%40aspnet%2Fsignalr.StreamInvocationMessage> interface.
     type: field
     numericValue: 4
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.MessageType.CancelInvocation'
     name: CancelInvocation
     children: []
@@ -66,6 +70,7 @@ items:
       <xref:%40aspnet%2Fsignalr.CancelInvocationMessage> interface.
     type: field
     numericValue: 5
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.MessageType.Ping'
     name: Ping
     children: []
@@ -76,6 +81,7 @@ items:
       <xref:%40aspnet%2Fsignalr.PingMessage> interface.
     type: field
     numericValue: 6
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.MessageType.Close'
     name: Close
     children: []
@@ -86,3 +92,4 @@ items:
       <xref:%40aspnet%2Fsignalr.CloseMessage> interface.
     type: field
     numericValue: 7
+    package: '@aspnet/signalr'

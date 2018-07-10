@@ -49,6 +49,7 @@ items:
       return:
         type:
           - Promise<T>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.off'
     name: 'off'
     children: []
@@ -64,6 +65,7 @@ items:
             - string
           description: |
             The name of the method to remove handlers for.
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.off_1'
     name: 'off'
     children: []
@@ -91,6 +93,7 @@ items:
           description: >
             The handler to remove. This must be the same Function instance as
             the one passed to <xref:%40aspnet%2Fsignalr.HubConnection.on>.
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.on'
     name: 'on'
     children: []
@@ -112,6 +115,7 @@ items:
             - '(args: any[]) => void'
           description: |
             The handler that will be raised when the hub method is invoked.
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.onclose'
     name: onclose
     children: []
@@ -129,6 +133,7 @@ items:
             The handler that will be invoked when the connection is closed.
             Optionally receives a single argument containing the error that
             caused the connection to close (if any).
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.send'
     name: send
     children: []
@@ -157,6 +162,7 @@ items:
       return:
         type:
           - Promise<void>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.serverTimeoutInMilliseconds'
     name: serverTimeoutInMilliseconds
     fullName: serverTimeoutInMilliseconds
@@ -176,6 +182,7 @@ items:
       return:
         type:
           - number
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.start'
     name: start
     children: []
@@ -189,6 +196,7 @@ items:
       return:
         type:
           - Promise<void>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.stop'
     name: stop
     children: []
@@ -202,6 +210,7 @@ items:
       return:
         type:
           - Promise<void>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.stream'
     name: stream
     children: []
@@ -225,6 +234,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.IStreamResult<T>'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.IStreamResult<T>'
     spec.typeScript:

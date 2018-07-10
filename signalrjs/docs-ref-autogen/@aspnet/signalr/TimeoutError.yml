@@ -26,6 +26,7 @@ items:
       return:
         type:
           - ErrorConstructor
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.TimeoutError.constructor'
     name: TimeoutError
     children: []
@@ -41,3 +42,4 @@ items:
             - string
           description: |
             A descriptive error message.
+    package: '@aspnet/signalr'

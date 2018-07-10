@@ -24,6 +24,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.ILogger'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.NullLogger.log'
     name: log
     children: []
@@ -42,6 +43,7 @@ items:
           type:
             - string
           description: ''
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.ILogger'
     spec.typeScript:

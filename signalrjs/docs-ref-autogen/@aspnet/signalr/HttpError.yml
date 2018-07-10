@@ -27,6 +27,7 @@ items:
       return:
         type:
           - ErrorConstructor
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpError.constructor'
     name: HttpError
     children: []
@@ -46,6 +47,7 @@ items:
             - number
           description: |
             The HTTP status code represented by this error.
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpError.statusCode'
     name: statusCode
     fullName: statusCode
@@ -59,3 +61,4 @@ items:
       return:
         type:
           - number
+    package: '@aspnet/signalr'

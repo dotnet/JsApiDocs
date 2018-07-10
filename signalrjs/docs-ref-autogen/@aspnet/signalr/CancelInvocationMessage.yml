@@ -26,6 +26,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.CancelInvocationMessage.type'
     name: type
     fullName: type
@@ -39,6 +40,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.CancelInvocation'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubInvocationMessage'
     spec.typeScript:

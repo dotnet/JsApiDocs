@@ -33,6 +33,7 @@ items:
       return:
         type:
           - string | Promise<string>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.httpClient'
     name: httpClient
     fullName: httpClient
@@ -49,6 +50,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HttpClient'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.logger'
     name: logger
     fullName: logger
@@ -73,6 +75,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.logMessageContent'
     name: logMessageContent
     fullName: logMessageContent
@@ -91,6 +94,7 @@ items:
       return:
         type:
           - boolean
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.skipNegotiation'
     name: skipNegotiation
     fullName: skipNegotiation
@@ -110,6 +114,7 @@ items:
       return:
         type:
           - boolean
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.transport'
     name: transport
     fullName: transport
@@ -126,6 +131,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HttpTransportType | @aspnet/signalr.ITransport'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HttpClient'
     spec.typeScript:

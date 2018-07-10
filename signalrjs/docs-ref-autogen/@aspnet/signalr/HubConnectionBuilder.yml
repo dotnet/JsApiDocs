@@ -33,6 +33,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnection'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.configureLogging'
     name: configureLogging
     children: []
@@ -54,6 +55,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.configureLogging_1'
     name: configureLogging
     children: []
@@ -75,6 +77,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withHubProtocol'
     name: withHubProtocol
     children: []
@@ -95,6 +98,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl'
     name: withUrl
     children: []
@@ -117,6 +121,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl_1'
     name: withUrl
     children: []
@@ -140,6 +145,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl_2'
     name: withUrl
     children: []
@@ -163,6 +169,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubConnection'
     spec.typeScript:

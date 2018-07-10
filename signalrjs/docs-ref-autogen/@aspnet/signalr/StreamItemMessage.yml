@@ -29,6 +29,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.StreamItemMessage.item'
     name: item
     fullName: item
@@ -43,6 +44,7 @@ items:
       return:
         type:
           - any
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.StreamItemMessage.type'
     name: type
     fullName: type
@@ -56,6 +58,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.StreamItem'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubInvocationMessage'
     spec.typeScript:

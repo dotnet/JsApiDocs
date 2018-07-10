@@ -29,6 +29,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.parseMessages'
     name: parseMessages
     children: []
@@ -54,6 +55,7 @@ items:
       return:
         type:
           - 'HubMessage[]'
+    package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.transferFormat'
     name: transferFormat
     fullName: transferFormat
@@ -67,6 +69,7 @@ items:
       return:
         type:
           - TransferFormat
+    package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.version'
     name: version
     fullName: version
@@ -80,6 +83,7 @@ items:
       return:
         type:
           - number
+    package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.writeMessage'
     name: writeMessage
     children: []
@@ -97,3 +101,4 @@ items:
       return:
         type:
           - ArrayBuffer
+    package: '@aspnet/signalr-protocol-msgpack'

@@ -35,6 +35,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.CloseMessage.type'
     name: type
     fullName: type
@@ -48,6 +49,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.Close'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubMessageBase'
     spec.typeScript:

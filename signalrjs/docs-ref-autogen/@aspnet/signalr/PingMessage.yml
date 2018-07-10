@@ -25,6 +25,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.Ping'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubMessageBase'
     spec.typeScript:

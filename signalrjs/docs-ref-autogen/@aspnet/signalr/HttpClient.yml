@@ -40,6 +40,7 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpClient.delete_1'
     name: delete
     children: []
@@ -66,6 +67,7 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpClient.get'
     name: get
     children: []
@@ -86,6 +88,7 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpClient.get_1'
     name: get
     children: []
@@ -112,6 +115,7 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpClient.post'
     name: post
     children: []
@@ -132,6 +136,7 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpClient.post_1'
     name: post
     children: []
@@ -158,6 +163,7 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpClient.send'
     name: send
     children: []
@@ -180,6 +186,7 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
 references:
   - uid: Promise<@aspnet/signalr.HttpResponse>
     spec.typeScript:

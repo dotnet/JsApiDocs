@@ -31,6 +31,7 @@ items:
       return:
         type:
           - boolean
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IStreamSubscriber.complete'
     name: complete
     children: []
@@ -45,6 +46,7 @@ items:
     syntax:
       content: function complete()
       parameters: []
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IStreamSubscriber.error'
     name: error
     children: []
@@ -63,6 +65,7 @@ items:
           type:
             - any
           description: ''
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IStreamSubscriber.next'
     name: next
     children: []
@@ -77,3 +80,4 @@ items:
           type:
             - T
           description: ''
+    package: '@aspnet/signalr'

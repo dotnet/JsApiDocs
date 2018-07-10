@@ -28,6 +28,7 @@ items:
       return:
         type:
           - 'any[]'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.StreamInvocationMessage.invocationId'
     name: invocationId
     fullName: invocationId
@@ -41,6 +42,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.StreamInvocationMessage.target'
     name: target
     fullName: target
@@ -54,6 +56,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.StreamInvocationMessage.type'
     name: type
     fullName: type
@@ -67,6 +70,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.StreamInvocation'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubInvocationMessage'
     spec.typeScript:

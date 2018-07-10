@@ -30,6 +30,7 @@ items:
       return:
         type:
           - string | ArrayBuffer
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpResponse.constructor'
     name: HttpResponse
     children: []
@@ -47,6 +48,7 @@ items:
             - number
           description: |
             The status code of the response.
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpResponse.constructor_1'
     name: HttpResponse
     children: []
@@ -69,6 +71,7 @@ items:
             - string
           description: |
             The status message of the response.
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpResponse.constructor_2'
     name: HttpResponse
     children: []
@@ -98,6 +101,7 @@ items:
             - string
           description: |
             The content of the response.
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpResponse.constructor_3'
     name: HttpResponse
     children: []
@@ -127,6 +131,7 @@ items:
             - ArrayBuffer
           description: |
             The content of the response.
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpResponse.statusCode'
     name: statusCode
     fullName: statusCode
@@ -140,6 +145,7 @@ items:
       return:
         type:
           - number
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpResponse.statusText'
     name: statusText
     fullName: statusText
@@ -154,3 +160,4 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'

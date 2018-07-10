@@ -21,6 +21,7 @@ items:
     summary: Specifies no transport preference.
     type: field
     numericValue: 0
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpTransportType.WebSockets'
     name: WebSockets
     children: []
@@ -29,6 +30,7 @@ items:
     summary: Specifies the WebSockets transport.
     type: field
     numericValue: 1
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpTransportType.ServerSentEvents'
     name: ServerSentEvents
     children: []
@@ -37,6 +39,7 @@ items:
     summary: Specifies the Server-Sent Events transport.
     type: field
     numericValue: 2
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpTransportType.LongPolling'
     name: LongPolling
     children: []
@@ -45,3 +48,4 @@ items:
     summary: Specifies the Long Polling transport.
     type: field
     numericValue: 4
+    package: '@aspnet/signalr'

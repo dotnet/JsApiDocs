@@ -31,6 +31,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageHeaders'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubInvocationMessage.invocationId'
     name: invocationId
     fullName: invocationId
@@ -53,6 +54,7 @@ items:
       return:
         type:
           - string
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubMessageBase'
     spec.typeScript:
