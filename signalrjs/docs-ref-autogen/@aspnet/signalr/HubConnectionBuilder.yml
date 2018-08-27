@@ -172,36 +172,43 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubConnection'
+    name: HubConnection
     spec.typeScript:
       - name: HubConnection
         fullName: HubConnection
         uid: '@aspnet/signalr.HubConnection'
   - uid: '@aspnet/signalr.LogLevel'
+    name: LogLevel
     spec.typeScript:
       - name: LogLevel
         fullName: LogLevel
         uid: '@aspnet/signalr.LogLevel'
   - uid: '@aspnet/signalr.HubConnectionBuilder'
+    name: HubConnectionBuilder
     spec.typeScript:
       - name: HubConnectionBuilder
         fullName: HubConnectionBuilder
         uid: '@aspnet/signalr.HubConnectionBuilder'
   - uid: '@aspnet/signalr.ILogger'
+    name: ILogger
     spec.typeScript:
       - name: ILogger
         fullName: ILogger
         uid: '@aspnet/signalr.ILogger'
   - uid: '@aspnet/signalr.IHubProtocol'
+    name: IHubProtocol
     spec.typeScript:
       - name: IHubProtocol
         fullName: IHubProtocol
         uid: '@aspnet/signalr.IHubProtocol'
   - uid: '@aspnet/signalr.HttpTransportType'
+    name: HttpTransportType
     spec.typeScript:
       - name: HttpTransportType
         fullName: HttpTransportType
         uid: '@aspnet/signalr.HttpTransportType'
   - uid: '@aspnet/signalr.IHttpConnectionOptions'
+    name: IHttpConnectionOptions
     spec.typeScript:
       - name: IHttpConnectionOptions
         fullName: IHttpConnectionOptions

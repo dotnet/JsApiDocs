@@ -237,6 +237,7 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.IStreamResult<T>'
+    name: IStreamResult<T>
     spec.typeScript:
       - name: IStreamResult
         fullName: IStreamResult

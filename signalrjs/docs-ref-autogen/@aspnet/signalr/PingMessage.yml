@@ -28,11 +28,13 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubMessageBase'
+    name: HubMessageBase
     spec.typeScript:
       - name: HubMessageBase
         fullName: HubMessageBase
         uid: '@aspnet/signalr.HubMessageBase'
   - uid: '@aspnet/signalr.MessageType.Ping'
+    name: Ping
     spec.typeScript:
       - name: Ping
         fullName: Ping

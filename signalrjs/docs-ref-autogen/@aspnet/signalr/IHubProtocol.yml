@@ -113,16 +113,19 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.TransferFormat'
+    name: TransferFormat
     spec.typeScript:
       - name: TransferFormat
         fullName: TransferFormat
         uid: '@aspnet/signalr.TransferFormat'
   - uid: '@aspnet/signalr.ILogger'
+    name: ILogger
     spec.typeScript:
       - name: ILogger
         fullName: ILogger
         uid: '@aspnet/signalr.ILogger'
   - uid: '@aspnet/signalr.HubMessage[]'
+    name: 'HubMessage[]'
     spec.typeScript:
       - name: HubMessage
         fullName: HubMessage
@@ -130,6 +133,7 @@ references:
       - name: '[]'
         fullName: '[]'
   - uid: '@aspnet/signalr.HubMessage'
+    name: HubMessage
     spec.typeScript:
       - name: HubMessage
         fullName: HubMessage

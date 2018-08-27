@@ -51,21 +51,25 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HttpClient'
+    name: HttpClient
     spec.typeScript:
       - name: HttpClient
         fullName: HttpClient
         uid: '@aspnet/signalr.HttpClient'
   - uid: '@aspnet/signalr.ILogger'
+    name: ILogger
     spec.typeScript:
       - name: ILogger
         fullName: ILogger
         uid: '@aspnet/signalr.ILogger'
   - uid: '@aspnet/signalr.HttpRequest'
+    name: HttpRequest
     spec.typeScript:
       - name: HttpRequest
         fullName: HttpRequest
         uid: '@aspnet/signalr.HttpRequest'
   - uid: Promise<@aspnet/signalr.HttpResponse>
+    name: HttpResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<

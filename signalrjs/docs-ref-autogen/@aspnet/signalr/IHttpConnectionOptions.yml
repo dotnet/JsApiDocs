@@ -134,11 +134,13 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HttpClient'
+    name: HttpClient
     spec.typeScript:
       - name: HttpClient
         fullName: HttpClient
         uid: '@aspnet/signalr.HttpClient'
   - uid: '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
+    name: LogLevel
     spec.typeScript:
       - name: ILogger
         fullName: ILogger
@@ -149,6 +151,7 @@ references:
         fullName: LogLevel
         uid: '@aspnet/signalr.LogLevel'
   - uid: '@aspnet/signalr.HttpTransportType | @aspnet/signalr.ITransport'
+    name: ITransport
     spec.typeScript:
       - name: HttpTransportType
         fullName: HttpTransportType

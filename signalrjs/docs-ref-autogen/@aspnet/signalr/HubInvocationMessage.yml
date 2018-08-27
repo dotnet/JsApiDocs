@@ -57,11 +57,13 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubMessageBase'
+    name: HubMessageBase
     spec.typeScript:
       - name: HubMessageBase
         fullName: HubMessageBase
         uid: '@aspnet/signalr.HubMessageBase'
   - uid: '@aspnet/signalr.MessageHeaders'
+    name: MessageHeaders
     spec.typeScript:
       - name: MessageHeaders
         fullName: MessageHeaders

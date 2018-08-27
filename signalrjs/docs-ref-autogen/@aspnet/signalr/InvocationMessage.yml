@@ -58,11 +58,13 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubInvocationMessage'
+    name: HubInvocationMessage
     spec.typeScript:
       - name: HubInvocationMessage
         fullName: HubInvocationMessage
         uid: '@aspnet/signalr.HubInvocationMessage'
   - uid: '@aspnet/signalr.MessageType.Invocation'
+    name: Invocation
     spec.typeScript:
       - name: Invocation
         fullName: Invocation

@@ -189,6 +189,7 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: Promise<@aspnet/signalr.HttpResponse>
+    name: HttpResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
@@ -198,6 +199,7 @@ references:
       - name: '>'
         fullName: '>'
   - uid: '@aspnet/signalr.HttpRequest'
+    name: HttpRequest
     spec.typeScript:
       - name: HttpRequest
         fullName: HttpRequest

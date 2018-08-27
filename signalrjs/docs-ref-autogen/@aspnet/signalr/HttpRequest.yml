@@ -127,6 +127,7 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.AbortSignal'
+    name: AbortSignal
     spec.typeScript:
       - name: AbortSignal
         fullName: AbortSignal

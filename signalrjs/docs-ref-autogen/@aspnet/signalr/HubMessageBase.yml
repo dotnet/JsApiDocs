@@ -28,6 +28,7 @@ items:
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.MessageType'
+    name: MessageType
     spec.typeScript:
       - name: MessageType
         fullName: MessageType
