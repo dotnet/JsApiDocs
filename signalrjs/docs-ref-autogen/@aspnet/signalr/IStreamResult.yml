@@ -11,7 +11,7 @@ items:
     summary: Defines the result of a streaming hub method.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IStreamResult.subscribe'
-    name: subscribe
+    name: subscribe(IStreamSubscriber<T>)
     children: []
     type: method
     langs:

@@ -17,7 +17,7 @@ items:
       support the framework and not intended for use by applications.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.connect'
-    name: connect
+    name: 'connect(string, TransferFormat)'
     children: []
     type: method
     langs:
@@ -67,7 +67,7 @@ items:
           - '(data: string | ArrayBuffer) => void'
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.send'
-    name: send
+    name: send(any)
     children: []
     type: method
     langs:
@@ -85,7 +85,7 @@ items:
           - Promise<void>
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.stop'
-    name: stop
+    name: stop()
     children: []
     type: method
     langs:

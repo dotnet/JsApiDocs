@@ -31,7 +31,7 @@ items:
           - string
     package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.parseMessages'
-    name: parseMessages
+    name: 'parseMessages(ArrayBuffer, ILogger)'
     children: []
     type: method
     langs:
@@ -85,7 +85,7 @@ items:
           - number
     package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.writeMessage'
-    name: writeMessage
+    name: writeMessage(HubMessage)
     children: []
     type: method
     langs:

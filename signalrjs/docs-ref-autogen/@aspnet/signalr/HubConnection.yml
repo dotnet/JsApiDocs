@@ -20,7 +20,7 @@ items:
     summary: Represents a connection to a SignalR Hub.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.invoke'
-    name: invoke
+    name: 'invoke(string, any[])'
     children: []
     type: method
     langs:
@@ -51,7 +51,7 @@ items:
           - Promise<T>
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.off'
-    name: 'off'
+    name: off(string)
     children: []
     type: method
     langs:
@@ -67,7 +67,7 @@ items:
             The name of the method to remove handlers for.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.off_1'
-    name: 'off'
+    name: 'off(string, (args: any[]) => void)'
     children: []
     type: method
     langs:
@@ -95,7 +95,7 @@ items:
             the one passed to <xref:%40aspnet%2Fsignalr.HubConnection.on>.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.on'
-    name: 'on'
+    name: 'on(string, (args: any[]) => void)'
     children: []
     type: method
     langs:
@@ -117,7 +117,7 @@ items:
             The handler that will be raised when the hub method is invoked.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.onclose'
-    name: onclose
+    name: 'onclose((error?: Error) => void)'
     children: []
     type: method
     langs:
@@ -135,7 +135,7 @@ items:
             caused the connection to close (if any).
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.send'
-    name: send
+    name: 'send(string, any[])'
     children: []
     type: method
     langs:
@@ -184,7 +184,7 @@ items:
           - number
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.start'
-    name: start
+    name: start()
     children: []
     type: method
     langs:
@@ -198,7 +198,7 @@ items:
           - Promise<void>
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.stop'
-    name: stop
+    name: stop()
     children: []
     type: method
     langs:
@@ -212,7 +212,7 @@ items:
           - Promise<void>
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.stream'
-    name: stream
+    name: 'stream(string, any[])'
     children: []
     type: method
     langs:

@@ -19,7 +19,7 @@ items:
       the HTTP-based transports.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.accessTokenFactory'
-    name: accessTokenFactory
+    name: accessTokenFactory()
     children: []
     type: method
     langs:

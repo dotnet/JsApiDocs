@@ -31,7 +31,7 @@ items:
           - string
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.JsonHubProtocol.parseMessages'
-    name: parseMessages
+    name: 'parseMessages(string, ILogger)'
     children: []
     type: method
     langs:
@@ -85,7 +85,7 @@ items:
           - number
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.JsonHubProtocol.writeMessage'
-    name: writeMessage
+    name: writeMessage(HubMessage)
     children: []
     type: method
     langs:

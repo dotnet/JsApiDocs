@@ -12,7 +12,7 @@ items:
     summary: ''
     package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.BinaryMessageFormat.parse'
-    name: parse
+    name: parse(ArrayBuffer)
     children: []
     type: method
     langs:
@@ -30,7 +30,7 @@ items:
           - 'Uint8Array[]'
     package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.BinaryMessageFormat.write'
-    name: write
+    name: write(Uint8Array)
     children: []
     type: method
     langs:

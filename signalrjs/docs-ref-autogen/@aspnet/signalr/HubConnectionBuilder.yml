@@ -5,8 +5,8 @@ items:
     fullName: HubConnectionBuilder
     children:
       - '@aspnet/signalr.HubConnectionBuilder.build'
-      - '@aspnet/signalr.HubConnectionBuilder.configureLogging'
       - '@aspnet/signalr.HubConnectionBuilder.configureLogging_1'
+      - '@aspnet/signalr.HubConnectionBuilder.configureLogging'
       - '@aspnet/signalr.HubConnectionBuilder.withHubProtocol'
       - '@aspnet/signalr.HubConnectionBuilder.withUrl'
       - '@aspnet/signalr.HubConnectionBuilder.withUrl_1'
@@ -19,7 +19,7 @@ items:
       instances.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.build'
-    name: build
+    name: build()
     children: []
     type: method
     langs:
@@ -34,30 +34,8 @@ items:
         type:
           - '@aspnet/signalr.HubConnection'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HubConnectionBuilder.configureLogging'
-    name: configureLogging
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      Configures console logging for the
-      <xref:%40aspnet%2Fsignalr.HubConnection>.
-    syntax:
-      content: 'function configureLogging(logLevel: LogLevel)'
-      parameters:
-        - id: logLevel
-          type:
-            - '@aspnet/signalr.LogLevel'
-          description: >-
-            The minimum level of messages to log. Anything at this level, or a
-            more severe level, will be logged.
-      return:
-        type:
-          - '@aspnet/signalr.HubConnectionBuilder'
-    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.configureLogging_1'
-    name: configureLogging
+    name: configureLogging(ILogger)
     children: []
     type: method
     langs:
@@ -78,8 +56,30 @@ items:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
     package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HubConnectionBuilder.configureLogging'
+    name: configureLogging(LogLevel)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Configures console logging for the
+      <xref:%40aspnet%2Fsignalr.HubConnection>.
+    syntax:
+      content: 'function configureLogging(logLevel: LogLevel)'
+      parameters:
+        - id: logLevel
+          type:
+            - '@aspnet/signalr.LogLevel'
+          description: >-
+            The minimum level of messages to log. Anything at this level, or a
+            more severe level, will be logged.
+      return:
+        type:
+          - '@aspnet/signalr.HubConnectionBuilder'
+    package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withHubProtocol'
-    name: withHubProtocol
+    name: withHubProtocol(IHubProtocol)
     children: []
     type: method
     langs:
@@ -100,7 +100,7 @@ items:
           - '@aspnet/signalr.HubConnectionBuilder'
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl'
-    name: withUrl
+    name: withUrl(string)
     children: []
     type: method
     langs:
@@ -123,7 +123,7 @@ items:
           - '@aspnet/signalr.HubConnectionBuilder'
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl_1'
-    name: withUrl
+    name: 'withUrl(string, HttpTransportType)'
     children: []
     type: method
     langs:
@@ -147,7 +147,7 @@ items:
           - '@aspnet/signalr.HubConnectionBuilder'
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl_2'
-    name: withUrl
+    name: 'withUrl(string, IHttpConnectionOptions)'
     children: []
     type: method
     langs:

@@ -13,7 +13,7 @@ items:
       to be disconnected from a stream.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ISubscription.dispose'
-    name: dispose
+    name: dispose()
     children: []
     type: method
     langs:

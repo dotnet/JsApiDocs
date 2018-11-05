@@ -29,7 +29,7 @@ items:
           - ErrorConstructor
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpError.constructor'
-    name: HttpError
+    name: 'HttpError(string, number)'
     children: []
     type: constructor
     langs:

@@ -33,7 +33,7 @@ items:
           - boolean
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IStreamSubscriber.complete'
-    name: complete
+    name: complete()
     children: []
     type: method
     langs:
@@ -48,7 +48,7 @@ items:
       parameters: []
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IStreamSubscriber.error'
-    name: error
+    name: error(any)
     children: []
     type: method
     langs:
@@ -67,7 +67,7 @@ items:
           description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IStreamSubscriber.next'
-    name: next
+    name: next(T)
     children: []
     type: method
     langs:

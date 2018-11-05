@@ -28,7 +28,7 @@ items:
           - ErrorConstructor
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.TimeoutError.constructor'
-    name: TimeoutError
+    name: TimeoutError(string)
     children: []
     type: constructor
     langs:

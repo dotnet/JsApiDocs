@@ -11,7 +11,7 @@ items:
     summary: An abstraction that provides a sink for diagnostic messages.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ILogger.log'
-    name: log
+    name: 'log(LogLevel, string)'
     children: []
     type: method
     langs:

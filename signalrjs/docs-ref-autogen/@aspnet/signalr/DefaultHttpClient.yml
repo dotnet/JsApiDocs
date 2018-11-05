@@ -14,7 +14,7 @@ items:
       name: '@aspnet/signalr.HttpClient'
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.constructor'
-    name: DefaultHttpClient
+    name: DefaultHttpClient(ILogger)
     children: []
     type: constructor
     langs:
@@ -32,7 +32,7 @@ items:
           description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.send'
-    name: send
+    name: send(HttpRequest)
     children: []
     type: method
     langs:
