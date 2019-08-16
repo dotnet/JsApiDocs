@@ -5,6 +5,8 @@ items:
     fullName: InvocationMessage
     children:
       - '@aspnet/signalr.InvocationMessage.arguments'
+      - '@aspnet/signalr.InvocationMessage.headers'
+      - '@aspnet/signalr.InvocationMessage.invocationId'
       - '@aspnet/signalr.InvocationMessage.target'
       - '@aspnet/signalr.InvocationMessage.type'
     langs:
@@ -27,6 +29,46 @@ items:
       return:
         type:
           - 'any[]'
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.InvocationMessage.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A <xref:%40aspnet%2Fsignalr.MessageHeaders> dictionary containing headers
+      attached to the message.
+    optional: true
+    syntax:
+      content: 'headers?: MessageHeaders'
+      return:
+        type:
+          - '@aspnet/signalr.MessageHeaders'
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.InvocationMessage.invocationId'
+    name: invocationId
+    fullName: invocationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The ID of the invocation relating to this message.
+
+      This is expected to be present for
+      <xref:%40aspnet%2Fsignalr.StreamInvocationMessage> and
+      <xref:%40aspnet%2Fsignalr.CompletionMessage>. It may
+
+      be 'undefined' for an <xref:%40aspnet%2Fsignalr.InvocationMessage> if the
+      sender does not expect a response.
+    optional: true
+    syntax:
+      content: 'invocationId?: string'
+      return:
+        type:
+          - string
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.InvocationMessage.target'
     name: target
@@ -63,6 +105,12 @@ references:
       - name: HubInvocationMessage
         fullName: HubInvocationMessage
         uid: '@aspnet/signalr.HubInvocationMessage'
+  - uid: '@aspnet/signalr.MessageHeaders'
+    name: MessageHeaders
+    spec.typeScript:
+      - name: MessageHeaders
+        fullName: MessageHeaders
+        uid: '@aspnet/signalr.MessageHeaders'
   - uid: '@aspnet/signalr.MessageType.Invocation'
     name: Invocation
     spec.typeScript:

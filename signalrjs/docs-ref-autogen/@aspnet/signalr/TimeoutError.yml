@@ -5,6 +5,9 @@ items:
     fullName: TimeoutError
     children:
       - '@aspnet/signalr.TimeoutError.Error'
+      - '@aspnet/signalr.TimeoutError.message'
+      - '@aspnet/signalr.TimeoutError.name'
+      - '@aspnet/signalr.TimeoutError.stack'
       - '@aspnet/signalr.TimeoutError.constructor'
     langs:
       - typeScript
@@ -26,6 +29,49 @@ items:
       return:
         type:
           - ErrorConstructor
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.TimeoutError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'message: string'
+      return:
+        type:
+          - string
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.TimeoutError.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.TimeoutError.stack'
+    name: stack
+    fullName: stack
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'stack?: string'
+      return:
+        type:
+          - string
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.TimeoutError.constructor'
     name: TimeoutError(string)

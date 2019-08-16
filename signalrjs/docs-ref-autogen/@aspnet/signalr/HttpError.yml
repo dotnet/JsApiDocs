@@ -6,6 +6,9 @@ items:
     children:
       - '@aspnet/signalr.HttpError.Error'
       - '@aspnet/signalr.HttpError.constructor'
+      - '@aspnet/signalr.HttpError.message'
+      - '@aspnet/signalr.HttpError.name'
+      - '@aspnet/signalr.HttpError.stack'
       - '@aspnet/signalr.HttpError.statusCode'
     langs:
       - typeScript
@@ -47,6 +50,49 @@ items:
             - number
           description: |
             The HTTP status code represented by this error.
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HttpError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'message: string'
+      return:
+        type:
+          - string
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HttpError.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HttpError.stack'
+    name: stack
+    fullName: stack
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'stack?: string'
+      return:
+        type:
+          - string
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpError.statusCode'
     name: statusCode

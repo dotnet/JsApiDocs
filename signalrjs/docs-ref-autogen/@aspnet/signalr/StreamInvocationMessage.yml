@@ -5,6 +5,7 @@ items:
     fullName: StreamInvocationMessage
     children:
       - '@aspnet/signalr.StreamInvocationMessage.arguments'
+      - '@aspnet/signalr.StreamInvocationMessage.headers'
       - '@aspnet/signalr.StreamInvocationMessage.invocationId'
       - '@aspnet/signalr.StreamInvocationMessage.target'
       - '@aspnet/signalr.StreamInvocationMessage.type'
@@ -28,6 +29,23 @@ items:
       return:
         type:
           - 'any[]'
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.StreamInvocationMessage.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A <xref:%40aspnet%2Fsignalr.MessageHeaders> dictionary containing headers
+      attached to the message.
+    optional: true
+    syntax:
+      content: 'headers?: MessageHeaders'
+      return:
+        type:
+          - '@aspnet/signalr.MessageHeaders'
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.StreamInvocationMessage.invocationId'
     name: invocationId
@@ -78,6 +96,12 @@ references:
       - name: HubInvocationMessage
         fullName: HubInvocationMessage
         uid: '@aspnet/signalr.HubInvocationMessage'
+  - uid: '@aspnet/signalr.MessageHeaders'
+    name: MessageHeaders
+    spec.typeScript:
+      - name: MessageHeaders
+        fullName: MessageHeaders
+        uid: '@aspnet/signalr.MessageHeaders'
   - uid: '@aspnet/signalr.MessageType.StreamInvocation'
     name: StreamInvocation
     spec.typeScript:

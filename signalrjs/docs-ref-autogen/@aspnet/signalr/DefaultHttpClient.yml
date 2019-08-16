@@ -5,6 +5,12 @@ items:
     fullName: DefaultHttpClient
     children:
       - '@aspnet/signalr.DefaultHttpClient.constructor'
+      - '@aspnet/signalr.DefaultHttpClient.delete'
+      - '@aspnet/signalr.DefaultHttpClient.delete_1'
+      - '@aspnet/signalr.DefaultHttpClient.get'
+      - '@aspnet/signalr.DefaultHttpClient.get_1'
+      - '@aspnet/signalr.DefaultHttpClient.post'
+      - '@aspnet/signalr.DefaultHttpClient.post_1'
       - '@aspnet/signalr.DefaultHttpClient.send'
     langs:
       - typeScript
@@ -30,6 +36,150 @@ items:
           type:
             - '@aspnet/signalr.ILogger'
           description: ''
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.DefaultHttpClient.delete'
+    name: delete(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Issues an HTTP DELETE request to the specified URL, returning a Promise
+      that resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing
+      the result.
+    syntax:
+      content: 'function delete(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The URL for the request.
+      return:
+        type:
+          - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.DefaultHttpClient.delete_1'
+    name: 'delete(string, HttpRequest)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Issues an HTTP DELETE request to the specified URL, returning a Promise
+      that resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing
+      the result.
+    syntax:
+      content: 'function delete(url: string, options: HttpRequest)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The URL for the request.
+        - id: options
+          type:
+            - '@aspnet/signalr.HttpRequest'
+          description: >-
+            Additional options to configure the request. The 'url' field in this
+            object will be overridden by the url parameter.
+      return:
+        type:
+          - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.DefaultHttpClient.get'
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Issues an HTTP GET request to the specified URL, returning a Promise that
+      resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
+      result.
+    syntax:
+      content: 'function get(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The URL for the request.
+      return:
+        type:
+          - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.DefaultHttpClient.get_1'
+    name: 'get(string, HttpRequest)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Issues an HTTP GET request to the specified URL, returning a Promise that
+      resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
+      result.
+    syntax:
+      content: 'function get(url: string, options: HttpRequest)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The URL for the request.
+        - id: options
+          type:
+            - '@aspnet/signalr.HttpRequest'
+          description: >-
+            Additional options to configure the request. The 'url' field in this
+            object will be overridden by the url parameter.
+      return:
+        type:
+          - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.DefaultHttpClient.post'
+    name: post(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Issues an HTTP POST request to the specified URL, returning a Promise that
+      resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
+      result.
+    syntax:
+      content: 'function post(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The URL for the request.
+      return:
+        type:
+          - Promise<@aspnet/signalr.HttpResponse>
+    package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.DefaultHttpClient.post_1'
+    name: 'post(string, HttpRequest)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Issues an HTTP POST request to the specified URL, returning a Promise that
+      resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
+      result.
+    syntax:
+      content: 'function post(url: string, options: HttpRequest)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The URL for the request.
+        - id: options
+          type:
+            - '@aspnet/signalr.HttpRequest'
+          description: >-
+            Additional options to configure the request. The 'url' field in this
+            object will be overridden by the url parameter.
+      return:
+        type:
+          - Promise<@aspnet/signalr.HttpResponse>
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.send'
     name: send(HttpRequest)
@@ -62,12 +212,6 @@ references:
       - name: ILogger
         fullName: ILogger
         uid: '@aspnet/signalr.ILogger'
-  - uid: '@aspnet/signalr.HttpRequest'
-    name: HttpRequest
-    spec.typeScript:
-      - name: HttpRequest
-        fullName: HttpRequest
-        uid: '@aspnet/signalr.HttpRequest'
   - uid: Promise<@aspnet/signalr.HttpResponse>
     name: HttpResponse>
     spec.typeScript:
@@ -78,3 +222,9 @@ references:
         uid: '@aspnet/signalr.HttpResponse'
       - name: '>'
         fullName: '>'
+  - uid: '@aspnet/signalr.HttpRequest'
+    name: HttpRequest
+    spec.typeScript:
+      - name: HttpRequest
+        fullName: HttpRequest
+        uid: '@aspnet/signalr.HttpRequest'

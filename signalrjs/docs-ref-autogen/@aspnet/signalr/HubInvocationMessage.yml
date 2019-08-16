@@ -6,6 +6,7 @@ items:
     children:
       - '@aspnet/signalr.HubInvocationMessage.headers'
       - '@aspnet/signalr.HubInvocationMessage.invocationId'
+      - '@aspnet/signalr.HubInvocationMessage.type'
     langs:
       - typeScript
     type: interface
@@ -55,6 +56,22 @@ items:
         type:
           - string
     package: '@aspnet/signalr'
+  - uid: '@aspnet/signalr.HubInvocationMessage.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A <xref:%40aspnet%2Fsignalr.MessageType> value indicating the type of this
+      message.
+    syntax:
+      content: 'type: MessageType'
+      return:
+        type:
+          - '@aspnet/signalr.MessageType'
+    package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubMessageBase'
     name: HubMessageBase
@@ -68,3 +85,9 @@ references:
       - name: MessageHeaders
         fullName: MessageHeaders
         uid: '@aspnet/signalr.MessageHeaders'
+  - uid: '@aspnet/signalr.MessageType'
+    name: MessageType
+    spec.typeScript:
+      - name: MessageType
+        fullName: MessageType
+        uid: '@aspnet/signalr.MessageType'
