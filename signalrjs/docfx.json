@@ -15,8 +15,17 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "**/toc.yml"
         ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "docs-ref-autogen",
+        "version": "signalr-js-latest",
+        "dest": "api/signalr"
       },
       {
         "files": [
