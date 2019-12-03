@@ -29,6 +29,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.parseMessages'
     name: 'parseMessages(ArrayBuffer | Buffer, ILogger)'
@@ -55,6 +56,7 @@ items:
       return:
         type:
           - 'HubMessage[]'
+        description: ''
     package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.transferFormat'
     name: transferFormat
@@ -69,6 +71,7 @@ items:
       return:
         type:
           - TransferFormat
+        description: ''
     package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.version'
     name: version
@@ -83,6 +86,7 @@ items:
       return:
         type:
           - number
+        description: ''
     package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol.writeMessage'
     name: writeMessage(HubMessage)
@@ -101,4 +105,7 @@ items:
       return:
         type:
           - ArrayBuffer
+        description: >-
+          An ArrayBuffer containing the serialized representation of the
+          message.
     package: '@aspnet/signalr-protocol-msgpack'

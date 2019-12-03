@@ -37,6 +37,7 @@ items:
       return:
         type:
           - Promise<void>
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.onclose'
     name: onclose
@@ -51,6 +52,7 @@ items:
       return:
         type:
           - '(error?: Error) => void'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.onreceive'
     name: onreceive
@@ -65,6 +67,7 @@ items:
       return:
         type:
           - '(data: string | ArrayBuffer) => void'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.send'
     name: send(any)
@@ -83,6 +86,7 @@ items:
       return:
         type:
           - Promise<void>
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.ITransport.stop'
     name: stop()
@@ -97,6 +101,7 @@ items:
       return:
         type:
           - Promise<void>
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.TransferFormat'

@@ -28,6 +28,7 @@ items:
       return:
         type:
           - 'Uint8Array[]'
+        description: ''
     package: '@aspnet/signalr-protocol-msgpack'
   - uid: '@aspnet/signalr-protocol-msgpack.BinaryMessageFormat.write'
     name: write(Uint8Array)
@@ -46,4 +47,5 @@ items:
       return:
         type:
           - ArrayBuffer
+        description: ''
     package: '@aspnet/signalr-protocol-msgpack'

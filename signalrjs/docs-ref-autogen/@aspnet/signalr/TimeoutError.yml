@@ -29,6 +29,7 @@ items:
       return:
         type:
           - ErrorConstructor
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.TimeoutError.message'
     name: message
@@ -43,6 +44,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.TimeoutError.name'
     name: name
@@ -57,6 +59,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.TimeoutError.stack'
     name: stack
@@ -72,6 +75,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.TimeoutError.constructor'
     name: TimeoutError(string)

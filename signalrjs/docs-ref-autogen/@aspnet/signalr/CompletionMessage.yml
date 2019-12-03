@@ -35,6 +35,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.CompletionMessage.headers'
     name: headers
@@ -52,6 +53,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageHeaders'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.CompletionMessage.invocationId'
     name: invocationId
@@ -66,6 +68,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.CompletionMessage.result'
     name: result
@@ -86,6 +89,7 @@ items:
       return:
         type:
           - any
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.CompletionMessage.type'
     name: type
@@ -100,6 +104,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.Completion'
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubInvocationMessage'

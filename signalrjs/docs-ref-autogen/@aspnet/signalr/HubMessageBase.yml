@@ -25,6 +25,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType'
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.MessageType'

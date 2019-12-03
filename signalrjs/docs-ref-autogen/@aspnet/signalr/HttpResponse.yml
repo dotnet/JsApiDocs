@@ -30,6 +30,7 @@ items:
       return:
         type:
           - string | ArrayBuffer
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpResponse.constructor'
     name: HttpResponse(number)
@@ -145,6 +146,7 @@ items:
       return:
         type:
           - number
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpResponse.statusText'
     name: statusText
@@ -160,4 +162,5 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'

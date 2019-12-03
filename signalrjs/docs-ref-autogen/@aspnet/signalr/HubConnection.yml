@@ -49,6 +49,9 @@ items:
       return:
         type:
           - Promise<T>
+        description: >-
+          A Promise that resolves with the result of the server method (if any),
+          or rejects with an error.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.off'
     name: off(string)
@@ -162,6 +165,9 @@ items:
       return:
         type:
           - Promise<void>
+        description: >-
+          A Promise that resolves when the invocation has been successfully
+          sent, or rejects with an error.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.serverTimeoutInMilliseconds'
     name: serverTimeoutInMilliseconds
@@ -182,6 +188,7 @@ items:
       return:
         type:
           - number
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.start'
     name: start()
@@ -196,6 +203,9 @@ items:
       return:
         type:
           - Promise<void>
+        description: >-
+          A Promise that resolves when the connection has been successfully
+          established, or rejects with an error.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.stop'
     name: stop()
@@ -210,6 +220,9 @@ items:
       return:
         type:
           - Promise<void>
+        description: >-
+          A Promise that resolves when the connection has been successfully
+          terminated, or rejects with an error.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnection.stream'
     name: 'stream(string, any[])'
@@ -234,6 +247,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.IStreamResult<T>'
+        description: An object that yields results from the server as they are received.
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.IStreamResult<T>'

@@ -32,6 +32,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageHeaders'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubInvocationMessage.invocationId'
     name: invocationId
@@ -55,6 +56,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubInvocationMessage.type'
     name: type
@@ -71,6 +73,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType'
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubMessageBase'

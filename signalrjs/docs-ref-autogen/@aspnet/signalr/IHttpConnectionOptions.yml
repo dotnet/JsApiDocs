@@ -33,6 +33,9 @@ items:
       return:
         type:
           - string | Promise<string>
+        description: >-
+          A string containing the access token, or a Promise that resolves to a
+          string containing the access token.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.httpClient'
     name: httpClient
@@ -50,6 +53,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HttpClient'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.logger'
     name: logger
@@ -75,6 +79,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.logMessageContent'
     name: logMessageContent
@@ -94,6 +99,7 @@ items:
       return:
         type:
           - boolean
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.skipNegotiation'
     name: skipNegotiation
@@ -114,6 +120,7 @@ items:
       return:
         type:
           - boolean
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.IHttpConnectionOptions.transport'
     name: transport
@@ -131,6 +138,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HttpTransportType | @aspnet/signalr.ITransport'
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HttpClient'

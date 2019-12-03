@@ -26,6 +26,7 @@ items:
       return:
         type:
           - boolean
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.AbortSignal.onabort'
     name: onabort
@@ -40,4 +41,5 @@ items:
       return:
         type:
           - () => void
+        description: ''
     package: '@aspnet/signalr'

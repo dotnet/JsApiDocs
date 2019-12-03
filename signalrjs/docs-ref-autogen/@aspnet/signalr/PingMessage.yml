@@ -25,6 +25,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.Ping'
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubMessageBase'

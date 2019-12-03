@@ -30,6 +30,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageHeaders'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.CancelInvocationMessage.invocationId'
     name: invocationId
@@ -44,6 +45,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.CancelInvocationMessage.type'
     name: type
@@ -58,6 +60,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.CancelInvocation'
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubInvocationMessage'

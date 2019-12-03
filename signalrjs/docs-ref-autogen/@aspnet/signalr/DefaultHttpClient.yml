@@ -57,6 +57,10 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.delete_1'
     name: 'delete(string, HttpRequest)'
@@ -84,6 +88,10 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.get'
     name: get(string)
@@ -105,6 +113,10 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.get_1'
     name: 'get(string, HttpRequest)'
@@ -132,6 +144,10 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.post'
     name: post(string)
@@ -153,6 +169,10 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.post_1'
     name: 'post(string, HttpRequest)'
@@ -180,6 +200,10 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.DefaultHttpClient.send'
     name: send(HttpRequest)
@@ -198,6 +222,7 @@ items:
       return:
         type:
           - Promise<@aspnet/signalr.HttpResponse>
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HttpClient'

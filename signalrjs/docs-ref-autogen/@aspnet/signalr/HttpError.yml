@@ -30,6 +30,7 @@ items:
       return:
         type:
           - ErrorConstructor
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpError.constructor'
     name: 'HttpError(string, number)'
@@ -64,6 +65,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpError.name'
     name: name
@@ -78,6 +80,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpError.stack'
     name: stack
@@ -93,6 +96,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HttpError.statusCode'
     name: statusCode
@@ -107,4 +111,5 @@ items:
       return:
         type:
           - number
+        description: ''
     package: '@aspnet/signalr'

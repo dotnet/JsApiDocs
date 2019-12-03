@@ -29,6 +29,7 @@ items:
       return:
         type:
           - 'any[]'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.InvocationMessage.headers'
     name: headers
@@ -46,6 +47,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageHeaders'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.InvocationMessage.invocationId'
     name: invocationId
@@ -69,6 +71,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.InvocationMessage.target'
     name: target
@@ -83,6 +86,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.InvocationMessage.type'
     name: type
@@ -97,6 +101,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.Invocation'
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubInvocationMessage'

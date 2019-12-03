@@ -33,6 +33,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageHeaders'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.StreamItemMessage.invocationId'
     name: invocationId
@@ -47,6 +48,7 @@ items:
       return:
         type:
           - string
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.StreamItemMessage.item'
     name: item
@@ -62,6 +64,7 @@ items:
       return:
         type:
           - any
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.StreamItemMessage.type'
     name: type
@@ -76,6 +79,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.MessageType.StreamItem'
+        description: ''
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubInvocationMessage'

@@ -33,6 +33,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnection'
+        description: 'The configured {@link @aspnet/signalr.HubConnection}.'
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.configureLogging_1'
     name: configureLogging(ILogger)
@@ -55,6 +56,9 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+        description: >-
+          The {@link @aspnet/signalr.HubConnectionBuilder} instance, for
+          chaining.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.configureLogging'
     name: configureLogging(LogLevel)
@@ -77,6 +81,9 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+        description: >-
+          The {@link @aspnet/signalr.HubConnectionBuilder} instance, for
+          chaining.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withHubProtocol'
     name: withHubProtocol(IHubProtocol)
@@ -98,6 +105,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl'
     name: withUrl(string)
@@ -121,6 +129,9 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+        description: >-
+          The {@link @aspnet/signalr.HubConnectionBuilder} instance, for
+          chaining.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl_1'
     name: 'withUrl(string, HttpTransportType)'
@@ -145,6 +156,9 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+        description: >-
+          The {@link @aspnet/signalr.HubConnectionBuilder} instance, for
+          chaining.
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.HubConnectionBuilder.withUrl_2'
     name: 'withUrl(string, IHttpConnectionOptions)'
@@ -169,6 +183,9 @@ items:
       return:
         type:
           - '@aspnet/signalr.HubConnectionBuilder'
+        description: >-
+          The {@link @aspnet/signalr.HubConnectionBuilder} instance, for
+          chaining.
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.HubConnection'

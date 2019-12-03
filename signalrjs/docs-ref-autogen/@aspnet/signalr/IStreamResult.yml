@@ -29,6 +29,9 @@ items:
       return:
         type:
           - '@aspnet/signalr.ISubscription<T>'
+        description: >-
+          A subscription that can be disposed to terminate the stream and stop
+          calling methods on the {@link @aspnet/signalr.IStreamSubscriber}.
     package: '@aspnet/signalr'
 references:
   - uid: '@aspnet/signalr.IStreamSubscriber<T>'

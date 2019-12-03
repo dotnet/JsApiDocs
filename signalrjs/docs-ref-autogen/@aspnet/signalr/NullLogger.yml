@@ -24,6 +24,7 @@ items:
       return:
         type:
           - '@aspnet/signalr.ILogger'
+        description: ''
     package: '@aspnet/signalr'
   - uid: '@aspnet/signalr.NullLogger.log'
     name: 'log(LogLevel, string)'
