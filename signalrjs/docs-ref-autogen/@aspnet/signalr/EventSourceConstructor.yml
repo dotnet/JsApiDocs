@@ -1,0 +1,10 @@
+### YamlMime:TSType
+name: EventSourceConstructor
+uid: '@aspnet/signalr.EventSourceConstructor'
+package: '@aspnet/signalr'
+summary: ''
+fullName: EventSourceConstructor
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

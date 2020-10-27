@@ -1,112 +1,87 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.ITransport'
-    name: ITransport
-    fullName: ITransport
-    children:
-      - '@aspnet/signalr.ITransport.connect'
-      - '@aspnet/signalr.ITransport.onclose'
-      - '@aspnet/signalr.ITransport.onreceive'
-      - '@aspnet/signalr.ITransport.send'
-      - '@aspnet/signalr.ITransport.stop'
-    langs:
-      - typeScript
-    type: interface
-    summary: >-
-      An abstraction over the behavior of transports. This is designed to
-      support the framework and not intended for use by applications.
+### YamlMime:TSType
+name: ITransport
+uid: '@aspnet/signalr.ITransport'
+package: '@aspnet/signalr'
+summary: >-
+  An abstraction over the behavior of transports. This is designed to support
+  the framework and not intended for use by applications.
+fullName: ITransport
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: onclose
+    uid: '@aspnet/signalr.ITransport.onclose'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.ITransport.connect'
-    name: 'connect(string, TransferFormat)'
-    children: []
-    type: method
-    langs:
-      - typeScript
     summary: ''
+    fullName: onclose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onclose: (error?: Error) => void | null'
+      return:
+        type: '(error?: Error) =&gt; void | null'
+        description: ''
+  - name: onreceive
+    uid: '@aspnet/signalr.ITransport.onreceive'
+    package: '@aspnet/signalr'
+    summary: ''
+    fullName: onreceive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onreceive: (data: string | ArrayBuffer) => void | null'
+      return:
+        type: '(data: string | ArrayBuffer) =&gt; void | null'
+        description: ''
+methods:
+  - name: 'connect(string, TransferFormat)'
+    uid: '@aspnet/signalr.ITransport.connect'
+    package: '@aspnet/signalr'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function connect(url: string, transferFormat: TransferFormat)'
       parameters:
         - id: url
-          type:
-            - string
+          type: string
           description: ''
         - id: transferFormat
-          type:
-            - '@aspnet/signalr.TransferFormat'
+          type: <xref uid="@aspnet/signalr.TransferFormat" />
           description: ''
       return:
-        type:
-          - Promise<void>
+        type: Promise&lt;void&gt;
         description: ''
+  - name: send(any)
+    uid: '@aspnet/signalr.ITransport.send'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.ITransport.onclose'
-    name: onclose
-    fullName: onclose
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
-    syntax:
-      content: 'onclose: (error?: Error) => void'
-      return:
-        type:
-          - '(error?: Error) => void'
-        description: ''
-    package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.ITransport.onreceive'
-    name: onreceive
-    fullName: onreceive
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: 'onreceive: (data: string | ArrayBuffer) => void'
-      return:
-        type:
-          - '(data: string | ArrayBuffer) => void'
-        description: ''
-    package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.ITransport.send'
-    name: send(any)
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function send(data: any)'
       parameters:
         - id: data
-          type:
-            - any
+          type: any
           description: ''
       return:
-        type:
-          - Promise<void>
+        type: Promise&lt;void&gt;
         description: ''
+  - name: stop()
+    uid: '@aspnet/signalr.ITransport.stop'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.ITransport.stop'
-    name: stop()
-    children: []
-    type: method
-    langs:
-      - typeScript
     summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: function stop()
-      parameters: []
       return:
-        type:
-          - Promise<void>
+        type: Promise&lt;void&gt;
         description: ''
-    package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.TransferFormat'
-    name: TransferFormat
-    spec.typeScript:
-      - name: TransferFormat
-        fullName: TransferFormat
-        uid: '@aspnet/signalr.TransferFormat'

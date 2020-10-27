@@ -1,42 +1,25 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.PingMessage'
-    name: PingMessage
-    fullName: PingMessage
-    children:
-      - '@aspnet/signalr.PingMessage.type'
-    langs:
-      - typeScript
-    type: interface
-    summary: A hub message indicating that the sender is still active.
-    extends:
-      name: '@aspnet/signalr.HubMessageBase'
+### YamlMime:TSType
+name: PingMessage
+uid: '@aspnet/signalr.PingMessage'
+package: '@aspnet/signalr'
+summary: A hub message indicating that the sender is still active.
+fullName: PingMessage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@aspnet/signalr.PingMessage.type'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.PingMessage.type'
-    name: type
-    fullName: type
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'type: Ping'
       return:
-        type:
-          - '@aspnet/signalr.MessageType.Ping'
+        type: <xref uid="@aspnet/signalr.MessageType.Ping" />
         description: ''
-    package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.HubMessageBase'
-    name: HubMessageBase
-    spec.typeScript:
-      - name: HubMessageBase
-        fullName: HubMessageBase
-        uid: '@aspnet/signalr.HubMessageBase'
-  - uid: '@aspnet/signalr.MessageType.Ping'
-    name: Ping
-    spec.typeScript:
-      - name: Ping
-        fullName: Ping
-        uid: '@aspnet/signalr.MessageType.Ping'
+extends: <xref uid="@aspnet/signalr.HubMessageBase" />

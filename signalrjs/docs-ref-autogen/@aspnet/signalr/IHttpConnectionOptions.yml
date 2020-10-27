@@ -1,67 +1,48 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.IHttpConnectionOptions'
-    name: IHttpConnectionOptions
-    fullName: IHttpConnectionOptions
-    children:
-      - '@aspnet/signalr.IHttpConnectionOptions.accessTokenFactory'
-      - '@aspnet/signalr.IHttpConnectionOptions.httpClient'
-      - '@aspnet/signalr.IHttpConnectionOptions.logger'
-      - '@aspnet/signalr.IHttpConnectionOptions.logMessageContent'
-      - '@aspnet/signalr.IHttpConnectionOptions.skipNegotiation'
-      - '@aspnet/signalr.IHttpConnectionOptions.transport'
-    langs:
-      - typeScript
-    type: interface
-    summary: >-
-      Options provided to the 'withUrl' method on
-      <xref:%40aspnet%2Fsignalr.HubConnectionBuilder> to configure options for
-      the HTTP-based transports.
+### YamlMime:TSType
+name: IHttpConnectionOptions
+uid: '@aspnet/signalr.IHttpConnectionOptions'
+package: '@aspnet/signalr'
+summary: >-
+  Options provided to the 'withUrl' method on
+  <xref:%40aspnet%2Fsignalr.HubConnectionBuilder> to configure options for the
+  HTTP-based transports.
+fullName: IHttpConnectionOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: EventSource
+    uid: '@aspnet/signalr.IHttpConnectionOptions.EventSource'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.IHttpConnectionOptions.accessTokenFactory'
-    name: accessTokenFactory()
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      A function that provides an access token required for HTTP Bearer
-      authentication.
+    summary: A constructor that can be used to create an EventSource.
+    fullName: EventSource
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
-      content: function accessTokenFactory()
-      parameters: []
+      content: 'EventSource?: EventSourceConstructor'
       return:
-        type:
-          - string | Promise<string>
-        description: >-
-          A string containing the access token, or a Promise that resolves to a
-          string containing the access token.
+        type: <xref uid="@aspnet/signalr.EventSourceConstructor" />
+        description: ''
+  - name: httpClient
+    uid: '@aspnet/signalr.IHttpConnectionOptions.httpClient'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.IHttpConnectionOptions.httpClient'
-    name: httpClient
-    fullName: httpClient
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       An <xref:%40aspnet%2Fsignalr.HttpClient> that will be used to make HTTP
       requests.
-    optional: true
+    fullName: httpClient
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'httpClient?: HttpClient'
       return:
-        type:
-          - '@aspnet/signalr.HttpClient'
+        type: <xref uid="@aspnet/signalr.HttpClient" />
         description: ''
+  - name: logger
+    uid: '@aspnet/signalr.IHttpConnectionOptions.logger'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.IHttpConnectionOptions.logger'
-    name: logger
-    fullName: logger
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >
       Configures the logger used for logging.
 
@@ -73,99 +54,96 @@ items:
       specified
 
       level (or higher).
-    optional: true
+    fullName: logger
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'logger?: ILogger | LogLevel'
       return:
-        type:
-          - '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
+        type: >-
+          <xref uid="@aspnet/signalr.ILogger" /> | <xref
+          uid="@aspnet/signalr.LogLevel" />
         description: ''
+  - name: logMessageContent
+    uid: '@aspnet/signalr.IHttpConnectionOptions.logMessageContent'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.IHttpConnectionOptions.logMessageContent'
-    name: logMessageContent
-    fullName: logMessageContent
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >
       A boolean indicating if message content should be logged.
 
       Message content can contain sensitive user data, so this is disabled by
       default.
-    optional: true
+    fullName: logMessageContent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'logMessageContent?: boolean'
       return:
-        type:
-          - boolean
+        type: boolean
         description: ''
+  - name: skipNegotiation
+    uid: '@aspnet/signalr.IHttpConnectionOptions.skipNegotiation'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.IHttpConnectionOptions.skipNegotiation'
-    name: skipNegotiation
-    fullName: skipNegotiation
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >
       A boolean indicating if negotiation should be skipped.
 
       Negotiation can only be skipped when the
       <xref:%40aspnet%2Fsignalr.IHttpConnectionOptions.transport> property is
       set to 'HttpTransportType.WebSockets'.
-    optional: true
+    fullName: skipNegotiation
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'skipNegotiation?: boolean'
       return:
-        type:
-          - boolean
+        type: boolean
         description: ''
+  - name: transport
+    uid: '@aspnet/signalr.IHttpConnectionOptions.transport'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.IHttpConnectionOptions.transport'
-    name: transport
-    fullName: transport
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       An <xref:%40aspnet%2Fsignalr.HttpTransportType> value specifying the
       transport to use for the connection.
-    optional: true
+    fullName: transport
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'transport?: HttpTransportType | ITransport'
       return:
-        type:
-          - '@aspnet/signalr.HttpTransportType | @aspnet/signalr.ITransport'
+        type: >-
+          <xref uid="@aspnet/signalr.HttpTransportType" /> | <xref
+          uid="@aspnet/signalr.ITransport" />
         description: ''
+  - name: WebSocket
+    uid: '@aspnet/signalr.IHttpConnectionOptions.WebSocket'
     package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.HttpClient'
-    name: HttpClient
-    spec.typeScript:
-      - name: HttpClient
-        fullName: HttpClient
-        uid: '@aspnet/signalr.HttpClient'
-  - uid: '@aspnet/signalr.ILogger | @aspnet/signalr.LogLevel'
-    name: LogLevel
-    spec.typeScript:
-      - name: ILogger
-        fullName: ILogger
-        uid: '@aspnet/signalr.ILogger'
-      - name: ' | '
-        fullName: ' | '
-      - name: LogLevel
-        fullName: LogLevel
-        uid: '@aspnet/signalr.LogLevel'
-  - uid: '@aspnet/signalr.HttpTransportType | @aspnet/signalr.ITransport'
-    name: ITransport
-    spec.typeScript:
-      - name: HttpTransportType
-        fullName: HttpTransportType
-        uid: '@aspnet/signalr.HttpTransportType'
-      - name: ' | '
-        fullName: ' | '
-      - name: ITransport
-        fullName: ITransport
-        uid: '@aspnet/signalr.ITransport'
+    summary: A constructor that can be used to create a WebSocket.
+    fullName: WebSocket
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'WebSocket?: WebSocketConstructor'
+      return:
+        type: <xref uid="@aspnet/signalr.WebSocketConstructor" />
+        description: ''
+methods:
+  - name: accessTokenFactory()
+    uid: '@aspnet/signalr.IHttpConnectionOptions.accessTokenFactory'
+    package: '@aspnet/signalr'
+    summary: >-
+      A function that provides an access token required for HTTP Bearer
+      authentication.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function accessTokenFactory()
+      return:
+        type: string | Promise&lt;string&gt;
+        description: >-
+          A string containing the access token, or a Promise that resolves to a
+          string containing the access token.

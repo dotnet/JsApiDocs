@@ -1,91 +1,55 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.LogLevel'
-    name: LogLevel
-    fullName: LogLevel
-    children:
-      - '@aspnet/signalr.LogLevel.Trace'
-      - '@aspnet/signalr.LogLevel.Debug'
-      - '@aspnet/signalr.LogLevel.Information'
-      - '@aspnet/signalr.LogLevel.Warning'
-      - '@aspnet/signalr.LogLevel.Error'
-      - '@aspnet/signalr.LogLevel.Critical'
-      - '@aspnet/signalr.LogLevel.None'
-    langs:
-      - typeScript
-    type: enum
-    summary: >
-      Indicates the severity of a log message.
+### YamlMime:TSEnum
+name: LogLevel
+uid: '@aspnet/signalr.LogLevel'
+package: '@aspnet/signalr'
+summary: >
+  Indicates the severity of a log message.
 
-      Log Levels are ordered in increasing severity. So `Debug` is more severe
-      than `Trace`, etc.
+  Log Levels are ordered in increasing severity. So `Debug` is more severe than
+  `Trace`, etc.
+fullName: LogLevel
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Trace
+    uid: '@aspnet/signalr.LogLevel.Trace'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.LogLevel.Trace'
-    name: Trace
-    children: []
-    langs:
-      - typeScript
     summary: Log level for very low severity diagnostic messages.
-    type: field
     numericValue: 0
+  - name: Debug
+    uid: '@aspnet/signalr.LogLevel.Debug'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.LogLevel.Debug'
-    name: Debug
-    children: []
-    langs:
-      - typeScript
     summary: Log level for low severity diagnostic messages.
-    type: field
     numericValue: 1
+  - name: Information
+    uid: '@aspnet/signalr.LogLevel.Information'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.LogLevel.Information'
-    name: Information
-    children: []
-    langs:
-      - typeScript
     summary: Log level for informational diagnostic messages.
-    type: field
     numericValue: 2
+  - name: Warning
+    uid: '@aspnet/signalr.LogLevel.Warning'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.LogLevel.Warning'
-    name: Warning
-    children: []
-    langs:
-      - typeScript
     summary: Log level for diagnostic messages that indicate a non-fatal problem.
-    type: field
     numericValue: 3
+  - name: Error
+    uid: '@aspnet/signalr.LogLevel.Error'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.LogLevel.Error'
-    name: Error
-    children: []
-    langs:
-      - typeScript
     summary: >-
       Log level for diagnostic messages that indicate a failure in the current
       operation.
-    type: field
     numericValue: 4
+  - name: Critical
+    uid: '@aspnet/signalr.LogLevel.Critical'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.LogLevel.Critical'
-    name: Critical
-    children: []
-    langs:
-      - typeScript
     summary: >-
       Log level for diagnostic messages that indicate a failure that will
       terminate the entire application.
-    type: field
     numericValue: 5
+  - name: None
+    uid: '@aspnet/signalr.LogLevel.None'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.LogLevel.None'
-    name: None
-    children: []
-    langs:
-      - typeScript
     summary: >-
       The highest possible log level. Used when configuring logging to indicate
       that no log messages should be emitted.
-    type: field
     numericValue: 6
-    package: '@aspnet/signalr'

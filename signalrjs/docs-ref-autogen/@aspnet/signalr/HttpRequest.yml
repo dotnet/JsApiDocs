@@ -1,141 +1,106 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.HttpRequest'
-    name: HttpRequest
-    fullName: HttpRequest
-    children:
-      - '@aspnet/signalr.HttpRequest.abortSignal'
-      - '@aspnet/signalr.HttpRequest.content'
-      - '@aspnet/signalr.HttpRequest.headers'
-      - '@aspnet/signalr.HttpRequest.method'
-      - '@aspnet/signalr.HttpRequest.responseType'
-      - '@aspnet/signalr.HttpRequest.timeout'
-      - '@aspnet/signalr.HttpRequest.url'
-    langs:
-      - typeScript
-    type: interface
-    summary: Represents an HTTP request.
+### YamlMime:TSType
+name: HttpRequest
+uid: '@aspnet/signalr.HttpRequest'
+package: '@aspnet/signalr'
+summary: Represents an HTTP request.
+fullName: HttpRequest
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@aspnet/signalr.HttpRequest.abortSignal'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HttpRequest.abortSignal'
-    name: abortSignal
-    fullName: abortSignal
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: An AbortSignal that can be monitored for cancellation.
-    optional: true
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignal'
       return:
-        type:
-          - '@aspnet/signalr.AbortSignal'
+        type: <xref uid="@aspnet/signalr.AbortSignal" />
         description: ''
+  - name: content
+    uid: '@aspnet/signalr.HttpRequest.content'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HttpRequest.content'
-    name: content
-    fullName: content
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       The body content for the request. May be a string or an ArrayBuffer (for
       binary data).
-    optional: true
+    fullName: content
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'content?: string | ArrayBuffer'
       return:
-        type:
-          - string | ArrayBuffer
+        type: string | ArrayBuffer
         description: ''
+  - name: headers
+    uid: '@aspnet/signalr.HttpRequest.headers'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HttpRequest.headers'
-    name: headers
-    fullName: headers
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: An object describing headers to apply to the request.
-    optional: true
+    fullName: headers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'headers?: [key: string]: string'
       return:
-        type:
-          - '[key: string]: string'
+        type: '[key: string]\: string'
         description: ''
+  - name: method
+    uid: '@aspnet/signalr.HttpRequest.method'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HttpRequest.method'
-    name: method
-    fullName: method
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The HTTP method to use for the request.
-    optional: true
+    fullName: method
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'method?: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
+  - name: responseType
+    uid: '@aspnet/signalr.HttpRequest.responseType'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HttpRequest.responseType'
-    name: responseType
-    fullName: responseType
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The XMLHttpRequestResponseType to apply to the request.
-    optional: true
+    fullName: responseType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'responseType?: XMLHttpRequestResponseType'
       return:
-        type:
-          - XMLHttpRequestResponseType
+        type: XMLHttpRequestResponseType
         description: ''
+  - name: timeout
+    uid: '@aspnet/signalr.HttpRequest.timeout'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HttpRequest.timeout'
-    name: timeout
-    fullName: timeout
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       The time to wait for the request to complete before throwing a
       TimeoutError. Measured in milliseconds.
-    optional: true
+    fullName: timeout
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'timeout?: number'
       return:
-        type:
-          - number
+        type: number
         description: ''
+  - name: url
+    uid: '@aspnet/signalr.HttpRequest.url'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HttpRequest.url'
-    name: url
-    fullName: url
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The URL for the request.
-    optional: true
+    fullName: url
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'url?: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
-    package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.AbortSignal'
-    name: AbortSignal
-    spec.typeScript:
-      - name: AbortSignal
-        fullName: AbortSignal
-        uid: '@aspnet/signalr.AbortSignal'

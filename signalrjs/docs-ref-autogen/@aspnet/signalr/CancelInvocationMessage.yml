@@ -1,83 +1,53 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.CancelInvocationMessage'
-    name: CancelInvocationMessage
-    fullName: CancelInvocationMessage
-    children:
-      - '@aspnet/signalr.CancelInvocationMessage.headers'
-      - '@aspnet/signalr.CancelInvocationMessage.invocationId'
-      - '@aspnet/signalr.CancelInvocationMessage.type'
-    langs:
-      - typeScript
-    type: interface
-    summary: A hub message sent to request that a streaming invocation be canceled.
-    extends:
-      name: '@aspnet/signalr.HubInvocationMessage'
+### YamlMime:TSType
+name: CancelInvocationMessage
+uid: '@aspnet/signalr.CancelInvocationMessage'
+package: '@aspnet/signalr'
+summary: A hub message sent to request that a streaming invocation be canceled.
+fullName: CancelInvocationMessage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: headers
+    uid: '@aspnet/signalr.CancelInvocationMessage.headers'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.CancelInvocationMessage.headers'
-    name: headers
-    fullName: headers
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       A <xref:%40aspnet%2Fsignalr.MessageHeaders> dictionary containing headers
       attached to the message.
-    optional: true
+    fullName: headers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'headers?: MessageHeaders'
       return:
-        type:
-          - '@aspnet/signalr.MessageHeaders'
+        type: <xref uid="@aspnet/signalr.MessageHeaders" />
         description: ''
+  - name: invocationId
+    uid: '@aspnet/signalr.CancelInvocationMessage.invocationId'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.CancelInvocationMessage.invocationId'
-    name: invocationId
-    fullName: invocationId
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The invocation ID.
+    fullName: invocationId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'invocationId: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
+  - name: type
+    uid: '@aspnet/signalr.CancelInvocationMessage.type'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.CancelInvocationMessage.type'
-    name: type
-    fullName: type
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'type: CancelInvocation'
       return:
-        type:
-          - '@aspnet/signalr.MessageType.CancelInvocation'
+        type: <xref uid="@aspnet/signalr.MessageType.CancelInvocation" />
         description: ''
-    package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.HubInvocationMessage'
-    name: HubInvocationMessage
-    spec.typeScript:
-      - name: HubInvocationMessage
-        fullName: HubInvocationMessage
-        uid: '@aspnet/signalr.HubInvocationMessage'
-  - uid: '@aspnet/signalr.MessageHeaders'
-    name: MessageHeaders
-    spec.typeScript:
-      - name: MessageHeaders
-        fullName: MessageHeaders
-        uid: '@aspnet/signalr.MessageHeaders'
-  - uid: '@aspnet/signalr.MessageType.CancelInvocation'
-    name: CancelInvocation
-    spec.typeScript:
-      - name: CancelInvocation
-        fullName: CancelInvocation
-        uid: '@aspnet/signalr.MessageType.CancelInvocation'
+extends: <xref uid="@aspnet/signalr.HubInvocationMessage" />
