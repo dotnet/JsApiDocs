@@ -1,60 +1,41 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.NullLogger'
-    name: NullLogger
-    fullName: NullLogger
-    children:
-      - '@aspnet/signalr.NullLogger.instance'
-      - '@aspnet/signalr.NullLogger.log'
-    langs:
-      - typeScript
-    type: class
-    summary: A logger that does nothing when log messages are sent to it.
+### YamlMime:TSType
+name: NullLogger
+uid: '@aspnet/signalr.NullLogger'
+package: '@aspnet/signalr'
+summary: A logger that does nothing when log messages are sent to it.
+fullName: NullLogger
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: instance
+    uid: '@aspnet/signalr.NullLogger.instance'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.NullLogger.instance'
-    name: instance
-    fullName: instance
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: 'The singleton instance of the <xref:%40aspnet%2Fsignalr.NullLogger>.'
+    fullName: instance
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'public static instance: ILogger = new NullLogger()'
       return:
-        type:
-          - '@aspnet/signalr.ILogger'
+        type: <xref uid="@aspnet/signalr.ILogger" />
         description: ''
+methods:
+  - name: 'log(LogLevel, string)'
+    uid: '@aspnet/signalr.NullLogger.log'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.NullLogger.log'
-    name: 'log(LogLevel, string)'
-    children: []
-    type: method
-    langs:
-      - typeScript
     summary: Called by the framework to emit a diagnostic message.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
-      content: 'function log(logLevel: LogLevel, message: string)'
+      content: 'function log(_logLevel: LogLevel, _message: string)'
       parameters:
-        - id: logLevel
-          type:
-            - '@aspnet/signalr.LogLevel'
+        - id: _logLevel
+          type: <xref uid="@aspnet/signalr.LogLevel" />
           description: ''
-        - id: message
-          type:
-            - string
+        - id: _message
+          type: string
           description: ''
-    package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.ILogger'
-    name: ILogger
-    spec.typeScript:
-      - name: ILogger
-        fullName: ILogger
-        uid: '@aspnet/signalr.ILogger'
-  - uid: '@aspnet/signalr.LogLevel'
-    name: LogLevel
-    spec.typeScript:
-      - name: LogLevel
-        fullName: LogLevel
-        uid: '@aspnet/signalr.LogLevel'

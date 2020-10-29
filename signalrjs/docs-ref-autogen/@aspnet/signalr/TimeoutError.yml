@@ -1,95 +1,79 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.TimeoutError'
-    name: TimeoutError
-    fullName: TimeoutError
-    children:
-      - '@aspnet/signalr.TimeoutError.Error'
-      - '@aspnet/signalr.TimeoutError.message'
-      - '@aspnet/signalr.TimeoutError.name'
-      - '@aspnet/signalr.TimeoutError.stack'
-      - '@aspnet/signalr.TimeoutError.constructor'
-    langs:
-      - typeScript
-    type: class
-    summary: Error thrown when a timeout elapses.
-    extends:
-      name: Error
+### YamlMime:TSType
+name: TimeoutError
+uid: '@aspnet/signalr.TimeoutError'
+package: '@aspnet/signalr'
+summary: Error thrown when a timeout elapses.
+fullName: TimeoutError
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TimeoutError(string)
+    uid: '@aspnet/signalr.TimeoutError.constructor'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.TimeoutError.Error'
-    name: Error
-    fullName: Error
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: 'static Error: ErrorConstructor'
-      return:
-        type:
-          - ErrorConstructor
-        description: ''
-    package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.TimeoutError.message'
-    name: message
-    fullName: message
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: 'message: string'
-      return:
-        type:
-          - string
-        description: ''
-    package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.TimeoutError.name'
-    name: name
-    fullName: name
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: 'name: string'
-      return:
-        type:
-          - string
-        description: ''
-    package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.TimeoutError.stack'
-    name: stack
-    fullName: stack
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    optional: true
-    syntax:
-      content: 'stack?: string'
-      return:
-        type:
-          - string
-        description: ''
-    package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.TimeoutError.constructor'
-    name: TimeoutError(string)
-    children: []
-    type: constructor
-    langs:
-      - typeScript
     summary: 'Constructs a new instance of <xref:%40aspnet%2Fsignalr.TimeoutError>.'
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'new TimeoutError(errorMessage: string)'
       parameters:
         - id: errorMessage
-          type:
-            - string
+          type: string
           description: |
             A descriptive error message.
+properties:
+  - name: Error
+    uid: '@aspnet/signalr.TimeoutError.Error'
     package: '@aspnet/signalr'
+    summary: ''
+    fullName: Error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Error: ErrorConstructor'
+      return:
+        type: ErrorConstructor
+        description: ''
+  - name: message
+    uid: '@aspnet/signalr.TimeoutError.message'
+    package: '@aspnet/signalr'
+    summary: ''
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@aspnet/signalr.TimeoutError.name'
+    package: '@aspnet/signalr'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: stack
+    uid: '@aspnet/signalr.TimeoutError.stack'
+    package: '@aspnet/signalr'
+    summary: ''
+    fullName: stack
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'stack?: string'
+      return:
+        type: string
+        description: ''
+extends: Error

@@ -1,61 +1,45 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.InvocationMessage'
-    name: InvocationMessage
-    fullName: InvocationMessage
-    children:
-      - '@aspnet/signalr.InvocationMessage.arguments'
-      - '@aspnet/signalr.InvocationMessage.headers'
-      - '@aspnet/signalr.InvocationMessage.invocationId'
-      - '@aspnet/signalr.InvocationMessage.target'
-      - '@aspnet/signalr.InvocationMessage.type'
-    langs:
-      - typeScript
-    type: interface
-    summary: A hub message representing a non-streaming invocation.
-    extends:
-      name: '@aspnet/signalr.HubInvocationMessage'
+### YamlMime:TSType
+name: InvocationMessage
+uid: '@aspnet/signalr.InvocationMessage'
+package: '@aspnet/signalr'
+summary: A hub message representing a non-streaming invocation.
+fullName: InvocationMessage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: arguments
+    uid: '@aspnet/signalr.InvocationMessage.arguments'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.InvocationMessage.arguments'
-    name: arguments
-    fullName: arguments
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The target method arguments.
+    fullName: arguments
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'arguments: any[]'
       return:
-        type:
-          - 'any[]'
+        type: 'any[]'
         description: ''
+  - name: headers
+    uid: '@aspnet/signalr.InvocationMessage.headers'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.InvocationMessage.headers'
-    name: headers
-    fullName: headers
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       A <xref:%40aspnet%2Fsignalr.MessageHeaders> dictionary containing headers
       attached to the message.
-    optional: true
+    fullName: headers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'headers?: MessageHeaders'
       return:
-        type:
-          - '@aspnet/signalr.MessageHeaders'
+        type: <xref uid="@aspnet/signalr.MessageHeaders" />
         description: ''
+  - name: invocationId
+    uid: '@aspnet/signalr.InvocationMessage.invocationId'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.InvocationMessage.invocationId'
-    name: invocationId
-    fullName: invocationId
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >
       The ID of the invocation relating to this message.
 
@@ -65,60 +49,39 @@ items:
 
       be 'undefined' for an <xref:%40aspnet%2Fsignalr.InvocationMessage> if the
       sender does not expect a response.
-    optional: true
+    fullName: invocationId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'invocationId?: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
+  - name: target
+    uid: '@aspnet/signalr.InvocationMessage.target'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.InvocationMessage.target'
-    name: target
-    fullName: target
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The target method name.
+    fullName: target
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'target: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
+  - name: type
+    uid: '@aspnet/signalr.InvocationMessage.type'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.InvocationMessage.type'
-    name: type
-    fullName: type
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'type: Invocation'
       return:
-        type:
-          - '@aspnet/signalr.MessageType.Invocation'
+        type: <xref uid="@aspnet/signalr.MessageType.Invocation" />
         description: ''
-    package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.HubInvocationMessage'
-    name: HubInvocationMessage
-    spec.typeScript:
-      - name: HubInvocationMessage
-        fullName: HubInvocationMessage
-        uid: '@aspnet/signalr.HubInvocationMessage'
-  - uid: '@aspnet/signalr.MessageHeaders'
-    name: MessageHeaders
-    spec.typeScript:
-      - name: MessageHeaders
-        fullName: MessageHeaders
-        uid: '@aspnet/signalr.MessageHeaders'
-  - uid: '@aspnet/signalr.MessageType.Invocation'
-    name: Invocation
-    spec.typeScript:
-      - name: Invocation
-        fullName: Invocation
-        uid: '@aspnet/signalr.MessageType.Invocation'
+extends: <xref uid="@aspnet/signalr.HubInvocationMessage" />

@@ -1,52 +1,31 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.IStreamResult'
-    name: IStreamResult
-    fullName: IStreamResult<T>
-    children:
-      - '@aspnet/signalr.IStreamResult.subscribe'
-    langs:
-      - typeScript
-    type: interface
-    summary: Defines the result of a streaming hub method.
+### YamlMime:TSType
+name: IStreamResult
+uid: '@aspnet/signalr.IStreamResult'
+package: '@aspnet/signalr'
+summary: Defines the result of a streaming hub method.
+fullName: IStreamResult<T>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: subscribe(IStreamSubscriber<T>)
+    uid: '@aspnet/signalr.IStreamResult.subscribe'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.IStreamResult.subscribe'
-    name: subscribe(IStreamSubscriber<T>)
-    children: []
-    type: method
-    langs:
-      - typeScript
     summary: >-
       Attaches a <xref:%40aspnet%2Fsignalr.IStreamSubscriber>, which will be
       invoked when new items are available from the stream.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function subscribe(subscriber: IStreamSubscriber<T>)'
       parameters:
         - id: subscriber
-          type:
-            - '@aspnet/signalr.IStreamSubscriber<T>'
+          type: <xref uid="@aspnet/signalr.IStreamSubscriber" />&lt;T&gt;
           description: ''
       return:
-        type:
-          - '@aspnet/signalr.ISubscription<T>'
+        type: <xref uid="@aspnet/signalr.ISubscription" />&lt;T&gt;
         description: >-
           A subscription that can be disposed to terminate the stream and stop
           calling methods on the {@link @aspnet/signalr.IStreamSubscriber}.
-    package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.IStreamSubscriber<T>'
-    name: IStreamSubscriber<T>
-    spec.typeScript:
-      - name: IStreamSubscriber
-        fullName: IStreamSubscriber
-        uid: '@aspnet/signalr.IStreamSubscriber'
-      - name: <T>
-        fullName: <T>
-  - uid: '@aspnet/signalr.ISubscription<T>'
-    name: ISubscription<T>
-    spec.typeScript:
-      - name: ISubscription
-        fullName: ISubscription
-        uid: '@aspnet/signalr.ISubscription'
-      - name: <T>
-        fullName: <T>

@@ -1,115 +1,79 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.StreamInvocationMessage'
-    name: StreamInvocationMessage
-    fullName: StreamInvocationMessage
-    children:
-      - '@aspnet/signalr.StreamInvocationMessage.arguments'
-      - '@aspnet/signalr.StreamInvocationMessage.headers'
-      - '@aspnet/signalr.StreamInvocationMessage.invocationId'
-      - '@aspnet/signalr.StreamInvocationMessage.target'
-      - '@aspnet/signalr.StreamInvocationMessage.type'
-    langs:
-      - typeScript
-    type: interface
-    summary: A hub message representing a streaming invocation.
-    extends:
-      name: '@aspnet/signalr.HubInvocationMessage'
+### YamlMime:TSType
+name: StreamInvocationMessage
+uid: '@aspnet/signalr.StreamInvocationMessage'
+package: '@aspnet/signalr'
+summary: A hub message representing a streaming invocation.
+fullName: StreamInvocationMessage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: arguments
+    uid: '@aspnet/signalr.StreamInvocationMessage.arguments'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.StreamInvocationMessage.arguments'
-    name: arguments
-    fullName: arguments
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The target method arguments.
+    fullName: arguments
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'arguments: any[]'
       return:
-        type:
-          - 'any[]'
+        type: 'any[]'
         description: ''
+  - name: headers
+    uid: '@aspnet/signalr.StreamInvocationMessage.headers'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.StreamInvocationMessage.headers'
-    name: headers
-    fullName: headers
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       A <xref:%40aspnet%2Fsignalr.MessageHeaders> dictionary containing headers
       attached to the message.
-    optional: true
+    fullName: headers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'headers?: MessageHeaders'
       return:
-        type:
-          - '@aspnet/signalr.MessageHeaders'
+        type: <xref uid="@aspnet/signalr.MessageHeaders" />
         description: ''
+  - name: invocationId
+    uid: '@aspnet/signalr.StreamInvocationMessage.invocationId'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.StreamInvocationMessage.invocationId'
-    name: invocationId
-    fullName: invocationId
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The invocation ID.
+    fullName: invocationId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'invocationId: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
+  - name: target
+    uid: '@aspnet/signalr.StreamInvocationMessage.target'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.StreamInvocationMessage.target'
-    name: target
-    fullName: target
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: The target method name.
+    fullName: target
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'target: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
+  - name: type
+    uid: '@aspnet/signalr.StreamInvocationMessage.type'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.StreamInvocationMessage.type'
-    name: type
-    fullName: type
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'type: StreamInvocation'
       return:
-        type:
-          - '@aspnet/signalr.MessageType.StreamInvocation'
+        type: <xref uid="@aspnet/signalr.MessageType.StreamInvocation" />
         description: ''
-    package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.HubInvocationMessage'
-    name: HubInvocationMessage
-    spec.typeScript:
-      - name: HubInvocationMessage
-        fullName: HubInvocationMessage
-        uid: '@aspnet/signalr.HubInvocationMessage'
-  - uid: '@aspnet/signalr.MessageHeaders'
-    name: MessageHeaders
-    spec.typeScript:
-      - name: MessageHeaders
-        fullName: MessageHeaders
-        uid: '@aspnet/signalr.MessageHeaders'
-  - uid: '@aspnet/signalr.MessageType.StreamInvocation'
-    name: StreamInvocation
-    spec.typeScript:
-      - name: StreamInvocation
-        fullName: StreamInvocation
-        uid: '@aspnet/signalr.MessageType.StreamInvocation'
+extends: <xref uid="@aspnet/signalr.HubInvocationMessage" />

@@ -1,95 +1,59 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.MessageType'
-    name: MessageType
-    fullName: MessageType
-    children:
-      - '@aspnet/signalr.MessageType.Invocation'
-      - '@aspnet/signalr.MessageType.StreamItem'
-      - '@aspnet/signalr.MessageType.Completion'
-      - '@aspnet/signalr.MessageType.StreamInvocation'
-      - '@aspnet/signalr.MessageType.CancelInvocation'
-      - '@aspnet/signalr.MessageType.Ping'
-      - '@aspnet/signalr.MessageType.Close'
-    langs:
-      - typeScript
-    type: enum
-    summary: Defines the type of a Hub Message.
+### YamlMime:TSEnum
+name: MessageType
+uid: '@aspnet/signalr.MessageType'
+package: '@aspnet/signalr'
+summary: Defines the type of a Hub Message.
+fullName: MessageType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Invocation
+    uid: '@aspnet/signalr.MessageType.Invocation'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.MessageType.Invocation'
-    name: Invocation
-    children: []
-    langs:
-      - typeScript
     summary: >-
       Indicates the message is an Invocation message and implements the
       <xref:%40aspnet%2Fsignalr.InvocationMessage> interface.
-    type: field
     numericValue: 1
+  - name: StreamItem
+    uid: '@aspnet/signalr.MessageType.StreamItem'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.MessageType.StreamItem'
-    name: StreamItem
-    children: []
-    langs:
-      - typeScript
     summary: >-
       Indicates the message is a StreamItem message and implements the
       <xref:%40aspnet%2Fsignalr.StreamItemMessage> interface.
-    type: field
     numericValue: 2
+  - name: Completion
+    uid: '@aspnet/signalr.MessageType.Completion'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.MessageType.Completion'
-    name: Completion
-    children: []
-    langs:
-      - typeScript
     summary: >-
       Indicates the message is a Completion message and implements the
       <xref:%40aspnet%2Fsignalr.CompletionMessage> interface.
-    type: field
     numericValue: 3
+  - name: StreamInvocation
+    uid: '@aspnet/signalr.MessageType.StreamInvocation'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.MessageType.StreamInvocation'
-    name: StreamInvocation
-    children: []
-    langs:
-      - typeScript
     summary: >-
       Indicates the message is a Stream Invocation message and implements the
       <xref:%40aspnet%2Fsignalr.StreamInvocationMessage> interface.
-    type: field
     numericValue: 4
+  - name: CancelInvocation
+    uid: '@aspnet/signalr.MessageType.CancelInvocation'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.MessageType.CancelInvocation'
-    name: CancelInvocation
-    children: []
-    langs:
-      - typeScript
     summary: >-
       Indicates the message is a Cancel Invocation message and implements the
       <xref:%40aspnet%2Fsignalr.CancelInvocationMessage> interface.
-    type: field
     numericValue: 5
+  - name: Ping
+    uid: '@aspnet/signalr.MessageType.Ping'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.MessageType.Ping'
-    name: Ping
-    children: []
-    langs:
-      - typeScript
     summary: >-
       Indicates the message is a Ping message and implements the
       <xref:%40aspnet%2Fsignalr.PingMessage> interface.
-    type: field
     numericValue: 6
+  - name: Close
+    uid: '@aspnet/signalr.MessageType.Close'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.MessageType.Close'
-    name: Close
-    children: []
-    langs:
-      - typeScript
     summary: >-
       Indicates the message is a Close message and implements the
       <xref:%40aspnet%2Fsignalr.CloseMessage> interface.
-    type: field
     numericValue: 7
-    package: '@aspnet/signalr'

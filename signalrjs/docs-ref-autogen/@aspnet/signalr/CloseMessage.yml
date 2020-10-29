@@ -1,67 +1,46 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.CloseMessage'
-    name: CloseMessage
-    fullName: CloseMessage
-    children:
-      - '@aspnet/signalr.CloseMessage.error'
-      - '@aspnet/signalr.CloseMessage.type'
-    langs:
-      - typeScript
-    type: interface
-    summary: >
-      A hub message indicating that the sender is closing the connection.
+### YamlMime:TSType
+name: CloseMessage
+uid: '@aspnet/signalr.CloseMessage'
+package: '@aspnet/signalr'
+summary: >
+  A hub message indicating that the sender is closing the connection.
 
-      If <xref:%40aspnet%2Fsignalr.CloseMessage.error> is defined, the sender is
-      closing the connection due to an error.
-    extends:
-      name: '@aspnet/signalr.HubMessageBase'
+  If <xref:%40aspnet%2Fsignalr.CloseMessage.error> is defined, the sender is
+  closing the connection due to an error.
+fullName: CloseMessage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: error
+    uid: '@aspnet/signalr.CloseMessage.error'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.CloseMessage.error'
-    name: error
-    fullName: error
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >
       The error that triggered the close, if any.
 
       If this property is undefined, the connection was closed normally and
       without error.
-    optional: true
+    fullName: error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'error?: string'
       return:
-        type:
-          - string
+        type: string
         description: ''
+  - name: type
+    uid: '@aspnet/signalr.CloseMessage.type'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.CloseMessage.type'
-    name: type
-    fullName: type
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'type: Close'
       return:
-        type:
-          - '@aspnet/signalr.MessageType.Close'
+        type: <xref uid="@aspnet/signalr.MessageType.Close" />
         description: ''
-    package: '@aspnet/signalr'
-references:
-  - uid: '@aspnet/signalr.HubMessageBase'
-    name: HubMessageBase
-    spec.typeScript:
-      - name: HubMessageBase
-        fullName: HubMessageBase
-        uid: '@aspnet/signalr.HubMessageBase'
-  - uid: '@aspnet/signalr.MessageType.Close'
-    name: Close
-    spec.typeScript:
-      - name: Close
-        fullName: Close
-        uid: '@aspnet/signalr.MessageType.Close'
+extends: <xref uid="@aspnet/signalr.HubMessageBase" />
