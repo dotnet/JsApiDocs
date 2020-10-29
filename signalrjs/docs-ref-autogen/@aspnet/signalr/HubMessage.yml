@@ -1,16 +1,13 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.HubMessage'
-    name: HubMessage
-    fullName: HubMessage
-    children: []
-    langs:
-      - typeScript
-    type: class
-    summary: >-
-      Union type of all known Hub messages.
-
-      "HubMessage" is a type alias. It refers to InvocationMessage,
-      StreamInvocationMessage, StreamItemMessage, CompletionMessage,
-      CancelInvocationMessage, PingMessage and CloseMessage.
-    package: '@aspnet/signalr'
+### YamlMime:TSTypeAlias
+name: HubMessage
+uid: '@aspnet/signalr.HubMessage'
+package: '@aspnet/signalr'
+summary: Union type of all known Hub messages.
+fullName: HubMessage
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type HubMessage = InvocationMessage | StreamInvocationMessage |
+  StreamItemMessage | CompletionMessage | CancelInvocationMessage | PingMessage
+  | CloseMessage

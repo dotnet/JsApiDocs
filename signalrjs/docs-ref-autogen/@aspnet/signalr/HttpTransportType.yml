@@ -1,47 +1,30 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.HttpTransportType'
-    name: HttpTransportType
-    fullName: HttpTransportType
-    children:
-      - '@aspnet/signalr.HttpTransportType.None'
-      - '@aspnet/signalr.HttpTransportType.WebSockets'
-      - '@aspnet/signalr.HttpTransportType.ServerSentEvents'
-      - '@aspnet/signalr.HttpTransportType.LongPolling'
-    langs:
-      - typeScript
-    type: enum
-    summary: Specifies a specific HTTP transport type.
+### YamlMime:TSEnum
+name: HttpTransportType
+uid: '@aspnet/signalr.HttpTransportType'
+package: '@aspnet/signalr'
+summary: Specifies a specific HTTP transport type.
+fullName: HttpTransportType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: None
+    uid: '@aspnet/signalr.HttpTransportType.None'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HttpTransportType.None'
-    name: None
-    children: []
-    langs:
-      - typeScript
     summary: Specifies no transport preference.
-    type: field
     numericValue: 0
-  - uid: '@aspnet/signalr.HttpTransportType.WebSockets'
-    name: WebSockets
-    children: []
-    langs:
-      - typeScript
+  - name: WebSockets
+    uid: '@aspnet/signalr.HttpTransportType.WebSockets'
+    package: '@aspnet/signalr'
     summary: Specifies the WebSockets transport.
-    type: field
     numericValue: 1
-  - uid: '@aspnet/signalr.HttpTransportType.ServerSentEvents'
-    name: ServerSentEvents
-    children: []
-    langs:
-      - typeScript
+  - name: ServerSentEvents
+    uid: '@aspnet/signalr.HttpTransportType.ServerSentEvents'
+    package: '@aspnet/signalr'
     summary: Specifies the Server-Sent Events transport.
-    type: field
     numericValue: 2
-  - uid: '@aspnet/signalr.HttpTransportType.LongPolling'
-    name: LongPolling
-    children: []
-    langs:
-      - typeScript
+  - name: LongPolling
+    uid: '@aspnet/signalr.HttpTransportType.LongPolling'
+    package: '@aspnet/signalr'
     summary: Specifies the Long Polling transport.
-    type: field
     numericValue: 4

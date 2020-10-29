@@ -1,43 +1,34 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.HubInvocationMessage'
-    name: HubInvocationMessage
-    fullName: HubInvocationMessage
-    children:
-      - '@aspnet/signalr.HubInvocationMessage.headers'
-      - '@aspnet/signalr.HubInvocationMessage.invocationId'
-    langs:
-      - typeScript
-    type: interface
-    summary: >-
-      Defines properties common to all Hub messages relating to a specific
-      invocation.
-    extends:
-      name: '@aspnet/signalr.HubMessageBase'
+### YamlMime:TSType
+name: HubInvocationMessage
+uid: '@aspnet/signalr.HubInvocationMessage'
+package: '@aspnet/signalr'
+summary: >-
+  Defines properties common to all Hub messages relating to a specific
+  invocation.
+fullName: HubInvocationMessage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: headers
+    uid: '@aspnet/signalr.HubInvocationMessage.headers'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HubInvocationMessage.headers'
-    name: headers
-    fullName: headers
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       A <xref:%40aspnet%2Fsignalr.MessageHeaders> dictionary containing headers
       attached to the message.
-    optional: true
+    fullName: headers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'headers?: MessageHeaders'
       return:
-        type:
-          - '@aspnet/signalr.MessageHeaders'
-  - uid: '@aspnet/signalr.HubInvocationMessage.invocationId'
-    name: invocationId
-    fullName: invocationId
-    children: []
-    langs:
-      - typeScript
-    type: property
+        type: <xref uid="@aspnet/signalr.MessageHeaders" />
+        description: ''
+  - name: invocationId
+    uid: '@aspnet/signalr.HubInvocationMessage.invocationId'
+    package: '@aspnet/signalr'
     summary: >
       The ID of the invocation relating to this message.
 
@@ -47,20 +38,28 @@ items:
 
       be 'undefined' for an <xref:%40aspnet%2Fsignalr.InvocationMessage> if the
       sender does not expect a response.
-    optional: true
+    fullName: invocationId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'invocationId?: string'
       return:
-        type:
-          - string
-references:
-  - uid: '@aspnet/signalr.HubMessageBase'
-    spec.typeScript:
-      - name: HubMessageBase
-        fullName: HubMessageBase
-        uid: '@aspnet/signalr.HubMessageBase'
-  - uid: '@aspnet/signalr.MessageHeaders'
-    spec.typeScript:
-      - name: MessageHeaders
-        fullName: MessageHeaders
-        uid: '@aspnet/signalr.MessageHeaders'
+        type: string
+        description: ''
+  - name: type
+    uid: '@aspnet/signalr.HubInvocationMessage.type'
+    package: '@aspnet/signalr'
+    summary: >-
+      A <xref:%40aspnet%2Fsignalr.MessageType> value indicating the type of this
+      message.
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: MessageType'
+      return:
+        type: <xref uid="@aspnet/signalr.MessageType" />
+        description: ''
+extends: <xref uid="@aspnet/signalr.HubMessageBase" />

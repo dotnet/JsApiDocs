@@ -1,197 +1,203 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.HttpClient'
-    name: HttpClient
-    fullName: HttpClient
-    children:
-      - '@aspnet/signalr.HttpClient.delete'
-      - '@aspnet/signalr.HttpClient.delete_1'
-      - '@aspnet/signalr.HttpClient.get'
-      - '@aspnet/signalr.HttpClient.get_1'
-      - '@aspnet/signalr.HttpClient.post'
-      - '@aspnet/signalr.HttpClient.post_1'
-      - '@aspnet/signalr.HttpClient.send'
-    langs:
-      - typeScript
-    type: class
-    summary: >
-      Abstraction over an HTTP client.
+### YamlMime:TSType
+name: HttpClient
+uid: '@aspnet/signalr.HttpClient'
+package: '@aspnet/signalr'
+summary: >
+  Abstraction over an HTTP client.
 
-      This class provides an abstraction over an HTTP client so that a different
-      implementation can be provided on different platforms.
+  This class provides an abstraction over an HTTP client so that a different
+  implementation can be provided on different platforms.
+fullName: HttpClient
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: delete(string)
+    uid: '@aspnet/signalr.HttpClient.delete'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.HttpClient.delete'
-    name: delete
-    children: []
-    type: method
-    langs:
-      - typeScript
     summary: >-
       Issues an HTTP DELETE request to the specified URL, returning a Promise
       that resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing
       the result.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function delete(url: string)'
       parameters:
         - id: url
-          type:
-            - string
+          type: string
           description: The URL for the request.
       return:
-        type:
-          - Promise<@aspnet/signalr.HttpResponse>
-  - uid: '@aspnet/signalr.HttpClient.delete_1'
-    name: delete
-    children: []
-    type: method
-    langs:
-      - typeScript
+        type: Promise&lt;<xref uid="@aspnet/signalr.HttpResponse" />&gt;
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
+  - name: 'delete(string, HttpRequest)'
+    uid: '@aspnet/signalr.HttpClient.delete_1'
+    package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP DELETE request to the specified URL, returning a Promise
       that resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing
       the result.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function delete(url: string, options: HttpRequest)'
       parameters:
         - id: url
-          type:
-            - string
+          type: string
           description: The URL for the request.
         - id: options
-          type:
-            - '@aspnet/signalr.HttpRequest'
+          type: <xref uid="@aspnet/signalr.HttpRequest" />
           description: >-
             Additional options to configure the request. The 'url' field in this
             object will be overridden by the url parameter.
       return:
-        type:
-          - Promise<@aspnet/signalr.HttpResponse>
-  - uid: '@aspnet/signalr.HttpClient.get'
-    name: get
-    children: []
-    type: method
-    langs:
-      - typeScript
+        type: Promise&lt;<xref uid="@aspnet/signalr.HttpResponse" />&gt;
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
+  - name: get(string)
+    uid: '@aspnet/signalr.HttpClient.get'
+    package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP GET request to the specified URL, returning a Promise that
       resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
       result.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function get(url: string)'
       parameters:
         - id: url
-          type:
-            - string
+          type: string
           description: The URL for the request.
       return:
-        type:
-          - Promise<@aspnet/signalr.HttpResponse>
-  - uid: '@aspnet/signalr.HttpClient.get_1'
-    name: get
-    children: []
-    type: method
-    langs:
-      - typeScript
+        type: Promise&lt;<xref uid="@aspnet/signalr.HttpResponse" />&gt;
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
+  - name: 'get(string, HttpRequest)'
+    uid: '@aspnet/signalr.HttpClient.get_1'
+    package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP GET request to the specified URL, returning a Promise that
       resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
       result.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function get(url: string, options: HttpRequest)'
       parameters:
         - id: url
-          type:
-            - string
+          type: string
           description: The URL for the request.
         - id: options
-          type:
-            - '@aspnet/signalr.HttpRequest'
+          type: <xref uid="@aspnet/signalr.HttpRequest" />
           description: >-
             Additional options to configure the request. The 'url' field in this
             object will be overridden by the url parameter.
       return:
-        type:
-          - Promise<@aspnet/signalr.HttpResponse>
-  - uid: '@aspnet/signalr.HttpClient.post'
-    name: post
-    children: []
-    type: method
-    langs:
-      - typeScript
+        type: Promise&lt;<xref uid="@aspnet/signalr.HttpResponse" />&gt;
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
+  - name: getCookieString(string)
+    uid: '@aspnet/signalr.HttpClient.getCookieString'
+    package: '@aspnet/signalr'
+    summary: Gets all cookies that apply to the specified URL.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCookieString(url: string)'
+      parameters:
+        - id: url
+          type: string
+          description: The URL that the cookies are valid for.
+      return:
+        type: string
+        description: >-
+          A string containing all the key-value cookie pairs for the specified
+          URL.
+  - name: post(string)
+    uid: '@aspnet/signalr.HttpClient.post'
+    package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP POST request to the specified URL, returning a Promise that
       resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
       result.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function post(url: string)'
       parameters:
         - id: url
-          type:
-            - string
+          type: string
           description: The URL for the request.
       return:
-        type:
-          - Promise<@aspnet/signalr.HttpResponse>
-  - uid: '@aspnet/signalr.HttpClient.post_1'
-    name: post
-    children: []
-    type: method
-    langs:
-      - typeScript
+        type: Promise&lt;<xref uid="@aspnet/signalr.HttpResponse" />&gt;
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
+  - name: 'post(string, HttpRequest)'
+    uid: '@aspnet/signalr.HttpClient.post_1'
+    package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP POST request to the specified URL, returning a Promise that
       resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing the
       result.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function post(url: string, options: HttpRequest)'
       parameters:
         - id: url
-          type:
-            - string
+          type: string
           description: The URL for the request.
         - id: options
-          type:
-            - '@aspnet/signalr.HttpRequest'
+          type: <xref uid="@aspnet/signalr.HttpRequest" />
           description: >-
             Additional options to configure the request. The 'url' field in this
             object will be overridden by the url parameter.
       return:
-        type:
-          - Promise<@aspnet/signalr.HttpResponse>
-  - uid: '@aspnet/signalr.HttpClient.send'
-    name: send
-    children: []
-    type: method
-    langs:
-      - typeScript
+        type: Promise&lt;<xref uid="@aspnet/signalr.HttpResponse" />&gt;
+        description: >-
+          A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
+          describing the response, or rejects with an Error indicating a
+          failure.
+  - name: send(HttpRequest)
+    uid: '@aspnet/signalr.HttpClient.send'
+    package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP request to the specified URL, returning a <xref:Promise>
       that resolves with an <xref:%40aspnet%2Fsignalr.HttpResponse> representing
       the result.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function send(request: HttpRequest)'
       parameters:
         - id: request
-          type:
-            - '@aspnet/signalr.HttpRequest'
+          type: <xref uid="@aspnet/signalr.HttpRequest" />
           description: >-
             An <xref:%40aspnet%2Fsignalr.HttpRequest> describing the request to
             send.
       return:
-        type:
-          - Promise<@aspnet/signalr.HttpResponse>
-references:
-  - uid: Promise<@aspnet/signalr.HttpResponse>
-    spec.typeScript:
-      - name: Promise<
-        fullName: Promise<
-      - name: HttpResponse
-        fullName: HttpResponse
-        uid: '@aspnet/signalr.HttpResponse'
-      - name: '>'
-        fullName: '>'
-  - uid: '@aspnet/signalr.HttpRequest'
-    spec.typeScript:
-      - name: HttpRequest
-        fullName: HttpRequest
-        uid: '@aspnet/signalr.HttpRequest'
+        type: Promise&lt;<xref uid="@aspnet/signalr.HttpResponse" />&gt;
+        description: >-
+          A Promise that resolves with an HttpResponse describing the response,
+          or rejects with an Error indicating a failure.

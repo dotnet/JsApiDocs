@@ -1,15 +1,10 @@
-- uid: '@aspnet/signalr-protocol-msgpack'
-  name: '@aspnet/signalr-protocol-msgpack'
+- name: '@aspnet/signalr'
   items:
-    - uid: '@aspnet/signalr-protocol-msgpack.BinaryMessageFormat'
-      name: BinaryMessageFormat
+    - name: Overview
+      uid: '@aspnet/signalr'
+    - uid: '@aspnet/signalr.AbortError'
+      name: AbortError
       items: []
-    - uid: '@aspnet/signalr-protocol-msgpack.MessagePackHubProtocol'
-      name: MessagePackHubProtocol
-      items: []
-- uid: '@aspnet/signalr'
-  name: '@aspnet/signalr'
-  items:
     - uid: '@aspnet/signalr.AbortSignal'
       name: AbortSignal
       items: []
@@ -24,6 +19,9 @@
       items: []
     - uid: '@aspnet/signalr.DefaultHttpClient'
       name: DefaultHttpClient
+      items: []
+    - uid: '@aspnet/signalr.EventSourceConstructor'
+      name: EventSourceConstructor
       items: []
     - uid: '@aspnet/signalr.HttpClient'
       name: HttpClient
@@ -46,8 +44,14 @@
     - uid: '@aspnet/signalr.HubConnectionBuilder'
       name: HubConnectionBuilder
       items: []
+    - uid: '@aspnet/signalr.HubConnectionState'
+      name: HubConnectionState
+      items: []
     - uid: '@aspnet/signalr.HubInvocationMessage'
       name: HubInvocationMessage
+      items: []
+    - uid: '@aspnet/signalr.HubMessage'
+      name: HubMessage
       items: []
     - uid: '@aspnet/signalr.HubMessageBase'
       name: HubMessageBase
@@ -82,8 +86,17 @@
     - uid: '@aspnet/signalr.LogLevel'
       name: LogLevel
       items: []
+    - uid: '@aspnet/signalr.MessageHeaders'
+      name: MessageHeaders
+      items: []
     - uid: '@aspnet/signalr.MessageType'
       name: MessageType
+      items: []
+    - uid: '@aspnet/signalr.NodeHttpClient'
+      name: NodeHttpClient
+      items: []
+    - uid: '@aspnet/signalr.NodeHttpClient'
+      name: NodeHttpClient
       items: []
     - uid: '@aspnet/signalr.NullLogger'
       name: NullLogger
@@ -102,4 +115,10 @@
       items: []
     - uid: '@aspnet/signalr.TransferFormat'
       name: TransferFormat
+      items: []
+    - uid: '@aspnet/signalr.WebSocketConstructor'
+      name: WebSocketConstructor
+      items: []
+    - uid: '@aspnet/signalr.XhrHttpClient'
+      name: XhrHttpClient
       items: []

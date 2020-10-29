@@ -1,28 +1,20 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.TransferFormat'
-    name: TransferFormat
-    fullName: TransferFormat
-    children:
-      - '@aspnet/signalr.TransferFormat.Binary'
-      - '@aspnet/signalr.TransferFormat.Text'
-    langs:
-      - typeScript
-    type: enum
-    summary: Specifies the transfer format for a connection.
+### YamlMime:TSEnum
+name: TransferFormat
+uid: '@aspnet/signalr.TransferFormat'
+package: '@aspnet/signalr'
+summary: Specifies the transfer format for a connection.
+fullName: TransferFormat
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Text
+    uid: '@aspnet/signalr.TransferFormat.Text'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.TransferFormat.Binary'
-    name: Binary
-    children: []
-    langs:
-      - typeScript
-    summary: Specifies that binary data will be transmitted over the connection.
-    type: field
-  - uid: '@aspnet/signalr.TransferFormat.Text'
-    name: Text
-    children: []
-    langs:
-      - typeScript
     summary: Specifies that only text data will be transmitted over the connection.
-    type: field
     numericValue: 1
+  - name: Binary
+    uid: '@aspnet/signalr.TransferFormat.Binary'
+    package: '@aspnet/signalr'
+    summary: Specifies that binary data will be transmitted over the connection.
+    numericValue: 2

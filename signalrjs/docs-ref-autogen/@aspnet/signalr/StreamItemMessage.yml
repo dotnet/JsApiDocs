@@ -1,69 +1,66 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.StreamItemMessage'
-    name: StreamItemMessage
-    fullName: StreamItemMessage
-    children:
-      - '@aspnet/signalr.StreamItemMessage.invocationId'
-      - '@aspnet/signalr.StreamItemMessage.item'
-      - '@aspnet/signalr.StreamItemMessage.type'
-    langs:
-      - typeScript
-    type: interface
-    summary: >-
-      A hub message representing a single item produced as part of a result
-      stream.
-    extends:
-      name: '@aspnet/signalr.HubInvocationMessage'
+### YamlMime:TSType
+name: StreamItemMessage
+uid: '@aspnet/signalr.StreamItemMessage'
+package: '@aspnet/signalr'
+summary: A hub message representing a single item produced as part of a result stream.
+fullName: StreamItemMessage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: headers
+    uid: '@aspnet/signalr.StreamItemMessage.headers'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.StreamItemMessage.invocationId'
-    name: invocationId
-    fullName: invocationId
-    children: []
-    langs:
-      - typeScript
-    type: property
+    summary: >-
+      A <xref:%40aspnet%2Fsignalr.MessageHeaders> dictionary containing headers
+      attached to the message.
+    fullName: headers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'headers?: MessageHeaders'
+      return:
+        type: <xref uid="@aspnet/signalr.MessageHeaders" />
+        description: ''
+  - name: invocationId
+    uid: '@aspnet/signalr.StreamItemMessage.invocationId'
+    package: '@aspnet/signalr'
     summary: The invocation ID.
+    fullName: invocationId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'invocationId: string'
       return:
-        type:
-          - string
-  - uid: '@aspnet/signalr.StreamItemMessage.item'
-    name: item
-    fullName: item
-    children: []
-    langs:
-      - typeScript
-    type: property
+        type: string
+        description: ''
+  - name: item
+    uid: '@aspnet/signalr.StreamItemMessage.item'
+    package: '@aspnet/signalr'
     summary: The item produced by the server.
-    optional: true
+    fullName: item
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'item?: any'
       return:
-        type:
-          - any
-  - uid: '@aspnet/signalr.StreamItemMessage.type'
-    name: type
-    fullName: type
-    children: []
-    langs:
-      - typeScript
-    type: property
+        type: any
+        description: ''
+  - name: type
+    uid: '@aspnet/signalr.StreamItemMessage.type'
+    package: '@aspnet/signalr'
     summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'type: StreamItem'
       return:
-        type:
-          - '@aspnet/signalr.MessageType.StreamItem'
-references:
-  - uid: '@aspnet/signalr.HubInvocationMessage'
-    spec.typeScript:
-      - name: HubInvocationMessage
-        fullName: HubInvocationMessage
-        uid: '@aspnet/signalr.HubInvocationMessage'
-  - uid: '@aspnet/signalr.MessageType.StreamItem'
-    spec.typeScript:
-      - name: StreamItem
-        fullName: StreamItem
-        uid: '@aspnet/signalr.MessageType.StreamItem'
+        type: <xref uid="@aspnet/signalr.MessageType.StreamItem" />
+        description: ''
+extends: <xref uid="@aspnet/signalr.HubInvocationMessage" />

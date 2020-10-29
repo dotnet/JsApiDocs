@@ -1,13 +1,12 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.MessageHeaders'
-    name: MessageHeaders
-    fullName: MessageHeaders
-    children: []
-    langs:
-      - typeScript
-    type: interface
-    summary: >-
-      Defines a dictionary of string keys and string values representing headers
-      attached to a Hub message.
-    package: '@aspnet/signalr'
+### YamlMime:TSType
+name: MessageHeaders
+uid: '@aspnet/signalr.MessageHeaders'
+package: '@aspnet/signalr'
+summary: >-
+  Defines a dictionary of string keys and string values representing headers
+  attached to a Hub message.
+fullName: MessageHeaders
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

@@ -1,94 +1,89 @@
-### YamlMime:UniversalReference
-items:
-  - uid: '@aspnet/signalr.IHubProtocol'
-    name: IHubProtocol
-    fullName: IHubProtocol
-    children:
-      - '@aspnet/signalr.IHubProtocol.name'
-      - '@aspnet/signalr.IHubProtocol.parseMessages'
-      - '@aspnet/signalr.IHubProtocol.transferFormat'
-      - '@aspnet/signalr.IHubProtocol.version'
-      - '@aspnet/signalr.IHubProtocol.writeMessage'
-    langs:
-      - typeScript
-    type: interface
-    summary: A protocol abstraction for communicating with SignalR Hubs.
+### YamlMime:TSType
+name: IHubProtocol
+uid: '@aspnet/signalr.IHubProtocol'
+package: '@aspnet/signalr'
+summary: A protocol abstraction for communicating with SignalR Hubs.
+fullName: IHubProtocol
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: name
+    uid: '@aspnet/signalr.IHubProtocol.name'
     package: '@aspnet/signalr'
-  - uid: '@aspnet/signalr.IHubProtocol.name'
-    name: name
-    fullName: name
-    children: []
-    langs:
-      - typeScript
-    type: property
     summary: >-
       The name of the protocol. This is used by SignalR to resolve the protocol
       between the client and server.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type:
-          - string
-  - uid: '@aspnet/signalr.IHubProtocol.parseMessages'
-    name: parseMessages
-    children: []
-    type: method
-    langs:
-      - typeScript
+        type: string
+        description: ''
+  - name: transferFormat
+    uid: '@aspnet/signalr.IHubProtocol.transferFormat'
+    package: '@aspnet/signalr'
+    summary: 'The <xref:%40aspnet%2Fsignalr.TransferFormat> of the protocol.'
+    fullName: transferFormat
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'transferFormat: TransferFormat'
+      return:
+        type: <xref uid="@aspnet/signalr.TransferFormat" />
+        description: ''
+  - name: version
+    uid: '@aspnet/signalr.IHubProtocol.version'
+    package: '@aspnet/signalr'
+    summary: The version of the protocol.
+    fullName: version
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'version: number'
+      return:
+        type: number
+        description: ''
+methods:
+  - name: 'parseMessages(string | ArrayBuffer | Buffer, ILogger)'
+    uid: '@aspnet/signalr.IHubProtocol.parseMessages'
+    package: '@aspnet/signalr'
     summary: >
       Creates an array of <xref:%40aspnet%2Fsignalr.HubMessage> objects from the
       specified serialized representation.
 
       If <xref:%40aspnet%2Fsignalr.IHubProtocol.transferFormat> is 'Text', the
       `input` parameter must be a string, otherwise it must be an ArrayBuffer.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
-      content: 'function parseMessages(input: string | ArrayBuffer, logger: ILogger)'
+      content: >-
+        function parseMessages(input: string | ArrayBuffer | Buffer, logger:
+        ILogger)
       parameters:
         - id: input
-          type:
-            - string | ArrayBuffer
-          description: 'A string, or ArrayBuffer containing the serialized representation.'
+          type: string | ArrayBuffer | Buffer
+          description: >-
+            A string, ArrayBuffer, or Buffer containing the serialized
+            representation.
         - id: logger
-          type:
-            - '@aspnet/signalr.ILogger'
+          type: <xref uid="@aspnet/signalr.ILogger" />
           description: >
             A logger that will be used to log messages that occur during
             parsing.
       return:
-        type:
-          - '@aspnet/signalr.HubMessage[]'
-  - uid: '@aspnet/signalr.IHubProtocol.transferFormat'
-    name: transferFormat
-    fullName: transferFormat
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: 'The <xref:%40aspnet%2Fsignalr.TransferFormat> of the protocol.'
-    syntax:
-      content: 'transferFormat: TransferFormat'
-      return:
-        type:
-          - '@aspnet/signalr.TransferFormat'
-  - uid: '@aspnet/signalr.IHubProtocol.version'
-    name: version
-    fullName: version
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: The version of the protocol.
-    syntax:
-      content: 'version: number'
-      return:
-        type:
-          - number
-  - uid: '@aspnet/signalr.IHubProtocol.writeMessage'
-    name: writeMessage
-    children: []
-    type: method
-    langs:
-      - typeScript
+        type: '<xref uid="@aspnet/signalr.HubMessage" />[]'
+        description: ''
+  - name: writeMessage(HubMessage)
+    uid: '@aspnet/signalr.IHubProtocol.writeMessage'
+    package: '@aspnet/signalr'
     summary: >
       Writes the specified <xref:%40aspnet%2Fsignalr.HubMessage> to a string or
       ArrayBuffer and returns it.
@@ -96,36 +91,17 @@ items:
       If <xref:%40aspnet%2Fsignalr.IHubProtocol.transferFormat> is 'Text', the
       result of this method will be a string, otherwise it will be an
       ArrayBuffer.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
     syntax:
       content: 'function writeMessage(message: HubMessage)'
       parameters:
         - id: message
-          type:
-            - '@aspnet/signalr.HubMessage'
+          type: <xref uid="@aspnet/signalr.HubMessage" />
           description: The message to write.
       return:
-        type:
-          - string | ArrayBuffer
-references:
-  - uid: '@aspnet/signalr.TransferFormat'
-    spec.typeScript:
-      - name: TransferFormat
-        fullName: TransferFormat
-        uid: '@aspnet/signalr.TransferFormat'
-  - uid: '@aspnet/signalr.ILogger'
-    spec.typeScript:
-      - name: ILogger
-        fullName: ILogger
-        uid: '@aspnet/signalr.ILogger'
-  - uid: '@aspnet/signalr.HubMessage[]'
-    spec.typeScript:
-      - name: HubMessage
-        fullName: HubMessage
-        uid: '@aspnet/signalr.HubMessage'
-      - name: '[]'
-        fullName: '[]'
-  - uid: '@aspnet/signalr.HubMessage'
-    spec.typeScript:
-      - name: HubMessage
-        fullName: HubMessage
-        uid: '@aspnet/signalr.HubMessage'
+        type: string | ArrayBuffer
+        description: >-
+          A string or ArrayBuffer containing the serialized representation of
+          the message.

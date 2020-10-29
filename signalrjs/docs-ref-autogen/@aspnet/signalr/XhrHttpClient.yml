@@ -1,33 +1,30 @@
 ### YamlMime:TSType
-name: DefaultHttpClient
-uid: '@aspnet/signalr.DefaultHttpClient'
+name: XhrHttpClient
+uid: '@aspnet/signalr.XhrHttpClient'
 package: '@aspnet/signalr'
-summary: 'Default implementation of <xref:%40aspnet%2Fsignalr.HttpClient>.'
-fullName: DefaultHttpClient
+summary: ''
+fullName: XhrHttpClient
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: class
 constructors:
-  - name: DefaultHttpClient(ILogger)
-    uid: '@aspnet/signalr.DefaultHttpClient.constructor'
+  - name: XhrHttpClient(ILogger)
+    uid: '@aspnet/signalr.XhrHttpClient.constructor'
     package: '@aspnet/signalr'
-    summary: >-
-      Creates a new instance of the
-      <xref:%40aspnet%2Fsignalr.DefaultHttpClient>, using the provided
-      <xref:%40aspnet%2Fsignalr.ILogger> to log messages.
+    summary: ''
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'new DefaultHttpClient(logger: ILogger)'
+      content: 'new XhrHttpClient(logger: ILogger)'
       parameters:
         - id: logger
           type: <xref uid="@aspnet/signalr.ILogger" />
           description: ''
 methods:
   - name: delete(string)
-    uid: '@aspnet/signalr.DefaultHttpClient.delete'
+    uid: '@aspnet/signalr.XhrHttpClient.delete'
     package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP DELETE request to the specified URL, returning a Promise
@@ -49,7 +46,7 @@ methods:
           describing the response, or rejects with an Error indicating a
           failure.
   - name: 'delete(string, HttpRequest)'
-    uid: '@aspnet/signalr.DefaultHttpClient.delete_1'
+    uid: '@aspnet/signalr.XhrHttpClient.delete_1'
     package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP DELETE request to the specified URL, returning a Promise
@@ -76,7 +73,7 @@ methods:
           describing the response, or rejects with an Error indicating a
           failure.
   - name: get(string)
-    uid: '@aspnet/signalr.DefaultHttpClient.get'
+    uid: '@aspnet/signalr.XhrHttpClient.get'
     package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP GET request to the specified URL, returning a Promise that
@@ -98,7 +95,7 @@ methods:
           describing the response, or rejects with an Error indicating a
           failure.
   - name: 'get(string, HttpRequest)'
-    uid: '@aspnet/signalr.DefaultHttpClient.get_1'
+    uid: '@aspnet/signalr.XhrHttpClient.get_1'
     package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP GET request to the specified URL, returning a Promise that
@@ -125,9 +122,9 @@ methods:
           describing the response, or rejects with an Error indicating a
           failure.
   - name: getCookieString(string)
-    uid: '@aspnet/signalr.DefaultHttpClient.getCookieString'
+    uid: '@aspnet/signalr.XhrHttpClient.getCookieString'
     package: '@aspnet/signalr'
-    summary: ''
+    summary: Gets all cookies that apply to the specified URL.
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -136,12 +133,14 @@ methods:
       parameters:
         - id: url
           type: string
-          description: ''
+          description: The URL that the cookies are valid for.
       return:
         type: string
-        description: ''
+        description: >-
+          A string containing all the key-value cookie pairs for the specified
+          URL.
   - name: post(string)
-    uid: '@aspnet/signalr.DefaultHttpClient.post'
+    uid: '@aspnet/signalr.XhrHttpClient.post'
     package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP POST request to the specified URL, returning a Promise that
@@ -163,7 +162,7 @@ methods:
           describing the response, or rejects with an Error indicating a
           failure.
   - name: 'post(string, HttpRequest)'
-    uid: '@aspnet/signalr.DefaultHttpClient.post_1'
+    uid: '@aspnet/signalr.XhrHttpClient.post_1'
     package: '@aspnet/signalr'
     summary: >-
       Issues an HTTP POST request to the specified URL, returning a Promise that
@@ -190,7 +189,7 @@ methods:
           describing the response, or rejects with an Error indicating a
           failure.
   - name: send(HttpRequest)
-    uid: '@aspnet/signalr.DefaultHttpClient.send'
+    uid: '@aspnet/signalr.XhrHttpClient.send'
     package: '@aspnet/signalr'
     summary: ''
     remarks: ''
