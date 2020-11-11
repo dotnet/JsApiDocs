@@ -1,0 +1,26 @@
+### YamlMime:TSType
+name: HubMessageBase
+uid: '@aspnet/signalr.HubMessageBase'
+package: '@aspnet/signalr'
+summary: Defines properties common to all Hub messages.
+fullName: HubMessageBase
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@aspnet/signalr.HubMessageBase.type'
+    package: '@aspnet/signalr'
+    summary: >-
+      A <xref:%40aspnet%2Fsignalr.MessageType> value indicating the type of this
+      message.
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: MessageType'
+      return:
+        type: <xref uid="@aspnet/signalr.MessageType" />
+        description: ''

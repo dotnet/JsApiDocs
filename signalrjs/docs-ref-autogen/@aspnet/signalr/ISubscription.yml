@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: ISubscription
+uid: '@aspnet/signalr.ISubscription'
+package: '@aspnet/signalr'
+summary: >-
+  An interface that allows an <xref:%40aspnet%2Fsignalr.IStreamSubscriber> to be
+  disconnected from a stream.
+fullName: ISubscription<T>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: dispose()
+    uid: '@aspnet/signalr.ISubscription.dispose'
+    package: '@aspnet/signalr'
+    summary: >-
+      Disconnects the <xref:%40aspnet%2Fsignalr.IStreamSubscriber> associated
+      with this subscription from the stream.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function dispose()

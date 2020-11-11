@@ -1,0 +1,79 @@
+### YamlMime:TSType
+name: AbortError
+uid: '@aspnet/signalr.AbortError'
+package: '@aspnet/signalr'
+summary: Error thrown when an action is aborted.
+fullName: AbortError
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: AbortError(string)
+    uid: '@aspnet/signalr.AbortError.constructor'
+    package: '@aspnet/signalr'
+    summary: 'Constructs a new instance of <xref:AbortError>.'
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new AbortError(errorMessage: string)'
+      parameters:
+        - id: errorMessage
+          type: string
+          description: |
+            A descriptive error message.
+properties:
+  - name: Error
+    uid: '@aspnet/signalr.AbortError.Error'
+    package: '@aspnet/signalr'
+    summary: ''
+    fullName: Error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Error: ErrorConstructor'
+      return:
+        type: ErrorConstructor
+        description: ''
+  - name: message
+    uid: '@aspnet/signalr.AbortError.message'
+    package: '@aspnet/signalr'
+    summary: ''
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@aspnet/signalr.AbortError.name'
+    package: '@aspnet/signalr'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: stack
+    uid: '@aspnet/signalr.AbortError.stack'
+    package: '@aspnet/signalr'
+    summary: ''
+    fullName: stack
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'stack?: string'
+      return:
+        type: string
+        description: ''
+extends: Error

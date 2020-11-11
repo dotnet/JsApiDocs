@@ -1,0 +1,55 @@
+### YamlMime:TSEnum
+name: LogLevel
+uid: '@aspnet/signalr.LogLevel'
+package: '@aspnet/signalr'
+summary: >
+  Indicates the severity of a log message.
+
+  Log Levels are ordered in increasing severity. So `Debug` is more severe than
+  `Trace`, etc.
+fullName: LogLevel
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Trace
+    uid: '@aspnet/signalr.LogLevel.Trace'
+    package: '@aspnet/signalr'
+    summary: Log level for very low severity diagnostic messages.
+    numericValue: 0
+  - name: Debug
+    uid: '@aspnet/signalr.LogLevel.Debug'
+    package: '@aspnet/signalr'
+    summary: Log level for low severity diagnostic messages.
+    numericValue: 1
+  - name: Information
+    uid: '@aspnet/signalr.LogLevel.Information'
+    package: '@aspnet/signalr'
+    summary: Log level for informational diagnostic messages.
+    numericValue: 2
+  - name: Warning
+    uid: '@aspnet/signalr.LogLevel.Warning'
+    package: '@aspnet/signalr'
+    summary: Log level for diagnostic messages that indicate a non-fatal problem.
+    numericValue: 3
+  - name: Error
+    uid: '@aspnet/signalr.LogLevel.Error'
+    package: '@aspnet/signalr'
+    summary: >-
+      Log level for diagnostic messages that indicate a failure in the current
+      operation.
+    numericValue: 4
+  - name: Critical
+    uid: '@aspnet/signalr.LogLevel.Critical'
+    package: '@aspnet/signalr'
+    summary: >-
+      Log level for diagnostic messages that indicate a failure that will
+      terminate the entire application.
+    numericValue: 5
+  - name: None
+    uid: '@aspnet/signalr.LogLevel.None'
+    package: '@aspnet/signalr'
+    summary: >-
+      The highest possible log level. Used when configuring logging to indicate
+      that no log messages should be emitted.
+    numericValue: 6

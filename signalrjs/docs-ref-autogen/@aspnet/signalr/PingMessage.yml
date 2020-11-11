@@ -1,0 +1,25 @@
+### YamlMime:TSType
+name: PingMessage
+uid: '@aspnet/signalr.PingMessage'
+package: '@aspnet/signalr'
+summary: A hub message indicating that the sender is still active.
+fullName: PingMessage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: '@aspnet/signalr.PingMessage.type'
+    package: '@aspnet/signalr'
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: Ping'
+      return:
+        type: <xref uid="@aspnet/signalr.MessageType.Ping" />
+        description: ''
+extends: <xref uid="@aspnet/signalr.HubMessageBase" />

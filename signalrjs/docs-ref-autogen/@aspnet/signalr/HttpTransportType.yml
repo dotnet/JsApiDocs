@@ -1,0 +1,30 @@
+### YamlMime:TSEnum
+name: HttpTransportType
+uid: '@aspnet/signalr.HttpTransportType'
+package: '@aspnet/signalr'
+summary: Specifies a specific HTTP transport type.
+fullName: HttpTransportType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: None
+    uid: '@aspnet/signalr.HttpTransportType.None'
+    package: '@aspnet/signalr'
+    summary: Specifies no transport preference.
+    numericValue: 0
+  - name: WebSockets
+    uid: '@aspnet/signalr.HttpTransportType.WebSockets'
+    package: '@aspnet/signalr'
+    summary: Specifies the WebSockets transport.
+    numericValue: 1
+  - name: ServerSentEvents
+    uid: '@aspnet/signalr.HttpTransportType.ServerSentEvents'
+    package: '@aspnet/signalr'
+    summary: Specifies the Server-Sent Events transport.
+    numericValue: 2
+  - name: LongPolling
+    uid: '@aspnet/signalr.HttpTransportType.LongPolling'
+    package: '@aspnet/signalr'
+    summary: Specifies the Long Polling transport.
+    numericValue: 4

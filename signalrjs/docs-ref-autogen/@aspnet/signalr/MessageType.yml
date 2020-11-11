@@ -1,0 +1,59 @@
+### YamlMime:TSEnum
+name: MessageType
+uid: '@aspnet/signalr.MessageType'
+package: '@aspnet/signalr'
+summary: Defines the type of a Hub Message.
+fullName: MessageType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Invocation
+    uid: '@aspnet/signalr.MessageType.Invocation'
+    package: '@aspnet/signalr'
+    summary: >-
+      Indicates the message is an Invocation message and implements the
+      <xref:%40aspnet%2Fsignalr.InvocationMessage> interface.
+    numericValue: 1
+  - name: StreamItem
+    uid: '@aspnet/signalr.MessageType.StreamItem'
+    package: '@aspnet/signalr'
+    summary: >-
+      Indicates the message is a StreamItem message and implements the
+      <xref:%40aspnet%2Fsignalr.StreamItemMessage> interface.
+    numericValue: 2
+  - name: Completion
+    uid: '@aspnet/signalr.MessageType.Completion'
+    package: '@aspnet/signalr'
+    summary: >-
+      Indicates the message is a Completion message and implements the
+      <xref:%40aspnet%2Fsignalr.CompletionMessage> interface.
+    numericValue: 3
+  - name: StreamInvocation
+    uid: '@aspnet/signalr.MessageType.StreamInvocation'
+    package: '@aspnet/signalr'
+    summary: >-
+      Indicates the message is a Stream Invocation message and implements the
+      <xref:%40aspnet%2Fsignalr.StreamInvocationMessage> interface.
+    numericValue: 4
+  - name: CancelInvocation
+    uid: '@aspnet/signalr.MessageType.CancelInvocation'
+    package: '@aspnet/signalr'
+    summary: >-
+      Indicates the message is a Cancel Invocation message and implements the
+      <xref:%40aspnet%2Fsignalr.CancelInvocationMessage> interface.
+    numericValue: 5
+  - name: Ping
+    uid: '@aspnet/signalr.MessageType.Ping'
+    package: '@aspnet/signalr'
+    summary: >-
+      Indicates the message is a Ping message and implements the
+      <xref:%40aspnet%2Fsignalr.PingMessage> interface.
+    numericValue: 6
+  - name: Close
+    uid: '@aspnet/signalr.MessageType.Close'
+    package: '@aspnet/signalr'
+    summary: >-
+      Indicates the message is a Close message and implements the
+      <xref:%40aspnet%2Fsignalr.CloseMessage> interface.
+    numericValue: 7

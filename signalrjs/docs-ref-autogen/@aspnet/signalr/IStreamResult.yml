@@ -1,0 +1,31 @@
+### YamlMime:TSType
+name: IStreamResult
+uid: '@aspnet/signalr.IStreamResult'
+package: '@aspnet/signalr'
+summary: Defines the result of a streaming hub method.
+fullName: IStreamResult<T>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: subscribe(IStreamSubscriber<T>)
+    uid: '@aspnet/signalr.IStreamResult.subscribe'
+    package: '@aspnet/signalr'
+    summary: >-
+      Attaches a <xref:%40aspnet%2Fsignalr.IStreamSubscriber>, which will be
+      invoked when new items are available from the stream.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function subscribe(subscriber: IStreamSubscriber<T>)'
+      parameters:
+        - id: subscriber
+          type: <xref uid="@aspnet/signalr.IStreamSubscriber" />&lt;T&gt;
+          description: ''
+      return:
+        type: <xref uid="@aspnet/signalr.ISubscription" />&lt;T&gt;
+        description: >-
+          A subscription that can be disposed to terminate the stream and stop
+          calling methods on the {@link @aspnet/signalr.IStreamSubscriber}.

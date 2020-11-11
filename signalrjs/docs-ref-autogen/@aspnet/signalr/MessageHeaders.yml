@@ -1,0 +1,12 @@
+### YamlMime:TSType
+name: MessageHeaders
+uid: '@aspnet/signalr.MessageHeaders'
+package: '@aspnet/signalr'
+summary: >-
+  Defines a dictionary of string keys and string values representing headers
+  attached to a Hub message.
+fullName: MessageHeaders
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

@@ -1,0 +1,268 @@
+### YamlMime:TSType
+name: HubConnection
+uid: '@aspnet/signalr.HubConnection'
+package: '@aspnet/signalr'
+summary: Represents a connection to a SignalR Hub.
+fullName: HubConnection
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: keepAliveIntervalInMilliseconds
+    uid: '@aspnet/signalr.HubConnection.keepAliveIntervalInMilliseconds'
+    package: '@aspnet/signalr'
+    summary: >
+      Default interval at which to ping the server.
+
+      The default value is 15,000 milliseconds (15 seconds).
+
+      Allows the server to detect hard disconnects (like when a client unplugs
+      their computer).
+    fullName: keepAliveIntervalInMilliseconds
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'public keepAliveIntervalInMilliseconds: number'
+      return:
+        type: number
+        description: ''
+  - name: serverTimeoutInMilliseconds
+    uid: '@aspnet/signalr.HubConnection.serverTimeoutInMilliseconds'
+    package: '@aspnet/signalr'
+    summary: >
+      The server timeout in milliseconds.
+
+      If this timeout elapses without receiving any messages from the server,
+      the connection will be terminated with an error.
+
+      The default timeout value is 30,000 milliseconds (30 seconds).
+    fullName: serverTimeoutInMilliseconds
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'public serverTimeoutInMilliseconds: number'
+      return:
+        type: number
+        description: ''
+  - name: state
+    uid: '@aspnet/signalr.HubConnection.state'
+    package: '@aspnet/signalr'
+    summary: 'Indicates the state of the <xref:HubConnection> to the server.'
+    fullName: state
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HubConnectionState state
+      return:
+        type: <xref uid="@aspnet/signalr.HubConnectionState" />
+        description: ''
+methods:
+  - name: 'create(IConnection, ILogger, IHubProtocol)'
+    uid: '@aspnet/signalr.HubConnection.create'
+    package: '@aspnet/signalr'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static function create(connection: IConnection, logger: ILogger,
+        protocol: IHubProtocol)
+      parameters:
+        - id: connection
+          type: IConnection
+          description: ''
+        - id: logger
+          type: <xref uid="@aspnet/signalr.ILogger" />
+          description: ''
+        - id: protocol
+          type: <xref uid="@aspnet/signalr.IHubProtocol" />
+          description: ''
+      return:
+        type: <xref uid="@aspnet/signalr.HubConnection" />
+        description: ''
+  - name: 'invoke<T>(string, any[])'
+    uid: '@aspnet/signalr.HubConnection.invoke'
+    package: '@aspnet/signalr'
+    summary: >
+      Invokes a hub method on the server using the specified name and arguments.
+
+      The Promise returned by this method resolves when the server indicates it
+      has finished invoking the method. When the promise
+
+      resolves, the server has finished invoking the method. If the server
+      method returns a result, it is produced as the result of
+
+      resolving the Promise.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function invoke<T>(methodName: string, args: any[])'
+      parameters:
+        - id: methodName
+          type: string
+          description: The name of the server method to invoke.
+        - id: args
+          type: 'any[]'
+          description: The arguments used to invoke the server method.
+      return:
+        type: Promise&lt;T&gt;
+        description: >-
+          A Promise that resolves with the result of the server method (if any),
+          or rejects with an error.
+  - name: off(string)
+    uid: '@aspnet/signalr.HubConnection.off'
+    package: '@aspnet/signalr'
+    summary: Removes all handlers for the specified hub method.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function off(methodName: string)'
+      parameters:
+        - id: methodName
+          type: string
+          description: |
+            The name of the method to remove handlers for.
+  - name: 'off(string, (args: any[]) => void)'
+    uid: '@aspnet/signalr.HubConnection.off_1'
+    package: '@aspnet/signalr'
+    summary: >
+      Removes the specified handler for the specified hub method.
+
+      You must pass the exact same Function instance as was previously passed to
+      <xref:%40aspnet%2Fsignalr.HubConnection.on>. Passing a different instance
+      (even if the function
+
+      body is the same) will not remove the handler.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function off(methodName: string, method: (args: any[]) => void)'
+      parameters:
+        - id: methodName
+          type: string
+          description: The name of the method to remove handlers for.
+        - id: method
+          type: '(args: any[]) =&gt; void'
+          description: >
+            The handler to remove. This must be the same Function instance as
+            the one passed to <xref:%40aspnet%2Fsignalr.HubConnection.on>.
+  - name: 'on(string, (args: any[]) => void)'
+    uid: '@aspnet/signalr.HubConnection.on'
+    package: '@aspnet/signalr'
+    summary: >-
+      Registers a handler that will be invoked when the hub method with the
+      specified method name is invoked.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function on(methodName: string, newMethod: (args: any[]) => void)'
+      parameters:
+        - id: methodName
+          type: string
+          description: The name of the hub method to define.
+        - id: newMethod
+          type: '(args: any[]) =&gt; void'
+          description: |
+            The handler that will be raised when the hub method is invoked.
+  - name: 'onclose((error?: Error) => void)'
+    uid: '@aspnet/signalr.HubConnection.onclose'
+    package: '@aspnet/signalr'
+    summary: Registers a handler that will be invoked when the connection is closed.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function onclose(callback: (error?: Error) => void)'
+      parameters:
+        - id: callback
+          type: '(error?: Error) =&gt; void'
+          description: >
+            The handler that will be invoked when the connection is closed.
+            Optionally receives a single argument containing the error that
+            caused the connection to close (if any).
+  - name: 'send(string, any[])'
+    uid: '@aspnet/signalr.HubConnection.send'
+    package: '@aspnet/signalr'
+    summary: >
+      Invokes a hub method on the server using the specified name and arguments.
+      Does not wait for a response from the receiver.
+
+      The Promise returned by this method resolves when the client has sent the
+      invocation to the server. The server may still
+
+      be processing the invocation.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function send(methodName: string, args: any[])'
+      parameters:
+        - id: methodName
+          type: string
+          description: The name of the server method to invoke.
+        - id: args
+          type: 'any[]'
+          description: The arguments used to invoke the server method.
+      return:
+        type: Promise&lt;void&gt;
+        description: >-
+          A Promise that resolves when the invocation has been successfully
+          sent, or rejects with an error.
+  - name: start()
+    uid: '@aspnet/signalr.HubConnection.start'
+    package: '@aspnet/signalr'
+    summary: Starts the connection.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function start()
+      return:
+        type: Promise&lt;void&gt;
+        description: >-
+          A Promise that resolves when the connection has been successfully
+          established, or rejects with an error.
+  - name: stop()
+    uid: '@aspnet/signalr.HubConnection.stop'
+    package: '@aspnet/signalr'
+    summary: Stops the connection.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function stop()
+      return:
+        type: Promise&lt;void&gt;
+        description: >-
+          A Promise that resolves when the connection has been successfully
+          terminated, or rejects with an error.
+  - name: 'stream<T>(string, any[])'
+    uid: '@aspnet/signalr.HubConnection.stream'
+    package: '@aspnet/signalr'
+    summary: >-
+      Invokes a streaming hub method on the server using the specified name and
+      arguments.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function stream<T>(methodName: string, args: any[])'
+      parameters:
+        - id: methodName
+          type: string
+          description: The name of the server method to invoke.
+        - id: args
+          type: 'any[]'
+          description: The arguments used to invoke the server method.
+      return:
+        type: <xref uid="@aspnet/signalr.IStreamResult" />&lt;T&gt;
+        description: An object that yields results from the server as they are received.

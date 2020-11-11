@@ -1,0 +1,139 @@
+### YamlMime:TSType
+name: HttpResponse
+uid: '@aspnet/signalr.HttpResponse'
+package: '@aspnet/signalr'
+summary: Represents an HTTP response.
+fullName: HttpResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: HttpResponse(number)
+    uid: '@aspnet/signalr.HttpResponse.constructor'
+    package: '@aspnet/signalr'
+    summary: >-
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new HttpResponse(statusCode: number)'
+      parameters:
+        - id: statusCode
+          type: number
+          description: |
+            The status code of the response.
+  - name: 'HttpResponse(number, string)'
+    uid: '@aspnet/signalr.HttpResponse.constructor_1'
+    package: '@aspnet/signalr'
+    summary: >-
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code and message.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new HttpResponse(statusCode: number, statusText: string)'
+      parameters:
+        - id: statusCode
+          type: number
+          description: |
+            The status code of the response.
+        - id: statusText
+          type: string
+          description: |
+            The status message of the response.
+  - name: 'HttpResponse(number, string, ArrayBuffer)'
+    uid: '@aspnet/signalr.HttpResponse.constructor_3'
+    package: '@aspnet/signalr'
+    summary: >-
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code, message and binary content.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new HttpResponse(statusCode: number, statusText: string, content:
+        ArrayBuffer)
+      parameters:
+        - id: statusCode
+          type: number
+          description: |
+            The status code of the response.
+        - id: statusText
+          type: string
+          description: |
+            The status message of the response.
+        - id: content
+          type: ArrayBuffer
+          description: |
+            The content of the response.
+  - name: 'HttpResponse(number, string, string)'
+    uid: '@aspnet/signalr.HttpResponse.constructor_2'
+    package: '@aspnet/signalr'
+    summary: >-
+      Constructs a new instance of <xref:%40aspnet%2Fsignalr.HttpResponse> with
+      the specified status code, message and string content.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new HttpResponse(statusCode: number, statusText: string, content:
+        string)
+      parameters:
+        - id: statusCode
+          type: number
+          description: |
+            The status code of the response.
+        - id: statusText
+          type: string
+          description: |
+            The status message of the response.
+        - id: content
+          type: string
+          description: |
+            The content of the response.
+properties:
+  - name: content
+    uid: '@aspnet/signalr.HttpResponse.content'
+    package: '@aspnet/signalr'
+    summary: The content of the response.
+    fullName: content
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'public content?: string | ArrayBuffer'
+      return:
+        type: string | ArrayBuffer
+        description: ''
+  - name: statusCode
+    uid: '@aspnet/signalr.HttpResponse.statusCode'
+    package: '@aspnet/signalr'
+    summary: The status code of the response.
+    fullName: statusCode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'public statusCode: number'
+      return:
+        type: number
+        description: ''
+  - name: statusText
+    uid: '@aspnet/signalr.HttpResponse.statusText'
+    package: '@aspnet/signalr'
+    summary: The status message of the response.
+    fullName: statusText
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'public statusText?: string'
+      return:
+        type: string
+        description: ''
