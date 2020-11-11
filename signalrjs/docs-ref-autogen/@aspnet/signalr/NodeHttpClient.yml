@@ -124,7 +124,7 @@ methods:
   - name: getCookieString(string)
     uid: '@aspnet/signalr.NodeHttpClient.getCookieString'
     package: '@aspnet/signalr'
-    summary: Gets all cookies that apply to the specified URL.
+    summary: ''
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -133,12 +133,10 @@ methods:
       parameters:
         - id: url
           type: string
-          description: The URL that the cookies are valid for.
+          description: ''
       return:
         type: string
-        description: >-
-          A string containing all the key-value cookie pairs for the specified
-          URL.
+        description: ''
   - name: post(string)
     uid: '@aspnet/signalr.NodeHttpClient.post'
     package: '@aspnet/signalr'
@@ -188,7 +186,7 @@ methods:
           A Promise that resolves with an {@link @aspnet/signalr.HttpResponse}
           describing the response, or rejects with an Error indicating a
           failure.
-  - name: send()
+  - name: send(HttpRequest)
     uid: '@aspnet/signalr.NodeHttpClient.send'
     package: '@aspnet/signalr'
     summary: ''
@@ -196,7 +194,11 @@ methods:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: function send()
+      content: 'function send(httpRequest: HttpRequest)'
+      parameters:
+        - id: httpRequest
+          type: <xref uid="@aspnet/signalr.HttpRequest" />
+          description: ''
       return:
         type: Promise&lt;<xref uid="@aspnet/signalr.HttpResponse" />&gt;
         description: ''
