@@ -1,35 +1,6 @@
 {
   "build": {
     "content": [
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "src": "docs-ref-autogen",
-        "version": "signalr-js-latest",
-        "dest": "api",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "files": [
-          "**/*.yml"
-        ],
-        "src": "breadcrumb",
-        "version": "signalr-js-latest",
-        "dest": "breadcrumb",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      }
     ],
     "resource": [
       {
@@ -43,9 +14,6 @@
           "**/includes/**"
         ]
       }
-    ],
-    "xref": [
-      "xrefmap.yml"
     ],
     "overwrite": [],
     "externalReference": [],
