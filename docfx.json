@@ -1,0 +1,69 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "docs-ref-autogen",
+        "version": "signalr-js-latest",
+        "dest": "api",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "src": "breadcrumb",
+        "version": "signalr-js-latest",
+        "dest": "breadcrumb",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "version": "signalr-js-latest",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "xref": [
+      "xrefmap.yml"
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "versions": {
+      "signalr-js-latest": {
+        "dest": "signalr-js-latest"
+      }
+    },
+    "globalMetadata": {
+      "apiPlatform": "javascript",
+      "breadcrumb_path": "~/breadcrumb/toc.yml"
+    },
+    "fileMetadata": {
+      "monikers": {
+        "docs-ref-autogen/**": [ "signalr-js-latest" ]
+      }
+    },
+    "template": [],
+    "dest": "_site"
+  }
+}
