@@ -1,10 +1,6 @@
 {
   "redirections": [
     {
-      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr",
-      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr"
-    },
-    {
       "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/AbortSignal.yml",
       "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/abortsignal"
     },
@@ -73,6 +69,10 @@
       "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/ihubprotocol"
     },
     {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/index.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr"
+    },
+    {
       "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/ILogger.yml",
       "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/ilogger"
     },
@@ -138,6 +138,10 @@
     },
     {
       "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr-protocol-msgpack/BinaryMessageFormat.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr-protocol-msgpack"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr-protocol-msgpack/index.yml",
       "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr-protocol-msgpack"
     },
     {
