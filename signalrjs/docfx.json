@@ -44,9 +44,6 @@
         ]
       }
     ],
-    "xref": [
-      "xrefmap.yml"
-    ],
     "overwrite": [],
     "externalReference": [],
     "versions": {
