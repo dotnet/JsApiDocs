@@ -1,6 +1,10 @@
 {
   "redirections": [
     {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr"
+    },
+    {
       "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/AbortSignal.yml",
       "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/abortsignal"
     },
