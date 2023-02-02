@@ -1,0 +1,36 @@
+{
+  "build": {
+    "content": [],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "version": "signalr-js-latest",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "versions": {
+      "signalr-js-latest": {
+        "dest": "signalr-js-latest"
+      }
+    },
+    "globalMetadata": {
+      "apiPlatform": "javascript",
+      "breadcrumb_path": "~/breadcrumb/toc.yml"
+    },
+    "fileMetadata": {
+      "monikers": {
+        "docs-ref-autogen/**": [ "signalr-js-latest" ]
+      }
+    },
+    "template": [],
+    "dest": "_site"
+  }
+}
