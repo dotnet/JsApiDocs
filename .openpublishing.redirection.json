@@ -1,0 +1,152 @@
+{
+  "redirections": [
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/AbortSignal.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/abortsignal"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/CancelInvocationMessage.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/cancelinvocationmessage"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/CloseMessage.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/closemessage"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/CompletionMessage.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/completionmessage"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/DefaultHttpClient.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/defaulthttpclient"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HttpClient.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/httpclient"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HttpError.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/httperror"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HttpRequest.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/httprequest"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HttpResponse.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/httpresponse"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HttpTransportType.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/httptransporttype"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HubConnection.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/hubconnection"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HubConnectionBuilder.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/hubconnectionbuilder"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HubInvocationMessage.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/hubinvocationmessage"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HubMessage.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/hubmessage"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/HubMessageBase.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/hubmessagebase"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/IHttpConnectionOptions.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/ihttpconnectionoptions"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/IHubProtocol.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/ihubprotocol"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/index.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/ILogger.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/ilogger"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/IStreamResult.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/istreamresult"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/IStreamSubscriber.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/istreamsubscriber"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/ISubscription.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/isubscription"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/ITransport.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/itransport"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/InvocationMessage.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/invocationmessage"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/JsonHubProtocol.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/jsonhubprotocol"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/LogLevel.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/loglevel"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/MessageHeaders.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/messageheaders"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/MessageType.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/messagetype"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/NullLogger.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/nulllogger"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/PingMessage.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/pingmessage"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/StreamInvocationMessage.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/streaminvocationmessage"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/StreamItemMessage.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/streamitemmessage"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/TimeoutError.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/timeouterror"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr/TransferFormat.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr/transferformat"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr-protocol-msgpack/BinaryMessageFormat.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr-protocol-msgpack"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr-protocol-msgpack/index.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr-protocol-msgpack"
+    },
+    {
+      "source_path": "signalrjs/docs-ref-autogen/@aspnet/signalr-protocol-msgpack/MessagePackHubProtocol.yml",
+      "redirect_url": "https://learn.microsoft.com/en-us/javascript/api/@microsoft/signalr-protocol-msgpack/messagepackhubprotocol"
+    }
+  ]
+}

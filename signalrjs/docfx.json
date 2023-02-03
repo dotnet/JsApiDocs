@@ -44,9 +44,6 @@
         ]
       }
     ],
-    "xref": [
-      "xrefmap.yml"
-    ],
     "overwrite": [],
     "externalReference": [],
     "versions": {
@@ -59,8 +56,7 @@
       "breadcrumb_path": "~/breadcrumb/toc.yml"
     },
     "fileMetadata": {
-    "monikers":
-      {
+      "monikers": {
         "docs-ref-autogen/**": [ "signalr-js-latest" ]
       }
     },
