@@ -55,6 +55,7 @@
       }
     },
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-AspNet",
       "apiPlatform": "javascript",
       "breadcrumb_path": "~/breadcrumb/toc.yml"
     },
